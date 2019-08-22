@@ -6,7 +6,8 @@ class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            condition: false
+            condition: false,
+            open:false
         }
     }
     handleToggle = () => {
@@ -19,6 +20,16 @@ class Header extends Component {
             condition: !this.state.condition
         });
     }
+    handlePopup=() =>{
+        this.setState({
+            open: !this.state.open
+        })
+    }
+    close= ()=>{
+        this.setState({
+            open: !this.state.open
+        });
+    }
     render() {
         return (
             <div className="header _14BrxaV">
@@ -29,15 +40,15 @@ class Header extends Component {
                         onClick={this.handleToggle}>
                         <span class="_2CJPpcw pRZSkbx"></span>
                     </div>
-                    {/* <ul class="_3XOFvvi">
+                    <ul class="_3XOFvvi">
                         <li class="_2GaQ8vJ">
-                            <a class="m7LKENr _25LPQhk _2DGciQP">Book a tour</a>
+                            <a class="m7LKENr _25LPQhk _2DGciQP" onClick={this.handlePopup}>Book a tour</a>
                         </li>
-                        <li class="_2GaQ8vJ">
+                        {/* <li class="_2GaQ8vJ">
                             <a class="m7LKENr _25LPQhk _2DGciQP"
                                 href="#">Login</a>
-                        </li>
-                    </ul> */}
+                        </li> */}
+                    </ul>
                     <div className={this.state.condition ? '_2Tfn_VZ sDHKtsB ' : '_2Tfn_VZ sDHKtsB'}>
                         <ul class="_1xWsKFr _2rbE6TC _2v5bHvx pRZSkbx">
                             <li class="_1GxILA2">
@@ -114,6 +125,57 @@ class Header extends Component {
                         </ul>
                     </div>
                 </header>
+                <div class={this.state.open ? "_1jPZE-A _12c1-Jf sDHKtsB" : "_12c1-Jf sDHKtsB"}>
+                    <div class="LN-nIKU I7PwxVS">
+                        <div class="_1L5csiF">
+                            <div class="_1US2FDM _2rbE6TC _2v5bHvx VBD7Ow3">
+                                <h3 class="LsKezX_">Book a tour</h3>
+                                <span class="_2va2FpG" onClick={this.close}></span>
+                            </div>
+                            <div class="_3ITUOra _2rbE6TC _2v5bHvx VBD7Ow3" style={{ "width": "3524.19px", "transform": "translateX(0px);" }}>
+                                <form>
+                                    <div class="_2cjZ1PT _1G7RCdW _2v5bHvx">
+                                        <div class="Zd4QDDO">
+                                            <h4 class="Zd4QDDO">1/4</h4>
+                                        </div>
+                                        <h2 class="_1_KNBvC">What's your name?</h2>
+                                        <div class="_2nxeEK_ _14NUrhZ">
+                                            <label for="fromName"></label>
+                                            <input type="text" name="fromName" value="" placeholder="Name" />
+                                            <small class="_22qkbgJ">This field is required.</small>
+                                        </div>
+                                    </div>
+                                   
+                                    <div class="_26Hb2eR _2cjZ1PT _1G7RCdW _2v5bHvx">
+                                        <div class="Zd4QDDO">
+                                            <h4 class="Zd4QDDO">2/4</h4>
+                                        </div>
+                                        <h2 class="_1_KNBvC">What's your phone?</h2>
+                                        <div class="_2nxeEK_ _14NUrhZ">
+                                            <label for="message[mobile]"></label>
+                                            <input type="text" name="message[mobile]" value="" placeholder="Phone" />
+                                            <small class="_22qkbgJ">This field is required.</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="_26Hb2eR  _2cjZ1PT _1G7RCdW _2v5bHvx">
+                                        <div class="Zd4QDDO"><h4 class="Zd4QDDO">3/4</h4></div><h2 class="_1_KNBvC">Select club</h2><div class="_2nxeEK_ _14NUrhZ"><label for="message[gym]"></label><select name="message[gym]"><option value="select">Select</option><option value="Bank">Bank</option><option value="Cannon Street">Cannon Street</option><option value="Covent Garden">Covent Garden</option><option value="Ealing">Ealing</option><option value="Elephant and Castle">Elephant and Castle</option><option value="Farringdon">Farringdon</option><option value="Holborn">Holborn</option><option value="Old Street">Old Street</option><option value="Victoria">Victoria</option><option value="Westfield London">Westfield London</option><option value="Westfield Stratford">Westfield Stratford</option></select><small class="_3uKmWJ7 _22qkbgJ">This field is required</small></div></div>
+
+
+
+                                    <div class="_26Hb2eR _2cjZ1PT _1G7RCdW _2v5bHvx"><div class="Zd4QDDO"><h4 class="Zd4QDDO">4/6</h4></div><h2 class="_1_KNBvC">Time to submit!</h2><p>I understand that by submitting my details I will be contacted by GYMBOX with information about their services and membership options (not with spam, we promise)</p><input type="submit" value="Book your free tour!" /></div>
+
+                                    <div class="_3ipyBdB">
+                                        <h2>Thanks - chat soon</h2>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="_2bIo9Yp _2rbE6TC _2v5bHvx VBD7Ow3">
+                                <button class="_3pXyaiA _2S_CT_r button"><span>&nbsp;</span></button>
+                                <button className="button"><span>Next</span></button></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }

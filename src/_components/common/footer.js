@@ -6,23 +6,23 @@ class Footer extends Component {
             <div>
                 <footer class="_24zAESA _2rbE6TC _2v5bHvx">
                     <div class="_2revefY _2rbE6TC _2v5bHvx _25LPQhk">
-                        <div class="p-HDv6u"><span class="DGKlJgu">Plej Fitness</span><span class="DGKlJgu">Plej Fitness</span><span
-                            class="DGKlJgu">Plej Fitness</span>
-                            <span class="DGKlJgu">Plej Fitness</span>
-                            <span class="DGKlJgu">Plej Fitness</span>
-                            <span class="DGKlJgu">Plej Fitness</span>
-                            <span class="DGKlJgu">Plej Fitness</span>
-                            <span class="DGKlJgu">Plej Fitness</span>
-                            <span class="DGKlJgu">Plej Fitness</span>
-                            <span class="DGKlJgu">Plej Fitness</span>
-                            <span class="DGKlJgu">Plej Fitness</span>
-                            <span class="DGKlJgu">Plej Fitness</span>
-                            <span class="DGKlJgu">Plej Fitness</span>
-                            <span class="DGKlJgu">Plej Fitness</span>
-                            <span class="DGKlJgu">Plej Fitness</span>
-                            <span class="DGKlJgu">Plej Fitness</span>
-                            <span class="DGKlJgu">Plej Fitness</span>
-                            <span class="DGKlJgu">Plej Fitness</span>
+                        <div class="p-HDv6u"><span class="DGKlJgu">Join Plej</span><span class="DGKlJgu">Join Plej</span><span
+                            class="DGKlJgu">Join Plej</span>
+                            <span class="DGKlJgu">Join Plej</span>
+                            <span class="DGKlJgu">Join Plej</span>
+                            <span class="DGKlJgu">Join Plej</span>
+                            <span class="DGKlJgu">Join Plej</span>
+                            <span class="DGKlJgu">Join Plej</span>
+                            <span class="DGKlJgu">Join Plej</span>
+                            <span class="DGKlJgu">Join Plej</span>
+                            <span class="DGKlJgu">Join Plej</span>
+                            <span class="DGKlJgu">Join Plej</span>
+                            <span class="DGKlJgu">Join Plej</span>
+                            <span class="DGKlJgu">Join Plej</span>
+                            <span class="DGKlJgu">Join Plej</span>
+                            <span class="DGKlJgu">Join Plej</span>
+                            <span class="DGKlJgu">Join Plej</span>
+                            <span class="DGKlJgu">Join Plej</span>
                         </div>
                     </div>
                     <div class="_1B_-c0t VBD7Ow3">

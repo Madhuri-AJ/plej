@@ -12,13 +12,16 @@ export default class GalleryPage extends Component {
                     <div class="_2uaX48K _1G7RCdW _2v5bHvx VBD7Ow3">
                         <Lightbox images={[
                             {
-                                src: 'https://upload.wikimedia.org/wikipedia/commons/8/89/Ropy_pahoehoe.jpg'
+                                src: 'https://upload.wikimedia.org/wikipedia/commons/8/89/Ropy_pahoehoe.jpg',
+                                description: ' '
                             },
                             {
-                                src: 'https://upload.wikimedia.org/wikipedia/commons/7/73/Pyroclastic_flows_at_Mayon_Volcano.jpg'
+                                src: 'https://upload.wikimedia.org/wikipedia/commons/7/73/Pyroclastic_flows_at_Mayon_Volcano.jpg',
+                                description: ' '
                             },
                             {
-                                src: 'https://upload.wikimedia.org/wikipedia/commons/f/f3/Okataina.jpg'
+                                src: 'https://upload.wikimedia.org/wikipedia/commons/f/f3/Okataina.jpg',
+                                description: ' '
                             }
                         ]}
                             thumbnailWidth='33.3%'

@@ -206,7 +206,7 @@ legend {
 }
 
 optgroup {
-    font-weight: 700
+    font-weight: 900
 }
 
 *,
@@ -268,7 +268,7 @@ html {
     width: 100%;
     background-color: #000;
     color: #fff;
-    font-family: helvetica-extended, sans-serif;
+    font-family: 'Muli', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -409,8 +409,8 @@ section {
 }
 
 ._31coI1f {
-    font-family: helvetica-extended, sans-serif;
-    font-weight: 700;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
     font-size: 80px;
     line-height: 80px;
     fill: none;
@@ -497,10 +497,11 @@ section {
 
     h4 {
         text-align: center;
-        margin-top: 25px;
+        margin-top: 0;
         margin-bottom: 0;
     }
 }
+
 
 @-webkit-keyframes _1Di6LkQ {
     0% {
@@ -595,25 +596,25 @@ section {
 }
 
 @font-face {
-    font-family: helvetica-extended;
-    src: url(/assets/fonts/helvetica.eot);
-    src: url(/assets/fonts/helvetica.woff2) format("woff2"), url(/assets/fonts/helvetica.woff) format("woff");
+    font-family: 'Muli', sans-serif;
+    src: url(/assets/fonts/Muli-Black.ttf);
+    src: url(/assets/fonts/Muli-Black.ttf) format("ttf"), url(/assets/fonts/Muli-Black.ttf) format("ttf");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
-    font-family: helvetica-extended;
-    src: url(/assets/fonts/helvetica-medium.eot);
-    src: url(/assets/fonts/helvetica-medium.woff2) format("woff2"), url(/assets/fonts/helvetica-medium.woff) format("woff");
+    font-family: 'Muli', sans-serif;
+    src: url(/assets/fonts/Muli-SemiBold.ttf);
+    src: url(/assets/fonts/Muli-SemiBold.ttf) format("ttf"), url(/assets/fonts/Muli-SemiBold.ttf) format("ttf");
     font-weight: 500;
     font-style: normal
 }
 
 @font-face {
-    font-family: helvetica-extended;
-    src: url(/assets/fonts/helvetica-heavy.eot);
-    src: url(/assets/fonts/helvetica-heavy.woff2) format("woff2"), url(/assets/fonts/helvetica-heavy.woff) format("woff");
+    font-family: 'Muli', sans-serif;
+    src: url(/assets/fonts/Muli-ExtraBold.ttf);
+    src: url(/assets/fonts/Muli-ExtraBold.ttf) format("ttf"), url(/assets/fonts/Muli-ExtraBold.ttf) format("ttf");
     font-weight: 700;
     font-style: normal
 }
@@ -635,8 +636,9 @@ p {
 
 ._2_HaYMw,
 h1 {
-    font-family: helvetica-extended, sans-serif;
-    font-weight: 700;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
+    // font-weight: 700;
     text-transform: uppercase;
     font-size: 80px;
     line-height: 80px
@@ -653,8 +655,9 @@ h1 {
 
 ._1Sq1pn3,
 h2 {
-    font-family: helvetica-extended, sans-serif;
-    font-weight: 700;
+    font-family: 'Muli', sans-serif;
+    // font-weight: 700;
+    font-weight: 900;
     text-transform: uppercase;
     font-size: 32px;
     line-height: 36px
@@ -671,8 +674,8 @@ h2 {
 
 ._1rH_krR,
 h3 {
-    font-family: helvetica-extended, sans-serif;
-    font-weight: 700;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 24px;
@@ -690,8 +693,8 @@ h3 {
 
 ._25LPQhk,
 h4 {
-    font-family: helvetica-extended, sans-serif;
-    font-weight: 500;
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 13px;
@@ -800,9 +803,8 @@ strong {
     }
 }
 
-._3Pq3GhV ,
- .button
-    {
+._3Pq3GhV,
+.button {
     color: #fff;
     font-size: 12px;
     // background-color: #000;
@@ -810,7 +812,7 @@ strong {
     padding: 20px 64px 17px 24px;
     text-align: left;
     // border: 1px solid #2d2d2d;
-    border:0 ;
+    border: 0;
     outline: none;
     border-radius: 0;
     display: inline-block;
@@ -821,7 +823,7 @@ strong {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 11px;
@@ -829,7 +831,7 @@ strong {
     transition: color .2s ease
 }
 
-._3Pq3GhV span // .button span
+._3Pq3GhV span , .button span
 
     {
     position: relative;
@@ -840,7 +842,7 @@ strong {
     pointer-events: none
 }
 
-._3Pq3GhV:before // .button:before
+._3Pq3GhV:before , .button:before
 
     {
     left: 0;
@@ -851,9 +853,9 @@ strong {
 }
 
 ._3Pq3GhV:after,
-._3Pq3GhV:before // .button:after,
-
-// .button:before 
+._3Pq3GhV:before ,
+.button:after,
+.button:before 
     {
     content: "";
     position: absolute;
@@ -1021,7 +1023,7 @@ input[type=submit] {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 11px;
@@ -1145,7 +1147,7 @@ select {
     background-repeat: no-repeat;
     background-position: right 24px center;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 1px;
     font-size: 11px;
     line-height: 11px;
@@ -2152,7 +2154,8 @@ label span {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     -ms-flex-line-pack: stretch;
-    align-content: stretch
+    align-content: stretch;
+    transition: 1s transform;
 }
 
 .Yy4FTW7,
@@ -2199,6 +2202,10 @@ label span {
 .Yy4FTW7:nth-child(5)>div:nth-child(2) {
     -webkit-transform: scale(.8);
     transform: scale(.8)
+}
+
+.mt10{
+    margin-top: 10px;
 }
 
 .BFf-lTn {
@@ -2439,17 +2446,17 @@ label span {
 }
 
 ._3NcCK2a:hover {
-    color: #fecf3b
+    color: #b3d235;
 }
 
 ._3NcCK2a:hover ._3KWTFTz {
-    background-image: url(/assets/images/playGymbox.svg)
+    // background-image: url(/assets/images/playGymbox.svg)
 }
 
 ._3NcCK2a:hover ._1jnoPLs,
 ._3NcCK2a:hover ._3KWTFTz,
 ._3NcCK2a:hover .FBl2DCz {
-    color: #fecf3b
+    color: #b3d235;
 }
 
 ._1jnoPLs {
@@ -2482,14 +2489,14 @@ label span {
     display: inline-block;
     padding: 6px 18px 3px 5px;
     transition: color .2s ease;
-    background-image: url(/assets/images/play.svg);
+    // background-image: url(/assets/images/play.svg);
     background-size: 9px 10px;
     background-repeat: no-repeat;
     background-position: 100%
 }
 
 ._3KWTFTz:hover {
-    background-image: url(/assets/images/playGymbox.svg)
+    // background-image: url(/assets/images/playGymbox.svg)
 }
 
 ._3VqQwD6 {
@@ -3780,6 +3787,22 @@ label span {
     margin-bottom: 150px;
 }
 
+.mb-60{
+    margin-bottom: 60px;
+}
+
+.mb-0{
+    margin-bottom: 0;
+}
+
+.mt-10{
+    margin-top: 15vh;
+}
+
+.mt-32{
+    margin-top: 32vh;
+}
+
 @media(max-width:670px) {
     ._39EiYTl {
         margin-top: 150px
@@ -4731,7 +4754,7 @@ label span {
 }
 
 .k3d6s8r {
-    padding-top: 0;
+    padding-top: 20vh;
     padding-bottom: 20vh;
     text-align: center
 }
@@ -4805,8 +4828,10 @@ label span {
 }
 
 ._2JsEYIx {
-    padding-top: 10vh;
-    position: relative
+    // padding-top: 10vh;
+    padding-top: 15vh;
+    position: relative;
+    background-color: #000;
 }
 
 .ItM3bgw {
@@ -5701,7 +5726,7 @@ label span {
 
 ._2fGVUXV h3 {
     text-transform: none;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 22px;
     line-height: 29px;
     font-size: 16px;
@@ -5733,8 +5758,8 @@ label span {
 }
 
 ._1ZBL0R_ h1 {
-    font-family: helvetica-extended, sans-serif;
-    font-weight: 700;
+    font-family: 'Muli', sans-serif;
+    font-weight: 900;
     font-size: 32px;
     line-height: 36px
 }
@@ -5749,7 +5774,7 @@ label span {
 ._1ZBL0R_ a,
 ._1ZBL0R_ strong {
     color: #fff;
-    font-weight: 500
+    font-weight: 700
 }
 
 ._1ZBL0R_ ul {
@@ -5795,7 +5820,7 @@ th {
 .center-div {
     width: 800px;
     margin: auto;
-    font-weight: 500;
+    font-weight: 700;
 
     input[type=file] {
         width: 0.1px;
@@ -5846,8 +5871,8 @@ th {
 
     ._2_HaYMw,
     h2 {
-        font-family: helvetica-extended, sans-serif;
-        font-weight: 700;
+        font-family: 'Muli', sans-serif;
+        font-weight: 900;
         text-align: center;
         margin-bottom: 100px;
         text-transform: uppercase;
