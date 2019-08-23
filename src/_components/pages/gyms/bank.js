@@ -23,7 +23,7 @@ class BankPage extends Component {
                                         <div class="_Wl12W- VBD7Ow3">
                                             <ul class="M6EUSUT _2rbE6TC _2v5bHvx">
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
-                                                    <div class="_2l5my07 _2HhTmXD _2v5bHvx">Times</div>
+                                                    <div class="_2l5my07 _2HhTmXD _2v5bHvx">Timings</div>
                                                     <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
                                                         <div>
                                                             <p>
@@ -34,10 +34,15 @@ class BankPage extends Component {
                                                 </li>
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
                                                     <div class="_2l5my07 _2HhTmXD _2v5bHvx">Contact</div>
-                                                    <div class="_1Fu6UbF _1dohwpN _2v5bHvx"><a href="tel:+44 (0)20 7337 9790">+44 (0)20 7337 9790</a><br /><a
+                                                    <div class="_1Fu6UbF _1dohwpN _2v5bHvx"><a href="tel:+44 (0)20 7337 9790">+91 8448449354 </a>
+                                                    </div>
+                                                </li>
+                                                <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                    <div class="_2l5my07 _2HhTmXD _2v5bHvx">Email</div>
+                                                    <div class="_1Fu6UbF _1dohwpN _2v5bHvx"><a
                                                         href="../cdn-cgi/l/email-protection.html#c1a3a0afaaa4afb0b4a8b3a8a4b281a6b8aca3aeb9efa2aeefb4aa"
                                                         class="_2h5s4t1"><span class="__cf_email__"
-                                                            data-cfemail="1b797a75707e756a6e7269727e685b7c6276797463357874356e70">[email&#160;protected]</span></a>
+                                                            data-cfemail="1b797a75707e756a6e7269727e685b7c6276797463357874356e70"> info@plej.fit</span></a>
                                                     </div>
                                                 </li>
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
@@ -66,8 +71,9 @@ class BankPage extends Component {
                                             <div class="_2S9gFR2 _2rbE6TC _2v5bHvx">
                                                 <NavLink className="_1DHXI17 _3Pq3GhV"
                                                     to="../classes"><span>Classes</span></NavLink>
-                                                <a class="zF_pZj2 _3Pq3GhV"
-                                                    href="#"><span>Instructor</span></a></div>
+                                                <NavLink class="zF_pZj2 _3Pq3GhV"
+                                                    to="../instructors"><span>Instructor</span></NavLink>
+                                            </div>
                                         </div>
                                     </li>
                                 </ul>

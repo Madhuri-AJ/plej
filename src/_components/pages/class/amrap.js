@@ -22,22 +22,22 @@ class AmrapPage extends Component {
                                     </tr>
                                     <tr>
                                         <td>
-                                            Mon - Fri
+                                        Mon to Fri
                                         </td>
                                         <td>
-                                            <div> 8am to 9am </div>
+                                            <div> 8am - 9am </div>
                                             <div>
-                                                 4pm to 5pm
+                                                 4pm - 5pm
                                             </div>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            Sat - Sun
+                                            Sat to Sun
                                         </td>
                                         <td>
-                                            <div>7am to 8am </div>
-                                            <div>6pm to 7pm </div>
+                                            <div>7am - 8am </div>
+                                            <div>6pm - 7pm </div>
                                         </td>
                                     </tr>
                                 </table>
@@ -67,7 +67,7 @@ class AmrapPage extends Component {
                                 <div class="Sa1FFQw">
                                     <div class="_3fJiN_C">
                                         <div class="_2gpiPPm _3jJP_-6 _2rbE6TC _2v5bHvx">
-                                            <img src="https://gymbox-assets.enecdn.io/images/portrait/_instructorPortrait/Gym_Box_Instructors_Ashley_Ahrens.jpg?mtime=20180905112243" class="_3h_jpHd _2jVkQgE" />
+                                            <img src="https://gymbox-assets.enecdn.io/images/portrait/_instructorPortrait/Gym_Box_Instructors_Biannca_Pegrume.jpg?mtime=20180413122636" class="_3h_jpHd _2jVkQgE" />
                                         </div>
                                         <h3 class="_2MUcDo2 _2rbE6TC _2v5bHvx">Ashley</h3>
                                         <div>
@@ -77,7 +77,7 @@ class AmrapPage extends Component {
                                     </div>
                                     <div class="_3fJiN_C">
                                         <div class="_2gpiPPm _3jJP_-6 _2rbE6TC _2v5bHvx">
-                                            <img src="https://gymbox-assets.enecdn.io/images/portrait/_instructorPortrait/Gym_Box_Instructors_Ashley_Ahrens.jpg?mtime=20180905112243" class="_3h_jpHd _2jVkQgE" />
+                                            <img src="https://gymbox-assets.enecdn.io/images/portrait/_instructorPortrait/Gym_Box_Instructors_Jasmine_Lake.jpg?mtime=20180612093147" class="_3h_jpHd _2jVkQgE" />
                                         </div>
                                         <h3 class="_2MUcDo2 _2rbE6TC _2v5bHvx">Fleur</h3>
                                         <div>
@@ -86,7 +86,7 @@ class AmrapPage extends Component {
                                     </div>
                                     <div class="_3fJiN_C">
                                         <div class="_2gpiPPm _3jJP_-6 _2rbE6TC _2v5bHvx">
-                                            <img src="https://gymbox-assets.enecdn.io/images/portrait/_instructorPortrait/Gym_Box_Instructors_Ashley_Ahrens.jpg?mtime=20180905112243" class="_3h_jpHd _2jVkQgE" />
+                                            <img src="https://gymbox-assets.enecdn.io/images/portrait/_instructorPortrait/Gym_Box_Instructors_Firas_Iskandarani.jpg?mtime=20180413123656" class="_3h_jpHd _2jVkQgE" />
                                         </div>
                                         <h3 class="_2MUcDo2 _2rbE6TC _2v5bHvx">Beko</h3>
                                         <div>
@@ -102,7 +102,7 @@ class AmrapPage extends Component {
                                     <ul class="_2J71_L4 sDHKtsB">
                                         <li class="NPRZnJb _1kNfguI sDHKtsB">
                                             <div class="_2gpiPPm lC7b5Zk sDHKtsB">
-                                                <span class="_3h_jpHd" style={{ "backgroundImage": "url(\"https://gymbox-assets.enecdn.io/images/slideshow/_galleryImage/AshtangaYoga_New_1_190221_120328.jpg?mtime=20190221120328\")" }}></span>
+                                                <span class="_3h_jpHd" style={{ "backgroundImage": "url(\"/assets/images/gym12.jpg\")" }}></span>
                                             </div>
                                         </li>
                                     </ul>

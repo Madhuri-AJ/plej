@@ -27,8 +27,8 @@ export default class AboutPage extends Component {
         console.log("scrollTop", scrollTop);
         let changedTransform1 = (10 - (scrollTop + scrollTop * 1.5));
         let changedTransform2 = (-10 + (scrollTop + scrollTop * 0.2));
-        let changedTransform3 = (-60 + (scrollTop + scrollTop * 0.5));
-        let changedTransform4 = (-60 + (scrollTop + scrollTop * 0.5));
+        let changedTransform3 = (-60 + (scrollTop + scrollTop * 1.5));
+        let changedTransform4 = (-60 + (scrollTop + scrollTop * 1.5));
 
         this.setState({
             transform1: changedTransform1,
@@ -224,9 +224,9 @@ export default class AboutPage extends Component {
 
                             <div class="_-WrE9rl _2rbE6TC _2v5bHvx"></div>
 
-                            
+
                             <div class="k3d6s8r _2rbE6TC _2v5bHvx">
-                                <h2>Anything goes</h2>
+                                <h2>Never Give Up</h2>
                                 <h2><NavLink class="_2nUA0vX" to="/contact-us">Join us</NavLink></h2>
                             </div>
                         </div>

@@ -11,6 +11,7 @@ import OwnGymPage from "./own-gym";
 import GalleryPage from "./gallery";
 import PrivacyPolicyPage from "./privacy-policy";
 import TermsConditionsPage from "./terms-condition";
+import InstructorsPage from "./instructors";
 
 export {
     MainPage,
@@ -25,5 +26,6 @@ export {
     OwnGymPage,
     GalleryPage,
     PrivacyPolicyPage,
-    TermsConditionsPage
+    TermsConditionsPage,
+    InstructorsPage
 };

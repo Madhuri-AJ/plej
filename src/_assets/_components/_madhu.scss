@@ -370,6 +370,10 @@ section {
     padding: 0 40px
 }
 
+.VBD7Ow4{
+    padding: 0 120px;
+}
+
 @media(max-width:670px) {
     .VBD7Ow3 {
         padding: 0 20px
@@ -5073,7 +5077,8 @@ label span {
     position: relative;
     height: 600px;
     overflow: hidden;
-    background-image: url(/assets/images/corporate/hero.jpg);
+    // background-image: url(/assets/images/corporate/hero.jpg);
+    background-image: url(/assets/images/own-a-gym-banner.jpg);
     background-position: 50%;
     background-size: cover
 }

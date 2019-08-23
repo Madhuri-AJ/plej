@@ -1,5 +1,5 @@
 // import PageNotFoundPage from './_components/page-not-found';
-import { MainPage, LocationPage, ClassPage, AmrapPage, BankPage, ContactPage, AboutPage, CareersPage, FormPage, OwnGymPage, GalleryPage, PrivacyPolicyPage, TermsConditionsPage} from './_components/pages/index';
+import { MainPage, LocationPage, ClassPage, AmrapPage, BankPage, ContactPage, AboutPage, CareersPage, FormPage, OwnGymPage, GalleryPage, PrivacyPolicyPage, TermsConditionsPage, InstructorsPage} from './_components/pages/index';
 
 const routes = [
   { path: '/', exact: true, name: 'Home', component: MainPage },
@@ -14,7 +14,8 @@ const routes = [
   { path: '/owngym',name:'OwnGym',component:OwnGymPage},
   { path: '/gallery',name:'Gallery',component:GalleryPage},
   { path: '/privacy-policy',name:'Gallery',component:PrivacyPolicyPage},
-  { path: '/terms-conditions',name:'Gallery',component:TermsConditionsPage}
+  { path: '/terms-conditions',name:'Gallery',component:TermsConditionsPage},
+  { path: '/instructors',name:'Gallery',component:InstructorsPage}
 //   { path: '**', exact: true, name: '', component: PageNotFoundPage }
 ];
 
