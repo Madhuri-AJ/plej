@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc058ced825695f13f20efb7bfb23423",
+    "revision": "5e76e1a33b0b939b6a481279a0d81ae5",
     "url": "/plej/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/plej/static/css/2.3c1ddb0a.chunk.css"
   },
   {
-    "revision": "2e3bbac684e4afcffc61",
+    "revision": "5b0e6bfa856c003daa35",
     "url": "/plej/static/css/main.833b10b1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/plej/static/js/2.5ff040a3.chunk.js"
   },
   {
-    "revision": "2e3bbac684e4afcffc61",
-    "url": "/plej/static/js/main.dc79ad62.chunk.js"
+    "revision": "5b0e6bfa856c003daa35",
+    "url": "/plej/static/js/main.7c641289.chunk.js"
   },
   {
     "revision": "a31a240ae7950f79fc67",
