@@ -35,7 +35,7 @@ class Header extends Component {
             <div className="header _14BrxaV">
                 <header
                     className={this.state.condition ? "_3KR0JuQ VBD7Ow3 _1XkRVei" : "_3KR0JuQ VBD7Ow3"}>
-                    <NavLink to="/" class="_1ff-7Sh" title="Go to the Gymbox homepage"></NavLink>
+                    <NavLink to="/" class="_1ff-7Sh" title="Go to the Plej homepage"></NavLink>
                     <div class="ijfRzqG"
                         onClick={this.handleToggle}>
                         <span class="_2CJPpcw pRZSkbx"></span>
@@ -163,7 +163,7 @@ class Header extends Component {
 
 
 
-                                    <div class="_26Hb2eR _2cjZ1PT _1G7RCdW _2v5bHvx"><div class="Zd4QDDO"><h4 class="Zd4QDDO">4/6</h4></div><h2 class="_1_KNBvC">Time to submit!</h2><p>I understand that by submitting my details I will be contacted by GYMBOX with information about their services and membership options (not with spam, we promise)</p><input type="submit" value="Book your free tour!" /></div>
+                                    <div class="_26Hb2eR _2cjZ1PT _1G7RCdW _2v5bHvx"><div class="Zd4QDDO"><h4 class="Zd4QDDO">4/6</h4></div><h2 class="_1_KNBvC">Time to submit!</h2><p>I understand that by submitting my details I will be contacted by PLEJ with information about their services and membership options (not with spam, we promise)</p><input type="submit" value="Book your free tour!" /></div>
 
                                     <div class="_3ipyBdB">
                                         <h2>Thanks - chat soon</h2>

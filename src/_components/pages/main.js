@@ -55,7 +55,7 @@ class MainPage extends Component {
                 <section class="_3UoOzEJ _2rbE6TC _2v5bHvx _1CqZaJN">
                     <div class="_1JMynM5 _3-6A3ch _1CqZaJN">
                         <video class="_3h_jpHd _21UD1KG _3HiqiFI"
-                            src="https://gymbox-assets.enecdn.io/videos/global/gymbox-hero-v2-short.mp4"
+                            src="/assets/images/demo.mp4"
                             muted autoplay=""
                             playsinline loop>
                         </video>

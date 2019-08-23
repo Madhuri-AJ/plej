@@ -68,13 +68,13 @@ export default class AboutPage extends Component {
                                     <div class="_2gpiPPm _3gv6oAs _1G7RCdW _2v5bHvx"
                                         style={{ "transform": `translateY(${this.state.transform1}px) `, "transition": "1s transform" }}
                                     >
-                                        <img src="https://gymbox-assets.enecdn.io/images/blog/_instructorPortrait/OCR.jpg?mtime=20190402150453" class="_3h_jpHd" />
+                                        <img src="/assets/images/1.jpg" class="_3h_jpHd" />
                                     </div>
                                 </div>
                                 <div>
                                     <div class="_2gpiPPm _1Qxe_9c _1G7RCdW _2v5bHvx"
                                         style={{ "transform": `translateY(${this.state.transform2}px) `, "transition": "1s transform" }}>
-                                        <img src="https://gymbox-assets.enecdn.io/images/blog/_instructorPortrait/GymnasticConditioning_New.jpg?mtime=20180403093154" class="_3h_jpHd" />
+                                        <img src="/assets/images/2.jpg" class="_3h_jpHd" />
                                     </div>
                                 </div>
                             </div>
@@ -102,29 +102,29 @@ export default class AboutPage extends Component {
                                 <div>
                                     <div class="_2Mohl0x _1G7RCdW _2v5bHvx" style={{ "transform": `translateY(${this.state.transform3}px) `, "transition": "1s transform" }}>
                                         <div class="_2gpiPPm _1MzFp9n">
-                                            <img src="https://gymbox-assets.enecdn.io/images/blog/_instructorPortrait/Pound_New.jpg?mtime=20180403090328" class="_3h_jpHd" />
+                                            <img src="/assets/images/3.jpg" class="_3h_jpHd" />
                                         </div>
                                         <div class="_2gpiPPm _1MzFp9n">
-                                            <img src="https://gymbox-assets.enecdn.io/images/blog/_instructorPortrait/OCR.jpg?mtime=20190402150453" class="_3h_jpHd" />
+                                            <img src="/assets/images/1.jpg" class="_3h_jpHd" />
                                         </div>
                                         <div class="_2gpiPPm _1MzFp9n">
-                                            <img src="https://gymbox-assets.enecdn.io/images/blog/_instructorPortrait/Hoop.jpg?mtime=20180403090531" class="_3h_jpHd" />
+                                            <img src="/assets/images/4.jpg" class="_3h_jpHd" />
                                         </div>
                                         <div class="_2gpiPPm _1MzFp9n">
-                                            <img src="https://gymbox-assets.enecdn.io/images/blog/_instructorPortrait/Euphoria_New.jpg?mtime=20180403100733" class="_3h_jpHd" />
+                                            <img src="/assets/images/5.jpg" class="_3h_jpHd" />
                                         </div>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="_1Aa09nZ _1G7RCdW _2v5bHvx" style={{ "transform": `translateY(${this.state.transform4}px) `, "transition": "1s transform" }}>
                                         <div class="_2gpiPPm _1MzFp9n">
-                                            <img src="https://gymbox-assets.enecdn.io/images/blog/_instructorPortrait/GymnasticConditioning_New.jpg?mtime=20180403093154" class="_3h_jpHd" />
+                                            <img src="/assets/images/2.jpg" class="_3h_jpHd" />
                                         </div>
                                         <div class="_2gpiPPm _1MzFp9n">
-                                            <img src="https://gymbox-assets.enecdn.io/images/blog/_instructorPortrait/Pilates4.jpg?mtime=20180403093312" class="_3h_jpHd" />
+                                            <img src="/assets/images/6.jpg" class="_3h_jpHd" />
                                         </div>
                                         <div class="_2gpiPPm _1MzFp9n">
-                                            <img src="https://gymbox-assets.enecdn.io/images/blog/_instructorPortrait/MauyThaiBeg_New.jpg?mtime=20180403093359" class="_3h_jpHd" />
+                                            <img src="/assets/images/7.jpg" class="_3h_jpHd" />
                                         </div>
                                     </div>
                                 </div>
@@ -147,13 +147,13 @@ export default class AboutPage extends Component {
                                         <div class="_2gpiPPm _3gv6oAs _1G7RCdW _2v5bHvx mt-32"
                                             style={{ "transform": `translateY(${this.state.transform1}px) `, "transition": "1s transform" }}
                                         >
-                                            <img src="https://gymbox-assets.enecdn.io/images/blog/_instructorPortrait/OCR.jpg?mtime=20190402150453" class="_3h_jpHd" />
+                                            <img src="/assets/images/1.jpg" class="_3h_jpHd" />
                                         </div>
                                     </div>
                                     <div>
                                         <div class="_2gpiPPm _1Qxe_9c _1G7RCdW _2v5bHvx"
                                             style={{ "transform": `translateY(${this.state.transform2}px) `, "transition": "1s transform" }}>
-                                            <img src="https://gymbox-assets.enecdn.io/images/blog/_instructorPortrait/GymnasticConditioning_New.jpg?mtime=20180403093154" class="_3h_jpHd" />
+                                            <img src="/assets/images/2.jpg" class="_3h_jpHd" />
                                         </div>
                                     </div>
                                 </div>
@@ -177,14 +177,14 @@ export default class AboutPage extends Component {
                                 <div>
                                     <div class="_2Mohl0x _1G7RCdW _2v5bHvx mt-10" style={{ "transform": `translateY(${this.state.transform3}px) `, "transition": "1s transform" }}>
                                         <div class="_2gpiPPm _1MzFp9n">
-                                            <img src="https://gymbox-assets.enecdn.io/images/blog/_instructorPortrait/OCR.jpg?mtime=20190402150453" class="_3h_jpHd" />
+                                            <img src="/assets/images/1.jpg" class="_3h_jpHd" />
                                         </div>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="_1Aa09nZ _1G7RCdW _2v5bHvx" style={{ "transform": `translateY(${this.state.transform4}px) `, "transition": "1s transform" }}>
                                         <div class="_2gpiPPm _1MzFp9n">
-                                            <img src="https://gymbox-assets.enecdn.io/images/blog/_instructorPortrait/GymnasticConditioning_New.jpg?mtime=20180403093154" class="_3h_jpHd" />
+                                            <img src="/assets/images/2.jpg" class="_3h_jpHd" />
                                         </div>
                                     </div>
                                 </div>
@@ -209,13 +209,13 @@ export default class AboutPage extends Component {
                                         <div class="_2gpiPPm _3gv6oAs _1G7RCdW _2v5bHvx mt-32"
                                             style={{ "transform": `translateY(${this.state.transform1}px) `, "transition": "1s transform" }}
                                         >
-                                            <img src="https://gymbox-assets.enecdn.io/images/blog/_instructorPortrait/OCR.jpg?mtime=20190402150453" class="_3h_jpHd" />
+                                            <img src="/assets/images/1.jpg" class="_3h_jpHd" />
                                         </div>
                                     </div>
                                     <div>
                                         <div class="_2gpiPPm _1Qxe_9c _1G7RCdW _2v5bHvx"
                                             style={{ "transform": `translateY(${this.state.transform2}px) `, "transition": "1s transform" }}>
-                                            <img src="https://gymbox-assets.enecdn.io/images/blog/_instructorPortrait/GymnasticConditioning_New.jpg?mtime=20180403093154" class="_3h_jpHd" />
+                                            <img src="/assets/images/2.jpg" class="_3h_jpHd" />
                                         </div>
                                     </div>
                                 </div>

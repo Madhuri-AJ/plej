@@ -61,14 +61,14 @@ class ClassPage extends Component {
                         </div>
                         <div class="_39EiYTl _2rbE6TC _2v5bHvx VBD7Ow3">
                             <div style={{ "width": "100%" }}>
-                                <div class="_3Fst1pU _3x6v3-y" style={{ "width": "22%", "margin-right": "4%", "display": "inline-block" }}>
+                                <div class="_3Fst1pU _3x6v3-y fourclass">
                                     <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx"><img
                                         src="/assets/images/gym11.jpg"
                                         class="_3h_jpHd" /></div>
                                     <h3 class="rfn1m5O">Yoga</h3><span class="_GcKgjb"></span><NavLink className="_1nR3q81 sDHKtsB"
                                         to="/class/amrap"></NavLink>
                                 </div>
-                                <div class="_3Fst1pU _3x6v3-y" style={{ "width": "22%", "margin-right": "4%", "display": "inline-block" }}>
+                                <div class="_3Fst1pU _3x6v3-y fourclass">
                                     <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx"><img
                                         src="/assets/images/gym12.jpg"
                                         class="_3h_jpHd" /></div>

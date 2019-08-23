@@ -26,25 +26,25 @@ class InstructorsPage extends Component {
                         </div>                        
                         <div class="_39EiYTl _2rbE6TC _2v5bHvx VBD7Ow4">
                             <div style={{ "width": "100%" }}>
-                                <div class="_3Fst1pU _3x6v3-y" style={{ "width": "30%", "margin-right": "5%", "display": "inline-block","cursor":"auto" }}>
+                                <div class="_3Fst1pU _3x6v3-y threeclass">
                                     <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx"><img
-                                        src="/assets/images/rohan.jpg"
-                                        class="_3h_jpHd" /></div>                                         <h3 class="rfn1m5O" style={{"width":"100%"}}>Rohan</h3>
-                                        <p>Rohan has an experience of 15 years in FITNESS INDUSTRY, Handling Sales and operations of the club allover india and ensuring the clubs do well to their optimum.</p>
+                                        src="/assets/images/staff1.jpg"
+                                        class="_3h_jpHd" /></div>                                         <h3 class="rfn1m5O" style={{"width":"100%"}}>Jasmin</h3>
+                                        <p>Jasmin has an experience of 15 years in FITNESS INDUSTRY, Handling Sales and operations of the club allover india and ensuring the clubs do well to their optimum.</p>
                                 </div>
-                                <div class="_3Fst1pU _3x6v3-y" style={{ "width": "30%", "margin-right": "5%", "display": "inline-block","cursor":"auto" }}>
+                                <div class="_3Fst1pU _3x6v3-y threeclass">
                                     <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx"><img
-                                        src="/assets/images/raj.jpg"
+                                        src="/assets/images/staff2.jpg"
                                         class="_3h_jpHd" /></div>
-                                    <h3 class="rfn1m5O" style={{"width":"100%"}}>Raj Gill</h3>
-                                    <p>Raj Gill has an experience of 15 years in FITNESS INDUSTRY, Handling Sales and operations of the club allover india and ensuring the clubs do well to their optimum.</p>
+                                    <h3 class="rfn1m5O" style={{"width":"100%"}}>Rehana</h3>
+                                    <p>Rehana Gill has an experience of 15 years in FITNESS INDUSTRY, Handling Sales and operations of the club allover india and ensuring the clubs do well to their optimum.</p>
                                 </div>
-                                <div class="_3Fst1pU _3x6v3-y" style={{ "width": "30%","display": "inline-block" ,"cursor":"auto"}}>
+                                <div class="_3Fst1pU _3x6v3-y threeclass mr-0">
                                     <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx"><img
-                                        src="/assets/images/arun.jpg"
+                                        src="/assets/images/staff3.png"
                                         class="_3h_jpHd" /></div>
-                                    <h3 class="rfn1m5O" style={{"width":"100%"}}>Arun</h3>
-                                    <p>Arun has an experience of 15 years in FITNESS INDUSTRY, Handling Sales and operations of the club allover india and ensuring the clubs do well to their optimum.</p>
+                                    <h3 class="rfn1m5O" style={{"width":"100%"}}>John</h3>
+                                    <p>John has an experience of 15 years in FITNESS INDUSTRY, Handling Sales and operations of the club allover india and ensuring the clubs do well to their optimum.</p>
                                 </div>
                             </div>
                         </div>

@@ -100,17 +100,17 @@ class BankPage extends Component {
                                         <ul class="_2J71_L4 sDHKtsB">
                                             <li class="NPRZnJb _1kNfguI sDHKtsB">
                                                 <div class="_2gpiPPm lC7b5Zk sDHKtsB">
-                                                    <span class="_3h_jpHd" style={{ "backgroundImage": "url(\"https://gymbox-assets.enecdn.io/images/slideshow/_galleryImage/VIL_5333-300-DPI-resize.jpg?mtime=20180912143924\")" }}></span>
+                                                    <span class="_3h_jpHd" style={{ "backgroundImage": "url(\"/assets/images/11.jpg\")" }}></span>
                                                 </div>
                                             </li>
                                             <li class="_1kNfguI sDHKtsB">
                                                 <div class="_2gpiPPm lC7b5Zk sDHKtsB">
-                                                    <span class="_3h_jpHd" style={{ "backgroundImage": "url(\"https://gymbox-assets.enecdn.io/images/slideshow/_galleryImage/VIL_5333-300-DPI-resize.jpg?mtime=20180912143924\")" }}></span>
+                                                    <span class="_3h_jpHd" style={{ "backgroundImage": "url(\"/assets/images/11.jpg\")" }}></span>
                                                 </div>
                                             </li>
                                             <li class="_1kNfguI sDHKtsB">
                                                 <div class="_2gpiPPm lC7b5Zk sDHKtsB">
-                                                    <span class="_3h_jpHd" style={{ "backgroundImage": "url(\"https://gymbox-assets.enecdn.io/images/slideshow/_galleryImage/VIL_5333-300-DPI-resize.jpg?mtime=20180912143924\")" }}></span>
+                                                    <span class="_3h_jpHd" style={{ "backgroundImage": "url(\"/assets/images/11.jpg\")" }}></span>
                                                 </div>
                                             </li>
                                             <li class="_1kNfguI sDHKtsB">
