@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {NavLink} from "react-router-dom";
 export default class ContactPage extends Component {
     constructor(props) {
         super(props);
@@ -22,7 +23,8 @@ export default class ContactPage extends Component {
                             <textarea type="text" placeholder="Message" />
                         </div>
                         <div className="middle-btn">
-                            <button className="_1x8JHAI _3Pq3GhV _3xVoYzA button">Submit</button>
+                            {/* <button className="_1x8JHAI _3Pq3GhV _3xVoYzA button">Submit</button> */}
+                            <NavLink class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#"><span>Submit</span></NavLink>
                         </div>
                     </form>
                 </div>

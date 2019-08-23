@@ -10,20 +10,7 @@ class InstructorsPage extends Component {
         return (
             <div>
                 <div class="_1vdzHPH">
-                    <div class="_3SYd3N0 _2rbE6TC _2v5bHvx">
-                        <div class="_1V2XMPJ">
-                            <div class="_2heWrbT sDHKtsB">
-                                <h4 class="_35ms454 _2rbE6TC _2v5bHvx">Search</h4>
-                            </div>
-                            <div class="_2pwByUC _2rbE6TC _2v5bHvx">
-                                <div class="_3Wse5wf _2rbE6TC _2v5bHvx">
-                                    <div class="_3aa_vTA"><input type="text" class="_37fECWZ"
-                                        value="" placeholder="Search" />
-                                        <button class="_3fk1T1C button"><span>Search</span></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                        
+                    <div class="_3SYd3N0 _2rbE6TC _2v5bHvx">                                             
                         <div class="_39EiYTl _2rbE6TC _2v5bHvx VBD7Ow4">
                             <div style={{ "width": "100%" }}>
                                 <div class="_3Fst1pU _3x6v3-y threeclass">

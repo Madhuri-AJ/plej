@@ -1,4 +1,5 @@
 import React , {Component} from "react";
+import {NavLink} from "react-router-dom";
 export default class FormPage extends Component{
     constructor(props) {
         super(props);
@@ -40,7 +41,8 @@ export default class FormPage extends Component{
                             <textarea type="text" placeholder="Message" />
                         </div>
                         <div className="middle-btn bottom_space">
-                            <button className="_1x8JHAI _3Pq3GhV _3xVoYzA bottom_space button">Submit Application</button>
+                            {/* <button className="_1x8JHAI _3Pq3GhV _3xVoYzA bottom_space button">Submit Application</button> */}
+                            <NavLink class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#"><span>Submit Application</span></NavLink>
                         </div>
                     </form>
                 </div>

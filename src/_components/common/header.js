@@ -7,7 +7,7 @@ class Header extends Component {
         super(props);
         this.state = {
             condition: false,
-            open:false
+            open: false
         }
     }
     handleToggle = () => {
@@ -20,15 +20,17 @@ class Header extends Component {
             condition: !this.state.condition
         });
     }
-    handlePopup=() =>{
+    handlePopup = () => {
         this.setState({
             open: !this.state.open
         })
     }
-    close= ()=>{
+    close = () => {
         this.setState({
             open: !this.state.open
         });
+    }
+    handleBack =()=>{
     }
     render() {
         return (
@@ -41,6 +43,10 @@ class Header extends Component {
                         <span class="_2CJPpcw pRZSkbx"></span>
                     </div>
                     <ul class="_3XOFvvi">
+                        <li className="_2GaQ8vJ">
+                            <a class="m7LKENr _25LPQhk _2DGciQP"
+                                href="#" onClick={this.handleBack}> Back</a>
+                        </li>
                         <li class="_2GaQ8vJ">
                             <a class="m7LKENr _25LPQhk _2DGciQP" onClick={this.handlePopup}>Book a tour</a>
                         </li>
@@ -145,7 +151,7 @@ class Header extends Component {
                                             <small class="_22qkbgJ">This field is required.</small>
                                         </div>
                                     </div>
-                                   
+
                                     <div class="_26Hb2eR _2cjZ1PT _1G7RCdW _2v5bHvx">
                                         <div class="Zd4QDDO">
                                             <h4 class="Zd4QDDO">2/4</h4>

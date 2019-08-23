@@ -5939,7 +5939,6 @@ th {
 
 .center-div .middle-btn ._1x8JHAI {
   width: 44%;
-  font-size: 14px;
 }
 
 .center-div .space {
@@ -6058,6 +6057,7 @@ html.lightbox-open {
 .threeclass {
   width: 30%;
   margin-right: 5%;
+  display: inline-block;
   cursor: auto;
 }
 

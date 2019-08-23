@@ -88,10 +88,10 @@ export default class CareersPage extends Component {
                                     <h2 class="FsabyOT _2rbE6TC _2v5bHvx">Plej benefits</h2>
                                     <ul class="_2WTwQD9 _2rbE6TC _2v5bHvx">
                                         <li class="_37M7UHC GXyzp1w _2v5bHvx">Learning &amp; development opportunities</li>
-                                        <li class="_37M7UHC GXyzp1w _2v5bHvx">Benefits platform full of discounts</li>
-                                        <li class="_37M7UHC GXyzp1w _2v5bHvx">Extra day holiday every year</li>
-                                        <li class="_37M7UHC GXyzp1w _2v5bHvx">Free membership</li>
-                                        <li class="_37M7UHC GXyzp1w _2v5bHvx">Your birthday off</li>
+                                        <li class="_37M7UHC GXyzp1w _2v5bHvx">Beneficial platform </li>
+                                        <li class="_37M7UHC GXyzp1w _2v5bHvx">Lorem Ipsum is simply dummy</li>
+                                        <li class="_37M7UHC GXyzp1w _2v5bHvx">Lorem Ipsum is simply dummy</li>
+                                        <li class="_37M7UHC GXyzp1w _2v5bHvx">Lorem Ipsum is simply dummy</li>
                                         <li class="_37M7UHC GXyzp1w _2v5bHvx">Staff &amp; member parties</li>
                                     </ul>
                                 </div>
@@ -105,9 +105,7 @@ export default class CareersPage extends Component {
                                             <div class="iBr7foy">
                                                 <h3>RECEPTION</h3>
                                                 <div>
-                                                    <p>Does the thought of spending all day in the gym get you jumping for joy? Are you a ball of
-                                                      energy who gets a buzz out of life and meeting new people? Yes? Then we could have the
-                                                      position for you. If you're passionate and love working in a team, we want to hear from you!
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                                                     </p>
                                                 </div>
                                             </div>
@@ -121,9 +119,7 @@ export default class CareersPage extends Component {
                                             <div class="iBr7foy">
                                                 <h3>SALES GURU</h3>
                                                 <div>
-                                                    <p>Is spending all day in the gym your idea of pure, unadulterated bliss? Are you an
-                                                      entertainer, an extrovert and an individual with passion? Are you competitive, ambitious and
-                                                      proactive? Did you just answer yes to all of the above? Then we have the perfect role for you!
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                                                     </p>
                                                 </div>
                                             </div>
@@ -137,7 +133,7 @@ export default class CareersPage extends Component {
                                             <div class="iBr7foy">
                                                 <h3>CENTRAL POSITIONS</h3>
                                                 <div>
-                                                    <p>Have a look at the central positions available at Plej.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -150,12 +146,7 @@ export default class CareersPage extends Component {
                                             <div class="iBr7foy">
                                                 <h3>STUDIO INSTRUCTORS</h3>
                                                 <div>
-                                                    <p>Do you get a kick out of making a room full of people incredibly hot and sweaty? Think you
-                                                      have what it takes to teach the most diverse and creative classes London has to offer? Then we
-                                                      want to hear from you! Just drop your details below and we'll be in touch about the next steps
-                                                      to being one of our freelance instructors!</p>
-                                                    <p>I understand that by submitting my details I will be contacted by Plej with information
-                                                    about our studio product (not with spam, promise).</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -167,13 +158,7 @@ export default class CareersPage extends Component {
                                             <div class="iBr7foy">
                                                 <h3>VERY PERSONAL TRAINERS</h3>
                                                 <div>
-                                                    <p>The evolution of fitness coaching according to Plej... </p>
-                                                    <p>Training &gt; Personal Training &gt; Very Personal Training</p>
-                                                    <p>Have you got the skills to motivate and educate London’s fittest members? Yes? Then we want
-                                                      to hear from you. Whether you're a graduate of the Sweet Science, fanatical about functional
-                                                      training or anything in between we’re looking for the best fitness coaches in London to join
-                                                      our team of freelance trainers to fill the best gyms in London.
-                                                        </p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -185,10 +170,7 @@ export default class CareersPage extends Component {
                                             <div class="iBr7foy">
                                                 <h3>GENERAL MANAGER</h3>
                                                 <div>
-                                                    <p>Head honcho, leader of the pack, General Manager. Are you someone who’s competitive and knows
-                                                      how to lead a team to greatness? Do you have incredible people, time management and
-                                                      organisational skills and a passion for all things Plej? Yes, yes and yes? Get in touch, we
-                                                      have just the role for you!
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                                                     </p>
                                                 </div>
                                             </div>

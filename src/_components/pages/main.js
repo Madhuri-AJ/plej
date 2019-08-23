@@ -84,7 +84,7 @@ class MainPage extends Component {
                         <div class="_3NcCK2a _2rbE6TC _2v5bHvx pRZSkbx VBD7Ow3">
                             <h1 class="_1jnoPLs _3x6v3-y">Never Give Up</h1>
                             <div class="FBl2DCz _2rbE6TC _2v5bHvx _3x6v3-y">
-                                <h4 class="_3KWTFTz _2DGciQP">Join Plej Today</h4>
+                                <h4><NavLink to="/contact-us" class="_3KWTFTz _2DGciQP">Join Plej Today</NavLink></h4>
                             </div>
                         </div>
                     </div>
