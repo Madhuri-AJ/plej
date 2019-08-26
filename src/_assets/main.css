@@ -6076,6 +6076,9 @@ html.lightbox-open {
     opacity: 0;
     pointer-events: none;
   }
+  .lightbox-image {
+    height: 300px !important;
+  }
   .fourclass {
     width: 100%;
     margin-right: 0;
