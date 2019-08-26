@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./common/header";
 import routes from '../routes';
+import {history} from "./history";
+
 
 class HomePage extends Component {
     constructor(props){
@@ -10,7 +12,7 @@ class HomePage extends Component {
     render() {
         return (
             <div>
-                <Router>
+                <Router history={history}> 
                     <div className="container-fluid p-0">
                         <Header/>
                         <Switch>
