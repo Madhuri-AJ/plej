@@ -143,7 +143,7 @@ class Footer extends Component {
                         </div>
                         <div class="_3QyZoZ_ _2rbE6TC _2v5bHvx">
                             <h4 class="HLzP6ji">©2019 Plej</h4>
-                            <h4 class="_3oiFvb3"><a href="https://everandever.co/" target="_blank">Made by Ever &amp; Ever</a></h4>
+                            
                         </div>
                     </div>
                 </footer>
