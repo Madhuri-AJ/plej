@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import { Nav } from "react-bootstrap";
+import {history} from "../history";
 
 class Header extends Component {
     constructor(props) {
@@ -45,7 +45,7 @@ class Header extends Component {
                     <ul class="_3XOFvvi">
                         <li className="_2GaQ8vJ">
                             <a class="m7LKENr _25LPQhk _2DGciQP"
-                                href="#" onClick={this.handleBack}> Back</a>
+                                href="#" onClick={history.goBack}> Back</a>
                         </li>
                         <li class="_2GaQ8vJ">
                             <a class="m7LKENr _25LPQhk _2DGciQP" onClick={this.handlePopup}>Book a tour</a>

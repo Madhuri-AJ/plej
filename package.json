@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@types/react-bootstrap": "^0.32.19",
+    "@types/react-images": "^0.5.1",
     "@types/react-router-dom": "^4.3.4",
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
@@ -11,6 +12,7 @@
     "react-bootstrap": "^1.0.0-beta.11",
     "react-carousel-slider": "^2.0.13",
     "react-dom": "^16.8.6",
+    "react-images": "^1.0.0",
     "react-lightbox-component": "^1.2.1",
     "react-responsive-carousel": "^3.1.50",
     "react-router-dom": "^5.0.1",
