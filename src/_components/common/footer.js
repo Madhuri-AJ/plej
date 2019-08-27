@@ -142,12 +142,8 @@ class Footer extends Component {
                             </form>
                         </div>
                         <div class="_3QyZoZ_ _2rbE6TC _2v5bHvx">
-<<<<<<< HEAD
                             <h4 class="HLzP6ji">©2019 Plej</h4>
-                            
-=======
-                            <h4 class="HLzP6ji">©2019 Plej</h4>                           
->>>>>>> 455379f3d135deb8deab6505e71db24f282c1221
+
                         </div>
                     </div>
                 </footer>
