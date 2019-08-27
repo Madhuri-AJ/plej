@@ -65,7 +65,7 @@ class MainPage extends Component {
                         </video>                        */}
                         {/* <Carousel showThumbs={false}
                             showStatus={false}
-                            autoPlay interval={2000} 
+                            autoPlay interval={2000}
                             infiniteLoop
                             useKeyboardArrows
                             className="presentation-mode">
