@@ -17,9 +17,12 @@ class MainPage extends Component {
 
     }
 
+
+
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
     }
+
 
     componentWillUnmount() {
         window.removeEventListener('scroll', this.handleScroll);
@@ -27,7 +30,7 @@ class MainPage extends Component {
 
     handleScroll = (event) => {
         let scrollTop = (((document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight) * 100));
-        console.log("scrollTop",scrollTop)
+        console.log("scrollTop", scrollTop)
         console.log((150 + -(scrollTop + scrollTop * 2.5)))
         let changedTransform1 = (150 + -(scrollTop + scrollTop * 2.5));
         let changedTransform2 = (-120 + (scrollTop + scrollTop * 1.1));
@@ -51,9 +54,12 @@ class MainPage extends Component {
 
     render() {
         return (
-            <div class="_1vdzHPH">
-                <section class="_3UoOzEJ _2rbE6TC _2v5bHvx _1CqZaJN">
-                    <div class="_1JMynM5 _3-6A3ch _1CqZaJN">
+
+
+
+            <div class="_1vdzHPH" >
+                <section class="_3UoOzEJ _2rbE6TC _2v5bHvx " id="target">
+                    <div class="_1JMynM5 _3-6A3ch ">
                         <video class="_3h_jpHd _21UD1KG _3HiqiFI"
                             src="/assets/images/demo.mp4"
                             muted autoplay=""
@@ -63,22 +69,6 @@ class MainPage extends Component {
                             playsinline="" loop=""
                             src="/assets/images/video1.mp4">
                         </video>                        */}
-                        {/* <Carousel showThumbs={false}
-                            showStatus={false}
-                            autoPlay interval={2000} 
-                            infiniteLoop
-                            useKeyboardArrows
-                            className="presentation-mode">
-                            <div>
-                                <img src="https://wallpapershome.com/images/wallpapers/girl-2560x1440-fitness-exercise-gym-dumbbells-workout-sportswear-11081.jpg" />
-                            </div>
-                            <div>
-                                <img src="https://images.wallpaperscraft.com/image/gym_disks_weight_bodybuilding_118105_2560x1600.jpg" />
-                            </div>
-                            <div>
-                                <img src="https://wallpapercave.com/wp/wp2639561.jpg" />
-                            </div>
-                        </Carousel> */}
                     </div>
                     <div class="_3d137aW sDHKtsB">
                         <div class="_3NcCK2a _2rbE6TC _2v5bHvx pRZSkbx VBD7Ow3">
@@ -96,6 +86,7 @@ class MainPage extends Component {
                         </div>
                     </div>
                 </section>
+
                 <section>
                     <div class="_2JsEYIx _2rbE6TC _2v5bHvx">
                         <div class="ItM3bgw">
@@ -108,13 +99,13 @@ class MainPage extends Component {
                                         useKeyboardArrows
                                         className="presentation-mode">
                                         <div>
-                                            <img src="https://wallpapershome.com/images/wallpapers/girl-2560x1440-fitness-exercise-gym-dumbbells-workout-sportswear-11081.jpg" />
+                                            <img src="/assets/images/carousel_image1.jpg" />
                                         </div>
                                         <div>
-                                            <img src="https://images.wallpaperscraft.com/image/gym_disks_weight_bodybuilding_118105_2560x1600.jpg" />
+                                            <img src="/assets/images/carousel_image2.jpg" />
                                         </div>
                                         <div>
-                                            <img src="https://wallpapercave.com/wp/wp2639561.jpg" />
+                                            <img src="/assets/images/carousel_image3.jpg" />
                                         </div>
                                     </Carousel>
                                 </div>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import Footer from "../common/footer";
 
 class ClassPage extends Component {
     constructor(props) {
@@ -32,6 +33,7 @@ class ClassPage extends Component {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
         )
     }

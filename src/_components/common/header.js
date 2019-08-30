@@ -34,7 +34,7 @@ class Header extends Component {
     }
     render() {
         return (
-            <div className="header _14BrxaV">
+            <div  className={this.state.isLoading ?"hideheader ":"header _14BrxaV"}>
                 <header
                     className={this.state.condition ? "_3KR0JuQ VBD7Ow3 _1XkRVei" : "_3KR0JuQ VBD7Ow3"}>
                     <NavLink to="/" class="_1ff-7Sh" title="Go to the Plej homepage"></NavLink>
@@ -43,10 +43,10 @@ class Header extends Component {
                         <span class="_2CJPpcw pRZSkbx"></span>
                     </div>
                     <ul class="_3XOFvvi">
-                        <li className="_2GaQ8vJ">
+                        {/* <li className="_2GaQ8vJ">
                             <a class="m7LKENr _25LPQhk _2DGciQP"
                                 href="#" onClick={history.goBack}> Back</a>
-                        </li>
+                        </li> */}
                         <li class="_2GaQ8vJ">
                             <a class="m7LKENr _25LPQhk _2DGciQP" onClick={this.handlePopup}>Book a tour</a>
                         </li>

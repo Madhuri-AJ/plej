@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import Footer from "../common/footer";
 export default class OwnGymPage extends Component {
     constructor(props) {
         super(props);
@@ -424,7 +425,8 @@ export default class OwnGymPage extends Component {
                                                 <textarea type="text" placeholder="Message" />
                                             </div>
                                             <div className="middle-btn">
-                                                <button className="_1x8JHAI _3Pq3GhV _3xVoYzA">Submit</button>
+                                            <NavLink class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#"><span>Submit</span></NavLink>
+                                                {/* <button className="_1x8JHAI _3Pq3GhV _3xVoYzA">Submit</button> */}
                                             </div>
                                         </form>
                                     </div>
@@ -433,6 +435,7 @@ export default class OwnGymPage extends Component {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
         )
     }
