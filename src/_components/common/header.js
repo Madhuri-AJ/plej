@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import {history} from "../history";
+import { history } from "../history";
 
 class Header extends Component {
     constructor(props) {
@@ -30,11 +30,9 @@ class Header extends Component {
             open: !this.state.open
         });
     }
-    handleBack =()=>{
-    }
     render() {
         return (
-            <div  className={this.state.isLoading ?"hideheader ":"header _14BrxaV"}>
+            <div className={this.state.isLoading ? "hideheader " : "header _14BrxaV"}>
                 <header
                     className={this.state.condition ? "_3KR0JuQ VBD7Ow3 _1XkRVei" : "_3KR0JuQ VBD7Ow3"}>
                     <NavLink to="/" class="_1ff-7Sh" title="Go to the Plej homepage"></NavLink>
@@ -165,7 +163,21 @@ class Header extends Component {
                                     </div>
 
                                     <div class="_26Hb2eR  _2cjZ1PT _1G7RCdW _2v5bHvx">
-                                        <div class="Zd4QDDO"><h4 class="Zd4QDDO">3/4</h4></div><h2 class="_1_KNBvC">Select club</h2><div class="_2nxeEK_ _14NUrhZ"><label for="message[gym]"></label><select name="message[gym]"><option value="select">Select</option><option value="Bank">Bank</option><option value="Cannon Street">Cannon Street</option><option value="Covent Garden">Covent Garden</option><option value="Ealing">Ealing</option><option value="Elephant and Castle">Elephant and Castle</option><option value="Farringdon">Farringdon</option><option value="Holborn">Holborn</option><option value="Old Street">Old Street</option><option value="Victoria">Victoria</option><option value="Westfield London">Westfield London</option><option value="Westfield Stratford">Westfield Stratford</option></select><small class="_3uKmWJ7 _22qkbgJ">This field is required</small></div></div>
+                                        <div class="Zd4QDDO">
+                                            <h4 class="Zd4QDDO">3/4</h4>
+                                        </div>
+                                        <h2 class="_1_KNBvC">Select club</h2>
+                                        <div class="_2nxeEK_ _14NUrhZ">
+                                            <label for="message[gym]"></label>
+                                            <select name="message[gym]">
+                                                <option value="select">Select</option>
+                                                <option value="Veeranyapalya">Veeranyapalya</option>
+                                                <option value="Rajajinagar">Rajajinagar</option>
+                                                <option value="Kumarpark">Kumar Park</option>
+                                            </select>
+                                            <small class="_3uKmWJ7 _22qkbgJ">This field is required</small>
+                                        </div>
+                                    </div>
 
 
 
