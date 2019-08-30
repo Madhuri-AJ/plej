@@ -6,8 +6,7 @@ class Footer extends Component {
             <div>
                 <footer class="_24zAESA _2rbE6TC _2v5bHvx">
                     <div class="_2revefY _2rbE6TC _2v5bHvx _25LPQhk">
-                        <div class="p-HDv6u"><span class="DGKlJgu">Join Plej</span><span class="DGKlJgu">Join Plej</span><span
-                            class="DGKlJgu">Join Plej</span>
+                        <NavLink class="p-HDv6u" to="/contact-us" >
                             <span class="DGKlJgu">Join Plej</span>
                             <span class="DGKlJgu">Join Plej</span>
                             <span class="DGKlJgu">Join Plej</span>
@@ -23,7 +22,10 @@ class Footer extends Component {
                             <span class="DGKlJgu">Join Plej</span>
                             <span class="DGKlJgu">Join Plej</span>
                             <span class="DGKlJgu">Join Plej</span>
-                        </div>
+                            <span class="DGKlJgu">Join Plej</span>
+                            <span class="DGKlJgu">Join Plej</span>
+                            <span class="DGKlJgu">Join Plej</span>
+                        </NavLink>
                     </div>
                     <div class="_1B_-c0t VBD7Ow3">
                         <div class="_3sadWOc _2HhTmXD _2v5bHvx">
@@ -75,37 +77,37 @@ class Footer extends Component {
                             <h3>Gyms</h3>
                             <ul class="_1aeQHSW">
                                 <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/bank">
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
                                         Veerannapalya
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/bank">
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
                                         Rajajinagar
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/bank">
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
                                         Bagalur Cross
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/bank">
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
                                         Bellandur
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/bank">
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
                                         Panathur
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/bank">
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
                                         Kumara Park
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/bank">
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
                                         Gurugram
                                     </NavLink>
                                 </li>
@@ -134,16 +136,29 @@ class Footer extends Component {
                         <div class="_3sadWOc _2HhTmXD _2v5bHvx">
                             <h3>Newsletter</h3>
                             <form class="_3CID_bm">
-                                <div class="_2nxeEK_ _14NUrhZ"><label for="name"></label><input type="text" name="name" value=""
-                                    placeholder="Your name" /><small class="_22qkbgJ"></small></div>
-                                <div class="_2nxeEK_ _14NUrhZ"><label for="email"></label><input type="email" name="email" value=""
-                                    placeholder="Your email" /><small class="_22qkbgJ"></small></div><input type="submit"
-                                        placeholder="Submit" />
+                                <div class="_2nxeEK_ _14NUrhZ">
+                                    {/* <label for="name"></label> */}
+                                    <input type="text" name="name" placeholder="Your Name" vlaue="" />
+                                    {/* <input type="text" name="name" value=""
+                                        placeholder="Your name" />
+                                    <small class="_22qkbgJ"></small> */}
+                                </div>
+                                <div class="_2nxeEK_ _14NUrhZ">
+                                    <input type="text" name="name" placeholder="Your Email" vlaue="" />
+                                    {/* <label for="email"></label>
+                                    <input type="email" name="email" value=""
+                                        placeholder="Your email" />
+                                    <small class="_22qkbgJ"></small> */}
+                                </div>
+                                <div className="pt-16">
+                                    <NavLink class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#">
+                                        <span>Submit</span>
+                                    </NavLink>
+                                </div>
                             </form>
                         </div>
                         <div class="_3QyZoZ_ _2rbE6TC _2v5bHvx">
                             <h4 class="HLzP6ji">©2019 Plej</h4>
-
                         </div>
                     </div>
                 </footer>

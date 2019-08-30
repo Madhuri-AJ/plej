@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Lightbox from "react-lightbox-component";
+import Footer from "../common/footer";
 export default class GalleryPage extends Component {
     constructor(props) {
         super(props);
@@ -22,6 +23,10 @@ export default class GalleryPage extends Component {
                             {
                                 src: '/assets/images/gym3.jpg',
                                 description: ' '
+                            },
+                            {
+                                src: 'assets/images/gym3.jpg',
+                                description: ' '
                             }
                         ]}
                             thumbnailHeight='300px'
@@ -30,6 +35,7 @@ export default class GalleryPage extends Component {
                         />
                     </div>
                 </div>
+                <Footer/>
             </div>
         )
     }

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Footer from "../common/footer";
 export default class PrivacyPolicyPage extends Component {
     constructor(props) {
         super(props);
@@ -38,10 +39,17 @@ export default class PrivacyPolicyPage extends Component {
                                     Any other purpose I agree to in writing.
                                 </li>
                             </ul>
-
+                            <br/>
+                            <p>
+                                PLEJ FITNESS PVT. LTD. is committed to protecting your privacy. We will only use the information collected about you lawfully or by your consent. The personal information which PLEJ FITNESS PVT. LTD. holds will be held securely in accordance with our internal security policy and the law.
+                            </p>
+                            <p>
+                                PLEJ FITNESS PVT. LTD. does not disclose any personal information to advertisers and for other marketing and promotional purposes that could be used to personally identify you, such as your password, credit card number and bank account number.
+                            </p>
                         </div>
                     </div>
                 </div>
+                <Footer />
             </div>
         )
     }

@@ -46,7 +46,7 @@ class AmrapPage extends Component {
                                     <option value="1222876" disabled="">12:15 Friday 16th (45 minutes) - Bookable 7am day before</option>
                                     <option value="1225728" disabled="">19:45 Monday 19th (45 minutes) - Bookable 7am day before</option>
                                 </select> */}
-                                <NavLink to="/contact-us" class=" _2cT-kSp _3xVoYzA _3Pq3GhV"><span>Join Now</span>
+                                <NavLink to="/contact-us" class=" Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>Join Now</span>
                                 </NavLink>
                             </div>
                             <div class="_3srnCE8">
@@ -71,7 +71,7 @@ class AmrapPage extends Component {
                                         </div>
                                         <h3 class="_2MUcDo2 _2rbE6TC _2v5bHvx">Jasmin</h3>
                                         <div>
-                                            <p>Jasmin's classes are disciplined, yet nurturing. She places a great deal of emphasis on connecting deep within your own body, using the breath as a tool to distract the mind, paired with fascial tissue and energetic lines of awareness to understand postures on a very personal level. 
+                                            <p>Plej fitness is a pioneering initiative undertaken by three fitness experts with over 15 years of experience in fitness club management and scientific training  
                                             </p>
                                         </div>
                                     </div>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Footer from "../common/footer";
 export default class TermsConditionsPage extends Component {
     constructor(props) {
         super(props);
@@ -77,51 +78,66 @@ export default class TermsConditionsPage extends Component {
 
                             <h2>19. OBLIGATIONS</h2>
                             <p> PLEJ FITNESS management / its staff shall not be considered default of it’s obligations under this agreement if it is prevented/delayed/obstructed/by any of the unavoidable circumstances like fire, floods, earthquake, strikes, war, lockouts or any other means that are not under the control of us.</p>
-
-                            <p>All disputes are subject to Bengaluru jurisdiction</p>
+                            <h2>20. OTHER</h2>
+                            <ul>
+                                <li>
+                                    All disputes are subject to Bengaluru jurisdiction
+                                </li>
+                                <li>
+                                    No disputes or arguments will be entertained without presenting a valid system receipt
+                                </li>
+                                <li>
+                                    Payment done for a particular product/package/service cannot be adjusted against another product/package/service
+                                </li>
+                                <li>
+                                    PLEJ FITNESS reserves the right to deny admission to any person basis on bad conduct or other reasons violating the decorum of the club.
+                                </li>
+                            </ul>
+                            {/* <p>All disputes are subject to Bengaluru jurisdiction</p>
                             <p>No disputes or arguments will be entertained without presenting a valid system receipt</p>
                             <p>Payment done for a particular product/package/service cannot be adjusted against another product/package/service</p>
-                            <p>PLEJ FITNESS reserves the right to deny admission to any person basis on bad conduct or other reasons violating the decorum of the club.</p>
+                            <p>PLEJ FITNESS reserves the right to deny admission to any person basis on bad conduct or other reasons violating the decorum of the club.</p> */}
+                            <p>I hereby agree to all the terms and conditions of PLEJ FITNESS. In the event of disrespect, my membership may be terminated and no claim for refund of any transaction will be made by me.</p>
 
                             <h2>Refund Policy:</h2>
                             <p>We have a no refund policy.</p>
                             <p>However if the member is unable to continue for whatsoever reason, the member can transfer his membership to a non member by paying the transfer fees.</p>
 
                             <h2>Personal Training Agreement</h2>
-                           <ul>
-                               <li>
-                               Appointments will be scheduled directly through my assigned Personal Trainer and can be scheduled on days and times that are mutually agreed upon.
+                            <ul>
+                                <li>
+                                    Appointments will be scheduled directly through my assigned Personal Trainer and can be scheduled on days and times that are mutually agreed upon.
                                </li>
-                               <li>
-                               I have exchanged contact information with my Personal Trainer and have indicated my preference for being contacted. I understand that the facility staff is not authorised to give out my Personal Trainer’s personal contact information.
+                                <li>
+                                    I have exchanged contact information with my Personal Trainer and have indicated my preference for being contacted. I understand that the facility staff is not authorised to give out my Personal Trainer’s personal contact information.
                                </li>
-                               <li>I may not bring an outside Personal Trainer into the facility to train me.</li>
-                               <li>Private personal training sessions are one hour.</li>
-                               <li>
-                               I understand that I am expected to arrive for my appointments on time, dressed and ready to train. If I arrive late for my appointment, I understand that my training session will end at the previously scheduled time.
+                                <li>I may not bring an outside Personal Trainer into the facility to train me.</li>
+                                <li>Private personal training sessions are one hour.</li>
+                                <li>
+                                    I understand that I am expected to arrive for my appointments on time, dressed and ready to train. If I arrive late for my appointment, I understand that my training session will end at the previously scheduled time.
                                </li>
-                               <li>
-                               Cancellation policy: I understand that appointments must be canceled by contacting my Personal Trainer directly, before 24 hours of my scheduled time, in order to avoid being charged for the full session.
+                                <li>
+                                    Cancellation policy: I understand that appointments must be canceled by contacting my Personal Trainer directly, before 24 hours of my scheduled time, in order to avoid being charged for the full session.
                                </li>
-                               <li>
-                               No show policy: I understand that if I do not show up for my scheduled training session, I will be charged for full session.
+                                <li>
+                                    No show policy: I understand that if I do not show up for my scheduled training session, I will be charged for full session.
                                </li>
-                               <li>
-                               In the event that my Personal Trainer fails to contact me within 24 hours of our scheduled session, or does not show up, he/she will schedule an additional session at no cost to me.
+                                <li>
+                                    In the event that my Personal Trainer fails to contact me within 24 hours of our scheduled session, or does not show up, he/she will schedule an additional session at no cost to me.
                                </li>
-                               <li>
-                               I understand that I may communicate any customer service issue and / or acknowledge excellent performance to the branch manager.
+                                <li>
+                                    I understand that I may communicate any customer service issue and / or acknowledge excellent performance to the branch manager.
                                </li>
-                               <li>I understand that the Personal Training Fee is non-refundable at any circumstances.</li>
-                               <li>
-                               If a Personal Trainer is resigned/terminated from PLEJ FITNESS, I agree to be assigned with a new personal trainer of equal level and skill. I agree that, my personal training cannot be terminated due to this reason and I understand, personal training fee is non-refundable.
-                               </li>                               
-                           </ul>
+                                <li>I understand that the Personal Training Fee is non-refundable at any circumstances.</li>
+                                <li>
+                                    If a Personal Trainer is resigned/terminated from PLEJ FITNESS, I agree to be assigned with a new personal trainer of equal level and skill. I agree that, my personal training cannot be terminated due to this reason and I understand, personal training fee is non-refundable.
+                               </li>
+                            </ul>
 
                         </div>
                     </div>
                 </div>
-
+                <Footer />
             </div>
         )
     }

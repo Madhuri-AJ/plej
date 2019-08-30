@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import {NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import Footer from "../common/footer";
 export default class ContactPage extends Component {
     constructor(props) {
         super(props);
@@ -28,6 +29,7 @@ export default class ContactPage extends Component {
                         </div>
                     </form>
                 </div>
+                <Footer />
             </div>
         )
     }

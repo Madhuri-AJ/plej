@@ -1,5 +1,6 @@
 import React , {Component} from "react";
 import {NavLink} from "react-router-dom";
+import Footer from "../common/footer";
 export default class FormPage extends Component{
     constructor(props) {
         super(props);
@@ -15,30 +16,21 @@ export default class FormPage extends Component{
                             <div class="attachment">
                                 <input type="file" name="file" className="hide inputfile resume" />
                                     <label for="upload">
-                                        <span>APPLY WITH RESUME</span>
+                                        <span className="text">APPLY WITH RESUME <span className="text-red">*</span></span>
                                         {/* <i class="required"> *</i> */}
                                     </label>
                             </div>
                         </div>
                         <br/><br/><br/>
                         <div className="bottom_space">
-                            <input type="text" class="first-half" placeholder="Full Name" />
-                            <input type="email" class="second-half" placeholder="Email" />
+                            <input type="text" class="first-half" placeholder="First Name" />
+                            <input type="email" class="second-half" placeholder="Last Name" />
                         </div>
                         <div className="bottom_space">
-                            <input type="text" class="first-half" placeholder="Phone Number" />
-                            <input type="email" class="second-half" placeholder="Designation" />
+                            <input type="text" class="" placeholder="Email" />
                         </div>
                         <div className="bottom_space">
-                            <input type="text" class="first-half" placeholder="Date of Birth" />
-                            <input type="email" class="second-half" placeholder="Gender" />
-                        </div>
-                        <div className="bottom_space">
-                            <input type="text" class="first-half" placeholder="Qualification" />
-                            <input type="email" class="second-half" placeholder="Total Experience" />
-                        </div>
-                        <div className="bottom_space">
-                            <textarea type="text" placeholder="Message" />
+                            <input type="text" class="" placeholder="Mobile" />
                         </div>
                         <div className="middle-btn bottom_space">
                             {/* <button className="_1x8JHAI _3Pq3GhV _3xVoYzA bottom_space button">Submit Application</button> */}
@@ -46,6 +38,7 @@ export default class FormPage extends Component{
                         </div>
                     </form>
                 </div>
+                <Footer/>
             </div>
         )
     }

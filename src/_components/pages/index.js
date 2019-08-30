@@ -2,7 +2,7 @@ import MainPage from "./main";
 import LocationPage from "./location";
 import ClassPage from "./classes";
 import AmrapPage from "./class/amrap";
-import BankPage from "./gyms/bank";
+import PlacePage from "./gyms/place";
 import ContactPage from "./contact-us";
 import AboutPage from "./about";
 import CareersPage from "./careers";
@@ -18,7 +18,7 @@ export {
     LocationPage,
     ClassPage,
     AmrapPage,
-    BankPage,
+    PlacePage,
     ContactPage,
     AboutPage,
     CareersPage,

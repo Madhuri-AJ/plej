@@ -63,9 +63,9 @@ export default class CareersPage extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="_2JsEYIx _2rbE6TC _2v5bHvx p38">
+                                {/* <div class="_2JsEYIx _2rbE6TC _2v5bHvx p38">
                                     <div class="ItM3bgw">
-                                        {/* <div class="_1cT7yb7">
+                                        <div class="_1cT7yb7">
                                             <div class="_1JMynM5 _2UxZdJd sDHKtsB">
                                                  <div class="_1JMynM5 _3-6A3ch _1CqZaJN">
                                                     <video class="_3h_jpHd _21UD1KG _3HiqiFI"
@@ -81,10 +81,10 @@ export default class CareersPage extends Component {
                                                     <h4 class="_1qlk-1P _2DGciQP">Watch</h4>
                                                 </div>
                                             </div>
-                                        </div> */}
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="_1rBG0S_ _2rbE6TC _2v5bHvx">
+                                </div> */}
+                                <div class="_1rBG0S_ _2rbE6TC _2v5bHvx pt-100">
                                     <h2 class="FsabyOT _2rbE6TC _2v5bHvx">Plej benefits</h2>
                                     <ul class="_2WTwQD9 _2rbE6TC _2v5bHvx">
                                         <li class="_37M7UHC GXyzp1w _2v5bHvx">Learning &amp; development opportunities</li>
@@ -111,7 +111,7 @@ export default class CareersPage extends Component {
                                             </div>
                                         </div>
                                         <NavLink to="/careers-form"
-                                            class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Find out more</span>
+                                            class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Apply Now</span>
                                         </NavLink>
                                     </div>
                                     <div class="_3OroREi GXyzp1w _2v5bHvx">
@@ -125,7 +125,7 @@ export default class CareersPage extends Component {
                                             </div>
                                         </div>
                                         <NavLink to="/careers-form"
-                                            class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Find out more</span>
+                                            class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Apply Now</span>
                                         </NavLink>
                                     </div>
                                     <div class="_3OroREi GXyzp1w _2v5bHvx">
@@ -138,7 +138,7 @@ export default class CareersPage extends Component {
                                             </div>
                                         </div>
                                         <NavLink to="/careers-form"
-                                            class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Find out more</span>
+                                            class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Apply Now</span>
                                         </NavLink>
                                     </div>
                                     <div class="_3OroREi GXyzp1w _2v5bHvx">
@@ -151,7 +151,7 @@ export default class CareersPage extends Component {
                                             </div>
                                         </div>
                                         <NavLink to="/careers-form"
-                                            class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>LEAVE YOUR DETAILS HERE</span></NavLink>
+                                            class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Apply Now</span></NavLink>
                                     </div>
                                     <div class="_3OroREi GXyzp1w _2v5bHvx">
                                         <div class="_215RRp8 VBD7Ow3">
@@ -163,7 +163,7 @@ export default class CareersPage extends Component {
                                             </div>
                                         </div>
                                         <NavLink to="/careers-form"
-                                            class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>LEAVE YOUR DETAILS HERE</span></NavLink>
+                                            class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Apply Now</span></NavLink>
                                     </div>
                                     <div class="_3OroREi GXyzp1w _2v5bHvx">
                                         <div class="_215RRp8 VBD7Ow3">
@@ -174,8 +174,9 @@ export default class CareersPage extends Component {
                                                     </p>
                                                 </div>
                                             </div>
-                                        </div><a href="https://harri.com/Plej-Head-Office/job/1035659-general-manager"
-                                            class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Find out more</span></a>
+                                        </div>
+                                            <NavLink to="/careers-form"
+                                            class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Apply Now</span></NavLink>
                                     </div>
                                 </div>
                             </div>
