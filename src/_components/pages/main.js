@@ -68,7 +68,7 @@ class MainPage extends Component {
                         {/* <video autoplay="" class="_3h_jpHd _21UD1KG _3HiqiFI" muted=""
                             playsinline="" loop=""
                             src="/assets/images/video1.mp4">
-                        </video>                        */}
+                        </video> */}
                     </div>
                     <div class="_3d137aW sDHKtsB">
                         <div class="_3NcCK2a _2rbE6TC _2v5bHvx pRZSkbx VBD7Ow3">
