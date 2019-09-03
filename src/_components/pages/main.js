@@ -100,13 +100,13 @@ class MainPage extends Component {
                                         useKeyboardArrows
                                         className="presentation-mode">
                                         <div>
-                                            <img src="/assets/images/carousel_image1.jpg" />
+                                            <img src="/assets/images/plej_banners1.jpg" />
                                         </div>
                                         <div>
-                                            <img src="/assets/images/carousel_image2.jpg" />
+                                            <img src="/assets/images/plej_banners2.jpg" />
                                         </div>
                                         <div>
-                                            <img src="/assets/images/carousel_image3.jpg" />
+                                            <img src="/assets/images/plej_banners3.jpg" />
                                         </div>
                                     </Carousel>
                                 </div>
