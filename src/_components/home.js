@@ -17,7 +17,7 @@ class HomePage extends Component {
     componentDidMount = async () => {
         await setTimeout(() => {
             this.setState({ isLoading: false });
-        }, 1000)
+        }, 2000)
     }
 
 
