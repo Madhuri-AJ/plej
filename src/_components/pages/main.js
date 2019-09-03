@@ -61,12 +61,13 @@ class MainPage extends Component {
                 <section class="_3UoOzEJ _2rbE6TC _2v5bHvx " id="target">
                     <div class="_1JMynM5 _3-6A3ch ">
                         <video class="_3h_jpHd _21UD1KG _3HiqiFI"
-                            src="/assets/images/demo.mp4"
+                            src="/assets/images/demo1.mp4"
                             muted autoplay=""
                             playsinline loop>
                         </video>
-                        {/* <video autoplay="" class="_3h_jpHd _21UD1KG _3HiqiFI" muted=""
-                            playsinline="" loop=""
+                        {/* <video autoplay="" class="_3h_jpHd _21UD1KG _3HiqiFI"
+                            muted autoplay=""
+                            playsinline loop
                             src="/assets/images/video1.mp4">
                         </video> */}
                     </div>
