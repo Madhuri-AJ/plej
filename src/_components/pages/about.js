@@ -93,12 +93,7 @@ export default class AboutPage extends Component {
                                         <div className="mb-60">To lead by being the preferred fitness club chain and build the largest reciprocal fitness network in India.</div>
 
                                         <h3>VALUE</h3>
-                                        <div className="mb-60">Passion in the heart of our company. We are consulting moving forward, innovating and improving.</div>
-
-                                        {/* <h3>CORPORATE TEAM</h3>
-                                    <div>
-                                        <p>Plej fitness is a pioneering initiative undertaken by three fitness experts with over 15 years of experience in fitness club management and scientific training . Initiatives are aimed at not only delivering world-class fitness Trainers to members, but also consolidating the currently unorganized Rs. 7,000 crore health and wellness market. Plej seeks to monetize this immense potential by leveraging and aggregating the existing, vast network of individual players and franchisees and deliver to its fitness club members state of the art equipment, best-in-class training by certified trainers and value added services and reciprocity.</p>
-                                    </div> */}
+                                        <div className="mb-60">Passion is the heart of our company. We are constantly moving forward, innovating and improving.</div>
                                     </div>
                                 </div>
                                 <div class="ErJhEG8 _1G7RCdW _2v5bHvx">
@@ -138,11 +133,11 @@ export default class AboutPage extends Component {
                             <div className="pt-200">
                                 <div class="IeMLLTl _1G7RCdW _2v5bHvx VBD7Ow3">
                                     <div class="_1NA_h7i">
-                                        <h3 className="mb-0">ROHAN SATISH</h3>
-                                        <h6>FOUNDER & DIRECTOR - BUSINESS DEVELOPMENT</h6>
+                                        <h3 className="mb-0">RAJ GILL</h3>
+                                        <h6>FOUNDER & DIRECTOR - SALES & OPERATIONS </h6>
                                         <div>
                                             <p>
-                                                Franchisee Expert with an experience of 17 years. He has worked in a senior managerial capacity with several startup brands in the area of expansion and new business acquisition. Experience of more than 17 Years in which over 12 years in the fitness industry. Expertise and technical know-how in fitness business and setting up fitness clubs taking overall responsibility from thought to finish Expertise in setting up gyms for corporate such as Infosys, Wipro, Oracle, Motorola etc Successfully rolled out 50+ fitness centers in Snap fitness in India. </p>
+                                                Raj Gill has an experience of 15 years in FITNESS INDUSTRY, Handling Sales and operations of the club allover india and ensuring the clubs do well to their optimum. He ensures the process and systems are in place so that every customer walking into the club feels special and delighted. He is also an internationally certified Fitness Professional and had also been the lecturer for a very well known Fitness Academy, since he understands the product so well having an aggressive attitude of sales, sets him apart from the other sales people in the fitness industry.  </p>
                                         </div>
                                     </div>
                                 </div>
@@ -227,7 +222,7 @@ export default class AboutPage extends Component {
 
                             <div class="k3d6s8r _2rbE6TC _2v5bHvx">
                                 <h2>Never Give Up</h2>
-                                <h2><NavLink class="_2nUA0vX" to="/contact-us">Join us</NavLink></h2>
+                                <h2><NavLink class="_2nUA0vX" to="/contact-us">Join Plej Fitness</NavLink></h2>
                             </div>
                         </div>
                     </div >

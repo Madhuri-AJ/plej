@@ -103,7 +103,7 @@ export default class CareersPage extends Component {
                                     <div class="_3OroREi GXyzp1w _2v5bHvx">
                                         <div class="_215RRp8 VBD7Ow3">
                                             <div class="iBr7foy">
-                                                <h3>RECEPTION</h3>
+                                                <h3>FITNESS MANAGERS </h3>
                                                 <div>
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                                                     </p>
@@ -117,7 +117,7 @@ export default class CareersPage extends Component {
                                     <div class="_3OroREi GXyzp1w _2v5bHvx">
                                         <div class="_215RRp8 VBD7Ow3">
                                             <div class="iBr7foy">
-                                                <h3>SALES GURU</h3>
+                                                <h3>FITNESS MARSHALLS </h3>
                                                 <div>
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                                                     </p>
@@ -131,7 +131,7 @@ export default class CareersPage extends Component {
                                     <div class="_3OroREi GXyzp1w _2v5bHvx">
                                         <div class="_215RRp8 VBD7Ow3">
                                             <div class="iBr7foy">
-                                                <h3>CENTRAL POSITIONS</h3>
+                                                <h3>PERSONAL TRAINERS</h3>
                                                 <div>
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                                                 </div>
@@ -144,19 +144,7 @@ export default class CareersPage extends Component {
                                     <div class="_3OroREi GXyzp1w _2v5bHvx">
                                         <div class="_215RRp8 VBD7Ow3">
                                             <div class="iBr7foy">
-                                                <h3>STUDIO INSTRUCTORS</h3>
-                                                <div>
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <NavLink to="/careers-form"
-                                            class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Apply Now</span></NavLink>
-                                    </div>
-                                    <div class="_3OroREi GXyzp1w _2v5bHvx">
-                                        <div class="_215RRp8 VBD7Ow3">
-                                            <div class="iBr7foy">
-                                                <h3>VERY PERSONAL TRAINERS</h3>
+                                                <h3>TELE CALLERS</h3>
                                                 <div>
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                                                 </div>
@@ -168,14 +156,26 @@ export default class CareersPage extends Component {
                                     <div class="_3OroREi GXyzp1w _2v5bHvx">
                                         <div class="_215RRp8 VBD7Ow3">
                                             <div class="iBr7foy">
-                                                <h3>GENERAL MANAGER</h3>
+                                                <h3>TEAM LEADER</h3>
+                                                <div>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <NavLink to="/careers-form"
+                                            class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Apply Now</span></NavLink>
+                                    </div>
+                                    <div class="_3OroREi GXyzp1w _2v5bHvx">
+                                        <div class="_215RRp8 VBD7Ow3">
+                                            <div class="iBr7foy">
+                                                <h3>OPERATIONS MANAGER</h3>
                                                 <div>
                                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
-                                            <NavLink to="/careers-form"
+                                        <NavLink to="/careers-form"
                                             class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Apply Now</span></NavLink>
                                     </div>
                                 </div>

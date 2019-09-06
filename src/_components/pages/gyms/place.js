@@ -6,14 +6,15 @@ class PlacePage extends Component {
         window.scrollTo({ top: 0, behavior: "smooth" });
     }
     render() {
+        let array = ["/assets/images/gym1.jpg", "/assets/images/gym2.jpg", "/assets/images/gym3.jpg", "/assets/images/gym4.jpg", "/assets/images/gym5.jpg"];
         return (
             <div>
                 <div class="_1vdzHPH">
                     <div class="o15HL62 _2v5bHvx">
                         <div class="_3juAkpr _1KSLoAe">
-                            <div class="_1JOjVV5 _2v5bHvx">
+                            {/* <div class="_1JOjVV5 _2v5bHvx">
                                 <div class="e_U31UT sDHKtsB"></div>
-                            </div>
+                            </div> */}
                             <div class="_2Ey81ib">
                                 <ul class="_3_31gDn _2rbE6TC _2v5bHvx">
                                     <li class="_3O95Rh5 Cq_7NWt _2rbE6TC _2v5bHvx"><a class="_2HzoBao _2rbE6TC _2v5bHvx" href="bank.html">
@@ -59,12 +60,27 @@ class PlacePage extends Component {
                                                 </li>
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
                                                     <div class="_2l5my07 _2HhTmXD _2v5bHvx">Facilities</div>
-                                                    <div class="_1Fu6UbF _1dohwpN _2v5bHvx"><span>Strength &amp;
-                                                    Conditioning<br /></span><span>Boxing Ring<br /></span><span>Functional
-                                                    Fitness<br /></span><span>Holistic Studio<br /></span><span>Dance &amp; Conditioning
-                                                    Studio<br /></span><span>Matted Combat Area<br /></span><span>Group Cycle
-                                                    Studio<br /></span><span>Resident DJs<br /></span><span>Very Personal
-                                                    Training<br /></span><span>Cardio<br /></span><span>Olympic Lifting<br /></span></div>
+                                                    <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                        <span>Strength &amp;
+                                                            Conditioning<br />
+                                                        </span>
+                                                        <span>Boxing Ring<br />
+                                                        </span>
+                                                        <span>Functional
+                                                            Fitness<br />
+                                                        </span>
+                                                        <span>Holistic Studio<br />
+                                                        </span>
+                                                        <span>Dance &amp; Conditioning
+                                                            Studio<br /></span>
+                                                        <span>Matted Combat Area<br />
+                                                        </span>
+                                                        <span>Group Cycle Studio<br /></span>
+                                                        <span>Resident DJs<br /></span>
+                                                        <span>Very Personal Training<br /></span>
+                                                        <span>Cardio<br /></span>
+                                                        <span>Olympic Lifting<br /></span>
+                                                    </div>
                                                 </li>
                                             </ul>
                                             <div class="_2S9gFR2 _2rbE6TC _2v5bHvx">
@@ -97,12 +113,20 @@ class PlacePage extends Component {
                                             </div>
                                         </Carousel> */}
                                         <ul class="_2J71_L4 sDHKtsB">
+
                                             <li class="NPRZnJb _1kNfguI sDHKtsB">
                                                 <div class="_2gpiPPm lC7b5Zk sDHKtsB">
-                                                    <span class="_3h_jpHd" style={{ "backgroundImage": "url(\"/assets/images/11.jpg\")" }}></span>
+                                                    
+                                                    {array.map(
+                                                        (image, index) => {
+                                                                return <span key={index}class="_3h_jpHd" style={{ "backgroundImage": `url(${image})` }}></span>
+                                                            // return <img key={image} src={image} className=""/>
+                                                        }
+                                                    )}
                                                 </div>
+
                                             </li>
-                                            <li class="_1kNfguI sDHKtsB">
+                                            {/* <li class="_1kNfguI sDHKtsB">
                                                 <div class="_2gpiPPm lC7b5Zk sDHKtsB">
                                                     <span class="_3h_jpHd" style={{ "backgroundImage": "url(\"/assets/images/11.jpg\")" }}></span>
                                                 </div>
@@ -117,7 +141,7 @@ class PlacePage extends Component {
                                             </li>
                                             <li class="_1kNfguI sDHKtsB">
                                                 <div class="_2gpiPPm lC7b5Zk sDHKtsB"></div>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                         <ul class="_3ip4KkA">
                                             <li class="_3PzcYel _1l8ChEh"><span class="_21gqM6d"></span></li>

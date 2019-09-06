@@ -242,6 +242,10 @@ optgroup {
     -webkit-tap-highlight-color: transparent
 }
 
+.pt-100 {
+    padding-top: 100px;
+}
+
 ._2v5bHvx {
     display: block;
     float: left
@@ -364,6 +368,9 @@ section {
 @media(max-width:670px) {
     .VBD7Ow3 {
         padding: 0 20px
+    }
+    .pt-100{
+        padding-top: 50px;
     }
 }
 
@@ -602,7 +609,10 @@ h2 {
 
 @media(max-width:768px) {
 
-
+    ._2_HaYMw{
+        font-size:34px;
+        line-height: 38px;
+    }
     h2 {
         font-size: 24px;
         line-height: 28px
@@ -1087,17 +1097,17 @@ select:hover {
     background-color: #2d2d2d
 }
 
-label {
-    margin-bottom: 8px;
-    width: 100%;
-    display: block;
-    float: left
-}
+// label {
+//     margin-bottom: 8px;
+//     width: 100%;
+//     display: block;
+//     float: left
+// }
 
-label span {
-    color: #bdbdbd;
-    font-size: 12px
-}
+// label span {
+//     color: #bdbdbd;
+//     font-size: 12px
+// }
 
 ._22qkbgJ {
     opacity: 0;
@@ -1155,7 +1165,7 @@ label span {
 
 ._1US2FDM {
     margin-top: 80px;
-    min-height: 130px;
+    min-height: 100px;
     position: relative
 }
 
@@ -1631,15 +1641,15 @@ label span {
 @media(max-height:700px) {
     ._2Vj-OOq {
         font-size: 55px;
-        line-height: 55px
+        line-height: 58px
     }
 }
 
 
 @media (max-width:768px) {
     ._2Vj-OOq {
-        font-size: 30px;
-        line-height: 30px
+        font-size: 40px;
+        line-height: 44px
     }
 }
 
@@ -1768,7 +1778,8 @@ label span {
 @media(max-width:768px) {
     ._3sadWOc {
         width: 100%;
-        margin-bottom: 50px
+        margin-bottom: 50px;
+        text-align:center;
     }
 }
 
@@ -1789,12 +1800,14 @@ label span {
 
 @media(max-width:768px) {
     ._3QyZoZ_ {
-        margin-top: 30px
+        margin-top: 30px;
+        text-align:center;
     }
 }
 
 .HLzP6ji {
     float: left;
+    width: 100%;
     color: #2d2d2d
 }
 
@@ -2478,6 +2491,10 @@ label span {
     transform: translateX(0) rotate(-90deg)
 }
 
+@media(max-width:994px){
+  
+}
+
 @media(max-width:768px) {
     ._3juAkpr ._2Ey81ib {
         -webkit-transform: translateX(0);
@@ -2518,7 +2535,7 @@ label span {
     display: block;
     float: right;
     width: 415px;
-    min-height: 100vh;
+    min-height: 80vh;
     padding-top: 160px;
     position: relative;
     background-color: #000;
@@ -2530,7 +2547,8 @@ label span {
 @media(max-width:768px) {
     ._2Ey81ib {
         width: 100%;
-        padding-top: 120px
+        padding-top: 120px;
+        min-height:auto;
     }
 }
 
@@ -2628,7 +2646,7 @@ label span {
 }
 
 .mb-0 {
-    margin-bottom: 0;
+    margin-bottom: 0 ;
 }
 
 .mt-10 {
@@ -2938,10 +2956,6 @@ label span {
 .IeMLLTl {
     padding-top: 100px;
     float: right
-}
-
-.pt-100 {
-    padding-top: 100px;
 }
 
 .float-left {
@@ -3279,7 +3293,6 @@ label span {
 
 ._2DFH3kw img {
     width: 100%;
-    margin-bottom: 20px
 }
 
 @media(max-width:1024px) {
@@ -3936,4 +3949,161 @@ html.lightbox-open {
 
 .hiddenclass {
     display: none;
+}
+
+.checkbox-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    margin-left: 4px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #bdbdbd;
+}
+
+.container:hover input~.checkmark {
+    background-color: #bdbdbd;
+}
+
+.container input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.checkbox-container {
+    .label{
+        width:0;
+    }
+    &.small {
+        .checkmark {
+            width: 15px;
+            height: 14px;
+
+            &::after {
+                width: 6px;
+                height: 10px;
+                left: 3px;
+                top: 0px;
+            }
+        }
+    }
+
+    &.checkbox-index {
+        position: relative;
+        z-index: 2;
+    }
+
+    &.h-20 {
+        height: 20px;
+    }
+
+    display: inline-block;;
+    position: relative;
+    padding-left:28px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        width: 0px;
+        height: 0px;
+    }
+
+    .checkmark {
+        position: absolute;
+        top:0;left:0;
+        bottom:auto;right:auto;
+        width: 20px;
+        height: 20px;
+        background-color: #bbbbbb;
+        border-radius:2px;
+
+        &::after {
+            display: none;
+            content:"";
+            position: absolute;
+            top:1px;
+            right:auto;
+            bottom:auto;
+            left:5px;
+            width: 7px;
+            height: 12px;
+            border:solid #fff;
+            border-width: 0 3px 3px 0;
+            transform:rotate(45deg);
+        }
+    }
+
+    input:checked~.checkmark {
+        background-color: #255f78;
+        border: 2px solid #255f78;;
+    }
+
+    input:checked~.checkmark:after {
+        display: block;
+    }
+}
+
+.d-inline-block{
+    display:inline-block;
+}
+
+.white_color{
+    color: #bdbdbd;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.clearfix{
+    clear:both;
 }

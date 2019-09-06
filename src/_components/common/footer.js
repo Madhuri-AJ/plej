@@ -78,22 +78,22 @@ class Footer extends Component {
                             <ul class="_1aeQHSW">
                                 <li>
                                     <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
-                                        Veerannapalya
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
-                                        Rajajinagar
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
-                                        Bagalur Cross
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
                                         Bellandur
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
+                                        FORUM Mall - Whitefield
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
+                                        Girinagar
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
+                                        Kumarapark
                                     </NavLink>
                                 </li>
                                 <li>
@@ -103,12 +103,17 @@ class Footer extends Component {
                                 </li>
                                 <li>
                                     <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
-                                        Kumara Park
+                                        Rajajinagar
                                     </NavLink>
                                 </li>
                                 <li>
                                     <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
-                                        Gurugram
+                                        Sarjapur Road
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
+                                        VR Bengaluru - Whitefield
                                     </NavLink>
                                 </li>
                             </ul>

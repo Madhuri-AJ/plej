@@ -75,7 +75,7 @@ class MainPage extends Component {
                         <div class="_3NcCK2a _2rbE6TC _2v5bHvx pRZSkbx VBD7Ow3">
                             <h1 class="_1jnoPLs _3x6v3-y">Never Give Up</h1>
                             <div class="FBl2DCz _2rbE6TC _2v5bHvx _3x6v3-y">
-                                <h4><NavLink to="/contact-us" class="_3KWTFTz _2DGciQP">Join Plej Today</NavLink></h4>
+                                <h4><NavLink to="/contact-us" class="_3KWTFTz _2DGciQP">Join Plej Fitness Today</NavLink></h4>
                             </div>
                         </div>
                     </div>
@@ -168,9 +168,13 @@ class MainPage extends Component {
                         <div class="A6gnRSw"></div>
                         <div class="lmco2Sv"></div>
                     </div>
-                    <div class="_27RGXUG I7PwxVS"><a href="/classes">
-                        <h2 class="_3fhPOEA _2_HaYMw">Bangalore’s unique classes</h2>
-                    </a><NavLink class="Yd7bNNG _3Pq3GhV button" to="/location"><span>Explore Locations</span></NavLink>
+                    <div class="_27RGXUG I7PwxVS">
+                        <a href="/classes">
+                            <h2 class="_3fhPOEA _2_HaYMw">Plej Fitness Clubs</h2>
+                        </a>
+                        <NavLink class="Yd7bNNG _3Pq3GhV button" to="/location">
+                            <span>Explore Locations</span>
+                        </NavLink>
                     </div>
                 </section>
 

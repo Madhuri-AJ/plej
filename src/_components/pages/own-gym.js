@@ -16,13 +16,38 @@ export default class OwnGymPage extends Component {
                             <h1 class="DqXpLQh">Own A Gym</h1>
                         </div>
                     </div>
+                    <div class="_17ytWhG _2rbE6TC _2v5bHvx _3x6v3-y">
+                        <div class="zb0xP4p _2rbE6TC _2v5bHvx VBD7Ow3">
+                            <div class="mb-0 pt-100 _2rbE6TC _2v5bHvx">
+                                <h2 class="FsabyOT _2rbE6TC _2v5bHvx">Our Models</h2>
+                                <ul class="_2WTwQD9 _2rbE6TC _2v5bHvx">
+                                    <li class="_37M7UHC GXyzp1w _2v5bHvx">
+                                        Premium Fitness Club
+                                    </li>
+                                    <li class="_37M7UHC GXyzp1w _2v5bHvx">
+                                        Active Fitness Club
+                                    </li>
+                                    <li class="_37M7UHC GXyzp1w _2v5bHvx">
+                                        Fitness Studio
+                                    </li>
+                                    <li class="_37M7UHC GXyzp1w _2v5bHvx">
+                                        Women’s Fitness Club
+                                    </li>
+                                    <li class="_37M7UHC GXyzp1w _2v5bHvx">
+                                        Kids Fitness Club
+    
+                                    </li>
+                                </ul>
+                                <div className="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="_1nsQEkX _2rbE6TC _2v5bHvx">
-
                         <div class="_3VBlCoA _2rbE6TC _2v5bHvx">
                             <a name="why"></a>
                             <div class="_1AqDBWN VBD7Ow3">
                                 <div class="Chl_-0Q GXyzp1w _2v5bHvx">
-                                    <h3>Faster ROI</h3><br /><br />
+                                    <h3>Faster ROI</h3><br />
                                     <p>
                                         Among others, Plej Fitness is founded with the prime objective of consolidating the currently splintered fitness market. In doing so, Plej invites existing fitness owners and others who wish to set up new fitness clubs to become a Plej Franchisee. By being a Plej franchise, you automatically upgrade to well established, scientifically-run fitness club. With our vast experience in fitness club management backing you, you will no doubt enjoy greater profitability than running your fitness independently.
                                     </p>
@@ -37,7 +62,7 @@ export default class OwnGymPage extends Component {
                             <a name="what"></a>
                             <div class="_3YNv-TL VBD7Ow3">
                                 <div class="_3Lc7Cvz GXyzp1w _2v5bHvx">
-                                    <h3>Plej Expertise</h3><br /><br />
+                                    <h3>Plej Expertise</h3><br />
                                     <p>
                                         Plej enables and empowers franchisees by being a one-stop-shop for all the needs of new fitness clubs and non-performing existing ones. Our solutions are end-to-end. Beginning with identifying a suitable location, negotiating lease agreements, procuring the right equipment & installation, getting the interiors done; hiring and training personal trainers, Plej offers a plethora of services for franchisees.
                                     </p>
@@ -52,7 +77,7 @@ export default class OwnGymPage extends Component {
                             <a name="why"></a>
                             <div class="_1AqDBWN VBD7Ow3">
                                 <div class="Chl_-0Q GXyzp1w _2v5bHvx">
-                                    <h3>Improved Profitability</h3><br /><br />
+                                    <h3>Improved Profitability</h3><br />
                                     <p>
                                         A Plej fitness franchisee during the Pre-launch phase immensely benefit from the wide publicity and promotional activities conducted by Plej to guarantee greater brand awareness and increase footfalls to your fitness club. Within this period, the branding build-up that Plej’s professionals manage, will assure you that the launch and the post-launch period will be successful beyond your expectations.
                                     </p>
@@ -68,7 +93,7 @@ export default class OwnGymPage extends Component {
                             <a name="what"></a>
                             <div class="_3YNv-TL VBD7Ow3">
                                 <div class="_3Lc7Cvz GXyzp1w _2v5bHvx">
-                                    <h3>Maximized Returns</h3><br /><br />
+                                    <h3>Maximized Returns</h3><br />
                                     <p>
                                         A Plej fitness franchisee during the Pre-launch phase immensely benefit from the wide publicity and promotional activities conducted by Plej to guarantee greater brand awareness and increase footfalls to your fitness club. Within this period, the branding build-up that Plej’s professionals manage, will assure you that the launch and the post-launch period will be successful beyond your expectations.
                                     </p>
@@ -425,7 +450,7 @@ export default class OwnGymPage extends Component {
                                                 <textarea type="text" placeholder="Message" />
                                             </div>
                                             <div className="middle-btn">
-                                            <NavLink class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#"><span>Submit</span></NavLink>
+                                                <NavLink class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#"><span>Submit</span></NavLink>
                                                 {/* <button className="_1x8JHAI _3Pq3GhV _3xVoYzA">Submit</button> */}
                                             </div>
                                         </form>
@@ -435,7 +460,7 @@ export default class OwnGymPage extends Component {
                         </div>
                     </div>
                 </div>
-                <Footer/>
+                <Footer />
             </div>
         )
     }
