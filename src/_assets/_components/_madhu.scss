@@ -365,12 +365,23 @@ section {
     padding: 0 120px;
 }
 
+
+.pt-200 {
+    padding-top: 200px;
+    clear: both;
+}
+
 @media(max-width:670px) {
     .VBD7Ow3 {
         padding: 0 20px
     }
-    .pt-100{
+
+    .pt-100 {
         padding-top: 50px;
+    }
+
+    .pt-200 {
+        padding-top: 30px;
     }
 }
 
@@ -388,7 +399,8 @@ section {
     ._3IPJrBv {
         min-height: 0;
         max-height: none;
-        margin-top: 100px;
+        margin-top: 145px;
+        margin-bottom: 60px;
         height: 100px
     }
 }
@@ -609,10 +621,11 @@ h2 {
 
 @media(max-width:768px) {
 
-    ._2_HaYMw{
-        font-size:34px;
+    ._2_HaYMw {
+        font-size: 34px;
         line-height: 38px;
     }
+
     h2 {
         font-size: 24px;
         line-height: 28px
@@ -1648,8 +1661,8 @@ select:hover {
 
 @media (max-width:768px) {
     ._2Vj-OOq {
-        font-size: 40px;
-        line-height: 44px
+        font-size: 30px;
+        line-height: 34px
     }
 }
 
@@ -1779,7 +1792,7 @@ select:hover {
     ._3sadWOc {
         width: 100%;
         margin-bottom: 50px;
-        text-align:center;
+        text-align: center;
     }
 }
 
@@ -1801,7 +1814,7 @@ select:hover {
 @media(max-width:768px) {
     ._3QyZoZ_ {
         margin-top: 30px;
-        text-align:center;
+        text-align: center;
     }
 }
 
@@ -2491,9 +2504,7 @@ select:hover {
     transform: translateX(0) rotate(-90deg)
 }
 
-@media(max-width:994px){
-  
-}
+@media(max-width:994px) {}
 
 @media(max-width:768px) {
     ._3juAkpr ._2Ey81ib {
@@ -2548,7 +2559,7 @@ select:hover {
     ._2Ey81ib {
         width: 100%;
         padding-top: 120px;
-        min-height:auto;
+        min-height: auto;
     }
 }
 
@@ -2646,7 +2657,7 @@ select:hover {
 }
 
 .mb-0 {
-    margin-bottom: 0 ;
+    margin-bottom: 0;
 }
 
 .mt-10 {
@@ -2982,11 +2993,6 @@ select:hover {
     padding-top: 20vh;
     padding-bottom: 20vh;
     text-align: center
-}
-
-.pt-200 {
-    padding-top: 200px;
-    clear: both;
 }
 
 @media(max-width:670px) {
@@ -3487,7 +3493,7 @@ textarea {
     }
 
     .bottom_space {
-        margin-bottom: 50px;
+        margin-bottom: 25px;
     }
 
 
@@ -3511,7 +3517,7 @@ textarea {
     }
 
     .space {
-        margin-bottom: 140px;
+        // margin-bottom: 140px;
     }
 
     label[for="upload"] {
@@ -3658,6 +3664,13 @@ html.lightbox-open {
     height: 300px;
 }
 
+@media (max-width : 992px) {
+    .center-div {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
 @media (max-width: 767px) {
 
     .hide-controls .lightbox-btn-left,
@@ -3697,8 +3710,8 @@ html.lightbox-open {
     .center-div {
         max-width: 800px;
         width: 100%;
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 25px;
+        padding-left: 25px;
 
         .mt-40 {
             margin-top: 35px;
@@ -3708,15 +3721,15 @@ html.lightbox-open {
             width: 100%;
         }
 
-        .bottom_space {
-            margin-bottom: 0;
-        }
-
         .first-half,
         .second-half {
             width: 100%;
             margin-right: 0;
             margin-bottom: 25px;
+        }
+
+        .second-half {
+            margin-bottom: 0;
         }
 
         .middle-btn {
@@ -3773,7 +3786,7 @@ html.lightbox-open {
 .lightbox-title-content {
     background-color: rgba(0, 0, 0, 0.2);
     box-shadow: 0 5px 5px -3px rgba(0, 0, 0, .2),
-     0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12);
+        0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12);
     position: absolute;
     width: 100%;
     z-index: 1;
@@ -4013,9 +4026,10 @@ html.lightbox-open {
 }
 
 .checkbox-container {
-    .label{
-        width:0;
+    .label {
+        width: 0;
     }
+
     &.small {
         .checkmark {
             width: 15px;
@@ -4039,7 +4053,8 @@ html.lightbox-open {
         height: 20px;
     }
 
-    display: inline-block;;
+    display: inline-block;
+    ;
     position: relative;
     padding-left:28px;
     margin-bottom: 12px;
@@ -4059,32 +4074,35 @@ html.lightbox-open {
 
     .checkmark {
         position: absolute;
-        top:0;left:0;
-        bottom:auto;right:auto;
+        top: 0;
+        left: 0;
+        bottom: auto;
+        right: auto;
         width: 20px;
         height: 20px;
         background-color: #bbbbbb;
-        border-radius:2px;
+        border-radius: 2px;
 
         &::after {
             display: none;
-            content:"";
+            content: "";
             position: absolute;
-            top:1px;
-            right:auto;
-            bottom:auto;
-            left:5px;
+            top: 1px;
+            right: auto;
+            bottom: auto;
+            left: 5px;
             width: 7px;
             height: 12px;
-            border:solid #fff;
+            border: solid #fff;
             border-width: 0 3px 3px 0;
-            transform:rotate(45deg);
+            transform: rotate(45deg);
         }
     }
 
     input:checked~.checkmark {
         background-color: #255f78;
-        border: 2px solid #255f78;;
+        border: 2px solid #255f78;
+        ;
     }
 
     input:checked~.checkmark:after {
@@ -4092,18 +4110,18 @@ html.lightbox-open {
     }
 }
 
-.d-inline-block{
-    display:inline-block;
+.d-inline-block {
+    display: inline-block;
 }
 
-.white_color{
+.white_color {
     color: #bdbdbd;
 }
 
-.underline{
+.underline {
     text-decoration: underline;
 }
 
-.clearfix{
-    clear:both;
+.clearfix {
+    clear: both;
 }

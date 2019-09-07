@@ -159,7 +159,7 @@ export default class AboutPage extends Component {
                             </div>
 
                             <div className="pt-200">
-                                <div class="pt-100 float-left _1G7RCdW _2v5bHvx VBD7Ow3">
+                                <div class="pt-100 float-left _18e7Ks9 _1G7RCdW _2v5bHvx VBD7Ow3">
                                     <div class="_1NA_h7i">
                                         <h3 className="mb-0">ROHAN SATISH</h3>
                                         <h6>FOUNDER & DIRECTOR - BUSINESS DEVELOPMENT</h6>

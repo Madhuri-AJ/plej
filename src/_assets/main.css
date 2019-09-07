@@ -364,12 +364,20 @@ section {
   padding: 0 120px;
 }
 
+.pt-200 {
+  padding-top: 200px;
+  clear: both;
+}
+
 @media (max-width: 670px) {
   .VBD7Ow3 {
     padding: 0 20px;
   }
   .pt-100 {
     padding-top: 50px;
+  }
+  .pt-200 {
+    padding-top: 30px;
   }
 }
 
@@ -387,7 +395,8 @@ section {
   ._3IPJrBv {
     min-height: 0;
     max-height: none;
-    margin-top: 100px;
+    margin-top: 145px;
+    margin-bottom: 60px;
     height: 100px;
   }
 }
@@ -1605,8 +1614,8 @@ select:hover {
 
 @media (max-width: 768px) {
   ._2Vj-OOq {
-    font-size: 40px;
-    line-height: 44px;
+    font-size: 30px;
+    line-height: 34px;
   }
 }
 
@@ -2946,11 +2955,6 @@ select:hover {
   text-align: center;
 }
 
-.pt-200 {
-  padding-top: 200px;
-  clear: both;
-}
-
 @media (max-width: 670px) {
   ._-WrE9rl {
     padding-top: 10vh;
@@ -3495,7 +3499,7 @@ textarea:active::placeholder {
 }
 
 .center-div .bottom_space {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .center-div ._2_HaYMw,
@@ -3512,10 +3516,6 @@ textarea:active::placeholder {
 
 .center-div .middle-btn ._1x8JHAI {
   width: 44%;
-}
-
-.center-div .space {
-  margin-bottom: 140px;
 }
 
 .center-div label[for="upload"] {
@@ -3659,6 +3659,13 @@ html.lightbox-open {
   height: 300px;
 }
 
+@media (max-width: 992px) {
+  .center-div {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
 @media (max-width: 767px) {
   .hide-controls .lightbox-btn-left,
   .hide-controls .lightbox-btn-right {
@@ -3687,8 +3694,8 @@ html.lightbox-open {
   .center-div {
     max-width: 800px;
     width: 100%;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
   }
   .center-div .mt-40 {
     margin-top: 35px;
@@ -3696,14 +3703,14 @@ html.lightbox-open {
   .center-div label[for="upload"] {
     width: 100%;
   }
-  .center-div .bottom_space {
-    margin-bottom: 0;
-  }
   .center-div .first-half,
   .center-div .second-half {
     width: 100%;
     margin-right: 0;
     margin-bottom: 25px;
+  }
+  .center-div .second-half {
+    margin-bottom: 0;
   }
   .center-div .middle-btn {
     margin-top: 20px;
