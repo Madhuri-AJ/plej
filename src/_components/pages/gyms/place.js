@@ -17,9 +17,14 @@ class PlacePage extends Component {
                             </div> */}
                             <div class="_2Ey81ib">
                                 <ul class="_3_31gDn _2rbE6TC _2v5bHvx">
-                                    <li class="_3O95Rh5 Cq_7NWt _2rbE6TC _2v5bHvx"><a class="_2HzoBao _2rbE6TC _2v5bHvx" href="bank.html">
-                                        <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Veerannapalya</h4>
-                                    </a>
+                                    <li class="_3O95Rh5 Cq_7NWt _2rbE6TC _2v5bHvx">
+                                        <a class="_2HzoBao _2rbE6TC _2v5bHvx" href="bank.html">
+                                            <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Veerannapalya</h4>
+                                        </a>
+                                        {/* <div className="VBD7Ow3">
+                                            <NavLink class="zF_pZj2 _3Pq3GhV"
+                                                to="../contact-us"><span>Join Plej Fitness Today</span></NavLink>
+                                        </div> */}
                                         <div class="_Wl12W- VBD7Ow3">
                                             <ul class="M6EUSUT _2rbE6TC _2v5bHvx">
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
@@ -30,6 +35,8 @@ class PlacePage extends Component {
                                                             </p>
                                                             <p>Mon to Fri: 6am – 11pm<br />Sat to Sun: 10am – 6pm</p>
                                                         </div>
+                                                        <NavLink
+                                                            to="../contact-us" class="Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>Join Plej Fitness Today</span></NavLink>
                                                     </div>
                                                 </li>
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
@@ -54,9 +61,10 @@ class PlacePage extends Component {
                                                         Opp BEL Corporate office,
                                                         Manyata tech park,
                                                         Bengaluru, 560045.
-                                                    <a
+                                                        <a
                                                             href="https://goo.gl/maps/jY3gtV6NbybbnNBT8"
-                                                            target="_blank" class="Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>View on Map</span></a></div>
+                                                            target="_blank" class="Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>View on Map</span></a>
+                                                    </div>
                                                 </li>
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
                                                     <div class="_2l5my07 _2HhTmXD _2v5bHvx">Facilities</div>
@@ -84,6 +92,8 @@ class PlacePage extends Component {
                                                 </li>
                                             </ul>
                                             <div class="_2S9gFR2 _2rbE6TC _2v5bHvx">
+                                                {/* <NavLink class="zF_pZj2 _3Pq3GhV"
+                                                    to="../contact-us"><span>Join Plej Fitness Today</span></NavLink> */}
                                                 <NavLink className="_1DHXI17 _3Pq3GhV"
                                                     to="../classes"><span>Classes</span></NavLink>
                                                 <NavLink class="zF_pZj2 _3Pq3GhV"
@@ -116,10 +126,10 @@ class PlacePage extends Component {
 
                                             <li class="NPRZnJb _1kNfguI sDHKtsB">
                                                 <div class="_2gpiPPm lC7b5Zk sDHKtsB">
-                                                    
+
                                                     {array.map(
                                                         (image, index) => {
-                                                                return <span key={index}class="_3h_jpHd" style={{ "backgroundImage": `url(${image})` }}></span>
+                                                            return <span key={index} class="_3h_jpHd" style={{ "backgroundImage": `url(${image})` }}></span>
                                                             // return <img key={image} src={image} className=""/>
                                                         }
                                                     )}
