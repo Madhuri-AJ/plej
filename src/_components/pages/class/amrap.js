@@ -46,7 +46,7 @@ class AmrapPage extends Component {
                                     <option value="1222876" disabled="">12:15 Friday 16th (45 minutes) - Bookable 7am day before</option>
                                     <option value="1225728" disabled="">19:45 Monday 19th (45 minutes) - Bookable 7am day before</option>
                                 </select> */}
-                                <NavLink to="/contact-us" class=" Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>Join Now</span>
+                                <NavLink to="/contact-us" class=" Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>Join Plej Fitness</span>
                                 </NavLink>
                             </div>
                             <div class="_3srnCE8">
