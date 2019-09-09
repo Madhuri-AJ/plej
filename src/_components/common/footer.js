@@ -7,24 +7,24 @@ class Footer extends Component {
                 <footer class="_24zAESA _2rbE6TC _2v5bHvx">
                     <div class="_2revefY _2rbE6TC _2v5bHvx _25LPQhk">
                         <NavLink class="p-HDv6u" to="/contact-us" >
-                            <span class="DGKlJgu">Join Plej</span>
-                            <span class="DGKlJgu">Join Plej</span>
-                            <span class="DGKlJgu">Join Plej</span>
-                            <span class="DGKlJgu">Join Plej</span>
-                            <span class="DGKlJgu">Join Plej</span>
-                            <span class="DGKlJgu">Join Plej</span>
-                            <span class="DGKlJgu">Join Plej</span>
-                            <span class="DGKlJgu">Join Plej</span>
-                            <span class="DGKlJgu">Join Plej</span>
-                            <span class="DGKlJgu">Join Plej</span>
-                            <span class="DGKlJgu">Join Plej</span>
-                            <span class="DGKlJgu">Join Plej</span>
-                            <span class="DGKlJgu">Join Plej</span>
-                            <span class="DGKlJgu">Join Plej</span>
-                            <span class="DGKlJgu">Join Plej</span>
-                            <span class="DGKlJgu">Join Plej</span>
-                            <span class="DGKlJgu">Join Plej</span>
-                            <span class="DGKlJgu">Join Plej</span>
+                            <span class="DGKlJgu">Join Plej Fitness</span>
+                            <span class="DGKlJgu">Join Plej Fitness</span>
+                            <span class="DGKlJgu">Join Plej Fitness</span>
+                            <span class="DGKlJgu">Join Plej Fitness</span>
+                            <span class="DGKlJgu">Join Plej Fitness</span>
+                            <span class="DGKlJgu">Join Plej Fitness</span>
+                            <span class="DGKlJgu">Join Plej Fitness</span>
+                            <span class="DGKlJgu">Join Plej Fitness</span>
+                            <span class="DGKlJgu">Join Plej Fitness</span>
+                            <span class="DGKlJgu">Join Plej Fitness</span>
+                            <span class="DGKlJgu">Join Plej Fitness</span>
+                            <span class="DGKlJgu">Join Plej Fitness</span>
+                            <span class="DGKlJgu">Join Plej Fitness</span>
+                            <span class="DGKlJgu">Join Plej Fitness</span>
+                            <span class="DGKlJgu">Join Plej Fitness</span>
+                            <span class="DGKlJgu">Join Plej Fitness</span>
+                            <span class="DGKlJgu">Join Plej Fitness</span>
+                            <span class="DGKlJgu">Join Plej Fitness</span>
                         </NavLink>
                     </div>
                     <div class="_1B_-c0t VBD7Ow3">
