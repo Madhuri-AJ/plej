@@ -17,7 +17,7 @@ class LocationPage extends Component {
                             <div style={{ "width": "100%" }}>
                                 <div class="_3Fst1pU _3x6v3-y fourclass" >
                                     <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx"><img
-                                        src="/assets/images/gym1.jpg"
+                                        src="/assets/images/rajajinagar/rajajinagar_2.jpg"
                                         class="_3h_jpHd" /></div>
                                     <h3 class="rfn1m5O">Bellandur</h3><span class="_GcKgjb"></span><NavLink className="_1nR3q81 sDHKtsB"
                                         to="/gyms/place"></NavLink>
