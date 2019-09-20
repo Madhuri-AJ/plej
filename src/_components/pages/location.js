@@ -24,7 +24,7 @@ class LocationPage extends Component {
                                 </div>
                                 <div class="_3Fst1pU _3x6v3-y fourclass" >
                                     <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx"><img
-                                        src="/assets/images/gym2.jpg"
+                                        src="/assets/images/forum/forum_1.jpg"
                                         class="_3h_jpHd" /></div>
                                     <h3 class="rfn1m5O">FORUM Mall -<br /> Whitefield</h3><span class="_GcKgjb"></span><NavLink className="_1nR3q81 sDHKtsB"
                                         to="/gyms/place"></NavLink>
@@ -38,7 +38,7 @@ class LocationPage extends Component {
                                 </div>
                                 <div class="_3Fst1pU _3x6v3-y fourclass mr-0" >
                                     <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx"><img
-                                        src="/assets/images/gym4.jpg"
+                                        src="/assets/images/kumarpark/kumarpark_2.jpg"
                                         class="_3h_jpHd" /></div>
                                     <h3 class="rfn1m5O">Kumarapark </h3><span class="_GcKgjb"></span><NavLink className="_1nR3q81 sDHKtsB"
                                         to="/gyms/place"></NavLink>
@@ -47,14 +47,14 @@ class LocationPage extends Component {
                             <div style={{ "width": "100%" }}>
                                 <div class="_3Fst1pU _3x6v3-y fourclass" >
                                     <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx"><img
-                                        src="/assets/images/gym5.jpg"
+                                        src="/assets/images/panatur/panatur_1.jpg"
                                         class="_3h_jpHd" /></div>
                                     <h3 class="rfn1m5O">Panathur</h3><span class="_GcKgjb"></span><NavLink className="_1nR3q81 sDHKtsB"
                                         to="/gyms/place"></NavLink>
                                 </div>
                                 <div class="_3Fst1pU _3x6v3-y fourclass" >
                                     <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx"><img
-                                        src="/assets/images/gym6.jpg"
+                                        src="/assets/images/rajajinagar/rajajinagar_1.jpg"
                                         class="_3h_jpHd" /></div>
                                     <h3 class="rfn1m5O">Rajajinagar </h3><span class="_GcKgjb"></span><NavLink className="_1nR3q81 sDHKtsB"
                                         to="/gyms/place"></NavLink>
@@ -70,7 +70,7 @@ class LocationPage extends Component {
                                 </div>
                                 <div class="_3Fst1pU _3x6v3-y fourclass mr-0">
                                     <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx"><img
-                                        src="/assets/images/gym8.jpg"
+                                        src="/assets/images/vr-mall/vr_2.jpg"
                                         class="_3h_jpHd" /></div>
                                     <h3 class="rfn1m5O">VR Bengaluru - <br /> Whitefield </h3>
                                     <span class="_GcKgjb"></span>

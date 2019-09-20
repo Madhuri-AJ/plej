@@ -53,7 +53,7 @@ export default class OwnGymPage extends Component {
                                     </p>
                                 </div>
                                 <div class="_2DFH3kw _1Dbvw6B _2v5bHvx">
-                                    <img src="/assets/images/about.jpg" alt="" />
+                                    <img src="/assets/images/Faster-ROI.png" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ export default class OwnGymPage extends Component {
                                     </p>
                                 </div>
                                 <div class="_2kegIUU _1Dbvw6B _2v5bHvx">
-                                    <img src="/assets/images/about.jpg" alt="" />
+                                    <img src="/assets/images/expert-advise.png" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -83,7 +83,7 @@ export default class OwnGymPage extends Component {
                                     </p>
                                 </div>
                                 <div class="_2DFH3kw _1Dbvw6B _2v5bHvx">
-                                    <img src="/assets/images/about.jpg" alt="" />
+                                    <img src="/assets/images/Improved-Profitability.png" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -99,7 +99,7 @@ export default class OwnGymPage extends Component {
                                     </p>
                                 </div>
                                 <div class="_2kegIUU _1Dbvw6B _2v5bHvx">
-                                    <img src="/assets/images/about.jpg" alt="" />
+                                    <img src="/assets/images/maximized-return.png" alt="" />
                                 </div>
                             </div>
                         </div>
