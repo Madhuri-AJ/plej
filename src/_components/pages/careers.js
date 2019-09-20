@@ -6,7 +6,8 @@ export default class CareersPage extends Component {
         super(props);
         this.state = {
             transform1: '0',
-            transform2: '0'
+            transform2: '0',
+            open:false
         }
         window.scrollTo({ top: 0, behavior: "smooth" });
 
@@ -31,6 +32,13 @@ export default class CareersPage extends Component {
             transform2: changedTransform2
         });
 
+    }
+
+    handlewidth = () =>{
+        let open = this.state.open;
+        this.setState({
+            open:!open
+        })
     }
     render() {
         return (
@@ -115,9 +123,10 @@ export default class CareersPage extends Component {
                                             <div class="iBr7foy">
                                                 <h3>FITNESS MANAGERS </h3>
                                                 <div>
-                                                    <p>
+                                                    <p className={this.state.open? "limit-width height-full" : "limit-width"}>
                                                         Supervises and executes all activities of the fitness center like walk-in handling, setting customer service standards, maintaining the facility according to Plej Fitness standards and guidelines, working on member renewals and feedback handling, developing or maintaining a group fitness program and other duties as assigned.
                                                     </p>
+                                                    <a class="view-more" onClick={this.handlewidth}>View More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -130,9 +139,10 @@ export default class CareersPage extends Component {
                                             <div class="iBr7foy">
                                                 <h3>FITNESS MARSHALLS </h3>
                                                 <div>
-                                                    <p>
+                                                    <p class="limit-width">
                                                         A fitness Marshall is someone who leads, instructs, and motivates individuals or groups in exercise activities, including cardiovascular exercise (exercises for the heart and blood system), strength training, and stretching. They work with people of all ages and skill levels.
                                                     </p>
+                                                    <a href="#" class="view-more">View More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -145,9 +155,10 @@ export default class CareersPage extends Component {
                                             <div class="iBr7foy">
                                                 <h3>PERSONAL TRAINERS</h3>
                                                 <div>
-                                                    <p>
+                                                    <p class="limit-width">
                                                         Provides Personal Training services for Health & Fitness Center members. Assesses physical fitness and abilities of clients. Works with clients to identify short-term and long-term goals. Develops individualized health and fitness programming to meet client needs. Teaches safe fitness and exercise techniques and skills, including weight lifting, cardio, body mechanics, cross-training, nutrition, etc. Provides structure, encouragement, and motivation to clients. Monitors client progress; provides positive and constructive feedback as needed.
                                                     </p>
+                                                    <a href="#" class="view-more">View More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -160,9 +171,10 @@ export default class CareersPage extends Component {
                                             <div class="iBr7foy">
                                                 <h3>TELE CALLERS</h3>
                                                 <div>
-                                                    <p>
+                                                    <p class="limit-width">
                                                         To contribute in generating sales for the company. You will be responsible for closing sales deals over the phone and maintaining good customer relationships. An effective telesales representative must be an excellent communicator and have superior people handling skills. They must be comfortable presenting the services over the phone as well as dealing with complaints and feedbacks. The goal is to help the company grow by bringing in customers and developing business.
                                                     </p>
+                                                    <a href="#" class="view-more">View More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -173,8 +185,9 @@ export default class CareersPage extends Component {
                                         <div class="_215RRp8 VBD7Ow3">
                                             <div class="iBr7foy">
                                                 <h3>TEAM LEADER</h3>
-                                                <div>
-                                                    <p>A "team leader" is someone who has the capability to drive performance within a group of people. We expect a Team leader to utilize the team’s expertise, their peers, influence, and/or creativeness to formulate an effective team. He/She will be the sole responsible person for the sales at the clubs.</p>
+                                                <div >
+                                                    <p class="limit-width">A "team leader" is someone who has the capability to drive performance within a group of people. We expect a Team leader to utilize the team’s expertise, their peers, influence, and/or creativeness to formulate an effective team. He/She will be the sole responsible person for the sales at the clubs.</p>
+                                                    <a href="#" class="view-more">View More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -186,9 +199,10 @@ export default class CareersPage extends Component {
                                             <div class="iBr7foy">
                                                 <h3>OPERATIONS MANAGER</h3>
                                                 <div>
-                                                    <p>
+                                                    <p class="limit-width">
                                                         An Operations manager should be knowing in an out of the guidelines, rules and regulations of the company, handling CRMs and Company emails are his/her’s main job, Will have to visit the clubs periodically and make sure that all the clubs are following the guidelines properly on the services and hygiene.
                                                     </p>
+                                                    <a href="#" class="view-more">View More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -200,9 +214,10 @@ export default class CareersPage extends Component {
                                             <div class="iBr7foy">
                                                 <h3>MARKETING MANAGER</h3>
                                                 <div>
-                                                    <p>
+                                                    <p class="limit-width">
                                                         A Marketing manager controls all of the communication between the company and customers. Should manage internal teams in order to craft promotional messages, and should work to publish media across multiple channels. Marketing managers work with many different forms of media, from more traditional newspapers and billboards, Events etc to digital advertising and social platforms.
                                                     </p>
+                                                    <a href="#" class="view-more">View More</a>
                                                 </div>
                                             </div>
                                         </div>

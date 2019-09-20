@@ -4137,4 +4137,27 @@ html.lightbox-open {
   margin-bottom: 20px;
   font-size: 18px;
 }
+
+.limit-width {
+  height: 210px;
+  overflow: hidden;
+}
+
+.view-more {
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: 400;
+  opacity: 0.7;
+  padding: 5px 5px 20px;
+  display: block;
+}
+
+.height-full {
+  height: 240px;
+  overflow: visible;
+}
+
+.d-none {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
