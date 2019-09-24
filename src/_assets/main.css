@@ -2580,6 +2580,23 @@ select:hover {
   transition: transform 2s cubic-bezier(0.19, 1, 0.22, 1), -webkit-transform 2s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
+.location {
+  height: 200px;
+}
+
+.location img {
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .location {
+    height: auto;
+  }
+  .location img {
+    height: auto;
+  }
+}
+
 ._GcKgjb {
   float: right;
   margin-top: 16px;

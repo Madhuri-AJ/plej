@@ -6,7 +6,7 @@ class PlacePage extends Component {
         window.scrollTo({ top: 0, behavior: "smooth" });
     }
     render() {
-        let array = ["/assets/images/gym1.jpg", "/assets/images/gym2.jpg", "/assets/images/gym3.jpg", "/assets/images/gym4.jpg", "/assets/images/gym5.jpg"];
+        let array = ["/assets/images//rajajinagar/rajajinagar_5.jpg", "/assets/images/gym2.jpg", "/assets/images/gym3.jpg", "/assets/images/gym4.jpg", "/assets/images/gym5.jpg"];
         return (
             <div>
                 <div class="_1vdzHPH">
