@@ -77,42 +77,42 @@ class Footer extends Component {
                             <h3>Gyms</h3>
                             <ul class="_1aeQHSW">
                                 <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/bellandur">
                                         Bellandur
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/forum">
                                         FORUM Mall - Whitefield
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/girinagar">
                                         Girinagar
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/kumarapark">
                                         Kumarapark
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/panathur">
                                         Panathur
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/rajajinagar">
                                         Rajajinagar
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/sarjapur">
                                         Sarjapur Road
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/place">
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/vr">
                                         VR Bengaluru - Whitefield
                                     </NavLink>
                                 </li>

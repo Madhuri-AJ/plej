@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-class PlacePage extends Component {
+class RajajinagarPage extends Component {
     constructor(props) {
         super(props);
         window.scrollTo({ top: 0, behavior: "smooth" });
@@ -19,7 +19,7 @@ class PlacePage extends Component {
                                 <ul class="_3_31gDn _2rbE6TC _2v5bHvx">
                                     <li class="_3O95Rh5 Cq_7NWt _2rbE6TC _2v5bHvx">
                                         <a class="_2HzoBao _2rbE6TC _2v5bHvx" href="bank.html">
-                                            <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Veerannapalya</h4>
+                                            <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Rajajinagar</h4>
                                         </a>
                                         {/* <div className="VBD7Ow3">
                                             <NavLink class="zF_pZj2 _3Pq3GhV"
@@ -41,7 +41,7 @@ class PlacePage extends Component {
                                                 </li>
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
                                                     <div class="_2l5my07 _2HhTmXD _2v5bHvx">Contact</div>
-                                                    <div class="_1Fu6UbF _1dohwpN _2v5bHvx"><a href="tel:+91 8448449354">+91 8448449354 </a>
+                                                    <div class="_1Fu6UbF _1dohwpN _2v5bHvx"><a href="tel:+91  7858930940">+91  7858930940 </a>
                                                     </div>
                                                 </li>
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
@@ -55,9 +55,13 @@ class PlacePage extends Component {
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
                                                     <div class="_2l5my07 _2HhTmXD _2v5bHvx">Address</div>
                                                     <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
-                                                        No.62, Whitefield Main Rd, Prestige Ozone, Bengaluru Forum Neighborhood Mall, 3 Floor, E Level, Parking, Prestige Ozone, Whitefield, Bengaluru, Karnataka 560066
+                                                        #2 4th floor Bindu Galaxy
+                                                        1st Main Rd, Industrial Town Rajajinagar,
+                                                        Near 1947 Restaurant,
+                                                        Rajajinagar, Bengaluru,
+                                                        Karnataka 560010, India
                                                         <a
-                                                            href="https://goo.gl/maps/jY3gtV6NbybbnNBT8"
+                                                            href="https://goo.gl/maps/7adALdcw72mEkuga7"
                                                             target="_blank" class="Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>View on Map</span></a>
                                                     </div>
                                                 </li>
@@ -166,4 +170,4 @@ class PlacePage extends Component {
     }
 }
 
-export default PlacePage;
+export default RajajinagarPage;

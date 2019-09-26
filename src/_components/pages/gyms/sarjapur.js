@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-class PlacePage extends Component {
+class SarjapurPage extends Component {
     constructor(props) {
         super(props);
         window.scrollTo({ top: 0, behavior: "smooth" });
     }
     render() {
-        let array = ["/assets/images//rajajinagar/rajajinagar_5.jpg", "/assets/images/gym2.jpg", "/assets/images/gym3.jpg", "/assets/images/gym4.jpg", "/assets/images/gym5.jpg"];
+        let array = ["/assets/images/rajajinagar/rajajinagar_5.jpg", "/assets/images/gym2.jpg", "/assets/images/gym3.jpg", "/assets/images/gym4.jpg", "/assets/images/gym5.jpg"];
         return (
             <div>
                 <div class="_1vdzHPH">
@@ -19,7 +19,7 @@ class PlacePage extends Component {
                                 <ul class="_3_31gDn _2rbE6TC _2v5bHvx">
                                     <li class="_3O95Rh5 Cq_7NWt _2rbE6TC _2v5bHvx">
                                         <a class="_2HzoBao _2rbE6TC _2v5bHvx" href="bank.html">
-                                            <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Veerannapalya</h4>
+                                            <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Sarjapur</h4>
                                         </a>
                                         {/* <div className="VBD7Ow3">
                                             <NavLink class="zF_pZj2 _3Pq3GhV"
@@ -55,7 +55,12 @@ class PlacePage extends Component {
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
                                                     <div class="_2l5my07 _2HhTmXD _2v5bHvx">Address</div>
                                                     <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
-                                                        No.62, Whitefield Main Rd, Prestige Ozone, Bengaluru Forum Neighborhood Mall, 3 Floor, E Level, Parking, Prestige Ozone, Whitefield, Bengaluru, Karnataka 560066
+                                                        #91, 102/3,
+                                                        Veerannapalya,
+                                                        Nagavara ring road,
+                                                        Opp BEL Corporate office,
+                                                        Manyata tech park,
+                                                        Bengaluru, 560045.
                                                         <a
                                                             href="https://goo.gl/maps/jY3gtV6NbybbnNBT8"
                                                             target="_blank" class="Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>View on Map</span></a>
@@ -166,4 +171,4 @@ class PlacePage extends Component {
     }
 }
 
-export default PlacePage;
+export default SarjapurPage;
