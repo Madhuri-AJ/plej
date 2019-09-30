@@ -1,14 +1,21 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import { history } from "../history";
-
+import SimpleReactValidator from "simple-react-validator";
+import $ from "jquery";
 class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
             condition: false,
-            open: false
+            open: false,
+            name:'',
+            email: '',
+            phone:'',
+            location:"",
+            isChecked: false,
         }
+        this.validator = new SimpleReactValidator();
     }
     handleToggle = () => {
         this.setState({
@@ -30,6 +37,10 @@ class Header extends Component {
             open: !this.state.open
         });
     }
+
+
+   
+
     render() {
         return (
             <div className={this.state.isLoading ? "hideheader " : "header _14BrxaV"}>
@@ -137,23 +148,25 @@ class Header extends Component {
                                 <span class="_2va2FpG" onClick={this.close}></span>
                             </div>
                             <div class="_3ITUOra _2rbE6TC _2v5bHvx VBD7Ow3" style={{ "width": "3524.19px", "transform": "translateX(0px)" }}>
-                                <form class="center-div _2v5bHvx">
+                                <form class="center-div _2v5bHvx" action="https://formsubmit.co/madhuri@bigappcompany.in" method="POST">
                                     <div className="bottom_space">
-                                        <input type="text" class="first-half" placeholder="Full Name" />
-                                        <input type="email" class="second-half" placeholder="Email" />
+                                        <input type="text" name="name"  class="first-half" placeholder="Full Name" required />
+                                        
+                                        <input type="email" class="second-half" placeholder="Email"  name="email"  required />
+                                        
                                     </div>
                                     <div className="bottom_space">
-                                        <input type="text" class="first-half" placeholder="Phone Number" />
-                                        <input type="email" class="second-half" placeholder="Location" />
+                                        <input type="number" required class="first-half" placeholder="Phone Number" name="phone" />
+                                        <input type="text" name="location" class="second-half" placeholder="Location" required />
                                     </div>
                                     <div className="bottom_space">
-                                        <label class="checkbox-container small d-inline-block"><input type="checkbox" /><span class="checkmark"></span></label>
+                                        <label class="checkbox-container small d-inline-block"><input type="checkbox" name="checkbox" required /><span class="checkmark"></span></label>
                                         <div class="d-inline-block white_color">I agree to the <NavLink className="underline" to="/terms-conditions" onClick={this.close}>
                                             Terms and Conditions
                                         </NavLink> </div>
                                     </div>
                                     <div className="middle-btn">
-                                        <NavLink class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#"><span>Submit</span></NavLink>
+                                        <button  type="submit" class="Yd7bNNG _3Pq3GhV button _1x8JHAI" ><span>Submit</span></button>
                                     </div>
                                 </form>
                             </div>
