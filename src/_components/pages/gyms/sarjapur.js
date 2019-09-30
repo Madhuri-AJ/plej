@@ -49,7 +49,7 @@ class SarjapurPage extends Component {
                                                     <div class="_1Fu6UbF _1dohwpN _2v5bHvx"><a
                                                         href="../cdn-cgi/l/email-protection.html#c1a3a0afaaa4afb0b4a8b3a8a4b281a6b8aca3aeb9efa2aeefb4aa"
                                                         class="_2h5s4t1"><span class="__cf_email__"
-                                                            data-cfemail="1b797a75707e756a6e7269727e685b7c6276797463357874356e70"> info@plej.fit</span></a>
+                                                            data-cfemail="1b797a75707e756a6e7269727e685b7c6276797463357874356e70"> info@plejfitness.com</span></a>
                                                     </div>
                                                 </li>
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">

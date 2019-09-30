@@ -9,10 +9,10 @@ class Header extends Component {
         this.state = {
             condition: false,
             open: false,
-            name:'',
+            name: '',
             email: '',
-            phone:'',
-            location:"",
+            phone: '',
+            location: "",
             isChecked: false,
         }
         this.validator = new SimpleReactValidator();
@@ -38,8 +38,27 @@ class Header extends Component {
         });
     }
 
+    handleCheckBox = e => {
+        this.setState({
+            isChecked: e.target.checked
+        })
+    }
 
-   
+    handleSubmit = (e) => {
+        e.preventDefault();
+        if (!this.state.isChecked) {
+            alert("Please accept the terms and conditions")
+        }
+        if (this.validator.allValid()) {
+
+        }
+        else {
+            this.validator.showMessages();
+            this.forceUpdate();
+        }
+    }
+
+
 
     render() {
         return (
@@ -150,23 +169,26 @@ class Header extends Component {
                             <div class="_3ITUOra _2rbE6TC _2v5bHvx VBD7Ow3" style={{ "width": "3524.19px", "transform": "translateX(0px)" }}>
                                 <form class="center-div _2v5bHvx" action="https://formsubmit.co/madhuri@bigappcompany.in" method="POST">
                                     <div className="bottom_space">
-                                        <input type="text" name="name"  class="first-half" placeholder="Full Name" required />
-                                        
-                                        <input type="email" class="second-half" placeholder="Email"  name="email"  required />
-                                        
+                                        <input type="text" name="name" class="first-half" placeholder="Full Name" required />
+
+                                        <input type="email" class="second-half" placeholder="Email" name="email" required />
+
                                     </div>
                                     <div className="bottom_space">
-                                        <input type="number" required class="first-half" placeholder="Phone Number" name="phone" />
+                                        <input type="number" maxLength="10" required class="first-half" placeholder="Phone Number" name="phone" />
                                         <input type="text" name="location" class="second-half" placeholder="Location" required />
                                     </div>
                                     <div className="bottom_space">
-                                        <label class="checkbox-container small d-inline-block"><input type="checkbox" name="checkbox" required /><span class="checkmark"></span></label>
+                                        <label class="checkbox-container small d-inline-block">
+                                            <input type="checkbox" name="checkbox" required />
+                                            <span class="checkmark"></span>
+                                        </label>
                                         <div class="d-inline-block white_color">I agree to the <NavLink className="underline" to="/terms-conditions" onClick={this.close}>
                                             Terms and Conditions
                                         </NavLink> </div>
                                     </div>
                                     <div className="middle-btn">
-                                        <button  type="submit" class="Yd7bNNG _3Pq3GhV button _1x8JHAI" ><span>Submit</span></button>
+                                        <button type="submit" class="Yd7bNNG _3Pq3GhV button _1x8JHAI" ><span>Submit</span></button>
                                     </div>
                                 </form>
                             </div>
