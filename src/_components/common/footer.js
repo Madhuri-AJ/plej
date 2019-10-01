@@ -106,11 +106,11 @@ class Footer extends Component {
                                         Rajajinagar
                                     </NavLink>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/sarjapur">
                                         Sarjapur Road
                                     </NavLink>
-                                </li>
+                                </li> */}
                                 <li>
                                     <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/vr">
                                         VR Bengaluru - Whitefield

@@ -146,13 +146,13 @@ export default class AboutPage extends Component {
                                         <div class="_2gpiPPm _3gv6oAs _1G7RCdW _2v5bHvx mt-32"
                                             style={{ "transform": `translateY(${this.state.transform1}px) `, "transition": "1s transform" }}
                                         >
-                                            <img src="/assets/images/1.jpg" class="_3h_jpHd" />
+                                            <img src="/assets/images/raj_1.jpg" class="_3h_jpHd" />
                                         </div>
                                     </div>
                                     <div>
                                         <div class="_2gpiPPm _1Qxe_9c _1G7RCdW _2v5bHvx"
                                             style={{ "transform": `translateY(${this.state.transform2}px) `, "transition": "1s transform" }}>
-                                            <img src="/assets/images/2.jpg" class="_3h_jpHd" />
+                                            <img src="/assets/images/raj_2.jpg" class="_3h_jpHd" />
                                         </div>
                                     </div>
                                 </div>
@@ -174,13 +174,13 @@ export default class AboutPage extends Component {
                                         <div class="_2gpiPPm _3gv6oAs _1G7RCdW _2v5bHvx mt-32"
                                             style={{ "transform": `translateY(${this.state.transform1}px) `, "transition": "1s transform" }}
                                         >
-                                            <img src="/assets/images/1.jpg" class="_3h_jpHd" />
+                                            <img src="/assets/images/rohan_1.jpg" class="_3h_jpHd" />
                                         </div>
                                     </div>
                                     <div>
                                         <div class="_2gpiPPm _1Qxe_9c _1G7RCdW _2v5bHvx"
                                             style={{ "transform": `translateY(${this.state.transform2}px) `, "transition": "1s transform" }}>
-                                            <img src="/assets/images/2.jpg" class="_3h_jpHd" />
+                                            <img src="/assets/images/rohan_2.jpg" class="_3h_jpHd" />
                                         </div>
                                     </div>
                                 </div>
@@ -204,13 +204,13 @@ export default class AboutPage extends Component {
                                         <div class="_2gpiPPm _3gv6oAs _1G7RCdW _2v5bHvx mt-32"
                                             style={{ "transform": `translateY(${this.state.transform1}px) `, "transition": "1s transform" }}
                                         >
-                                            <img src="/assets/images/1.jpg" class="_3h_jpHd" />
+                                            <img src="/assets/images/arun_1.jpg" class="_3h_jpHd" />
                                         </div>
                                     </div>
                                     <div>
                                         <div class="_2gpiPPm _1Qxe_9c _1G7RCdW _2v5bHvx"
                                             style={{ "transform": `translateY(${this.state.transform2}px) `, "transition": "1s transform" }}>
-                                            <img src="/assets/images/2.jpg" class="_3h_jpHd" />
+                                            <img src="/assets/images/arun_2.jpg" class="_3h_jpHd" />
                                         </div>
                                     </div>
                                 </div>

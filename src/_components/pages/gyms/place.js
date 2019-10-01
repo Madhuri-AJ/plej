@@ -19,7 +19,7 @@ class PlacePage extends Component {
                                 <ul class="_3_31gDn _2rbE6TC _2v5bHvx">
                                     <li class="_3O95Rh5 Cq_7NWt _2rbE6TC _2v5bHvx">
                                         <a class="_2HzoBao _2rbE6TC _2v5bHvx" href="bank.html">
-                                            <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Veerannapalya</h4>
+                                            <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Mahadevapura</h4>
                                         </a>
                                         {/* <div className="VBD7Ow3">
                                             <NavLink class="zF_pZj2 _3Pq3GhV"
@@ -33,7 +33,7 @@ class PlacePage extends Component {
                                                         <div>
                                                             <p>
                                                             </p>
-                                                            <p>Mon to Sat : 5am – 11pm<br /> Sun: 7am – 7pm</p>
+                                                            <p>Mon to Sat : 6am – 10pm<br /> Sun: 7am – 7pm</p>
                                                         </div>
                                                         <NavLink
                                                             to="../contact-us" class="Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>Join Plej Fitness Today</span></NavLink>
@@ -55,10 +55,12 @@ class PlacePage extends Component {
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
                                                     <div class="_2l5my07 _2HhTmXD _2v5bHvx">Address</div>
                                                     <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
-                                                        No.62, Whitefield Main Rd, Prestige Ozone, Bengaluru Forum Neighborhood Mall, 3 Floor, E Level, Parking, Bengaluru, Karnataka 560066
+                                                        2nd Floor, VR Bengaluru, Whitefield Main Rd, Devasandra Industrial Estate, Mahadevapura, Bengaluru, Karnataka 560048
                                                         <a
-                                                            href="https://goo.gl/maps/jY3gtV6NbybbnNBT8"
-                                                            target="_blank" class="Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>View on Map</span></a>
+                                                            href="https://goo.gl/maps/RkkfkmbW2Vk34imGA"
+                                                            target="_blank" class="Yd7bNNG _3Pq3GhV button _1x8JHAI">
+                                                            <span>View on Map</span>
+                                                        </a>
                                                     </div>
                                                 </li>
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
@@ -84,7 +86,7 @@ class PlacePage extends Component {
                                                 {/* <NavLink class="zF_pZj2 _3Pq3GhV"
                                                     to="../contact-us"><span>Join Plej Fitness Today</span></NavLink> */}
                                                 <NavLink className="_1DHXI17 _3Pq3GhV"
-                                                    to="../classes"><span>Classes</span></NavLink>
+                                                    to="../class/vr-class"><span>Classes</span></NavLink>
                                                 <NavLink class="zF_pZj2 _3Pq3GhV"
                                                     to="../instructors"><span>Instructor</span></NavLink>
                                             </div>

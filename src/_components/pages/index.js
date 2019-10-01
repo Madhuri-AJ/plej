@@ -2,6 +2,13 @@ import MainPage from "./main";
 import LocationPage from "./location";
 import ClassPage from "./classes";
 import AmrapPage from "./class/amrap";
+import RajajinagarClass from "./class/rajajinagar-class";
+import BellandurClass from "./class/bellandur-class";
+import ForumClass from "./class/forum-class";
+import VrClass from "./class/vr-class";
+import PanathurClass from "./class/panathur-class";
+import GirinagarClass from "./class/girinagar-class";
+import KumarParkClass from "./class/kumarpark-class";
 import RajajinagarPage from "./gyms/rajajinagar";
 import KumaraParkPage from "./gyms/kumarpark";
 import BellandurPage from "./gyms/bellandur";
@@ -25,6 +32,13 @@ export {
     LocationPage,
     ClassPage,
     AmrapPage,
+    RajajinagarClass,
+    GirinagarClass,
+    VrClass,
+    PanathurClass,
+    KumarParkClass,
+    ForumClass,
+    BellandurClass,
     PlacePage,
     RajajinagarPage,
     SarjapurPage,

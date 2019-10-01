@@ -59,7 +59,7 @@ class LocationPage extends Component {
                                     <h3 class="rfn1m5O">Rajajinagar </h3><span class="_GcKgjb"></span><NavLink className="_1nR3q81 sDHKtsB"
                                         to="/gyms/rajajinagar"></NavLink>
                                 </div>
-                                <div class="_3Fst1pU _3x6v3-y fourclass">
+                                {/* <div class="_3Fst1pU _3x6v3-y fourclass">
                                     <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx location"><img
                                         src="/assets/images/forum/forum_4.jpg"
                                         class="_3h_jpHd" /></div>
@@ -67,7 +67,7 @@ class LocationPage extends Component {
                                     <span class="_GcKgjb"></span>
                                     <NavLink className="_1nR3q81 sDHKtsB"
                                         to="/gyms/sarjapur"></NavLink>
-                                </div>
+                                </div> */}
                                 <div class="_3Fst1pU _3x6v3-y fourclass mr-0">
                                     <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx location"><img
                                         src="/assets/images/vr-mall/vr_2.jpg"

@@ -85,7 +85,7 @@ class PanthurPage extends Component {
                                                 {/* <NavLink class="zF_pZj2 _3Pq3GhV"
                                                     to="../contact-us"><span>Join Plej Fitness Today</span></NavLink> */}
                                                 <NavLink className="_1DHXI17 _3Pq3GhV"
-                                                    to="../classes"><span>Classes</span></NavLink>
+                                                    to="../class/panathur-class"><span>Classes</span></NavLink>
                                                 <NavLink class="zF_pZj2 _3Pq3GhV"
                                                     to="../instructors"><span>Instructor</span></NavLink>
                                             </div>

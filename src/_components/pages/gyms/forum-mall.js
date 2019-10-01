@@ -33,7 +33,7 @@ class ForumPage extends Component {
                                                         <div>
                                                             <p>
                                                             </p>
-                                                            <p>Mon to Fri: 6am – 11pm<br />Sat to Sun: 10am – 6pm</p>
+                                                            <p>Mon to Fri: 6am – 10pm<br />Sat to Sun: 7am – 7pm</p>
                                                         </div>
                                                         <NavLink
                                                             to="../contact-us" class="Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>Join Plej Fitness Today</span></NavLink>
@@ -70,8 +70,6 @@ class ForumPage extends Component {
                                                         <span>Functional
                                                         Training<br />
                                                         </span>
-                                                        <span>Group Class Studio<br />
-                                                        </span>
                                                         <span>Weight Section<br /></span>
                                                         <span>Cardio Section<br />
                                                         </span>
@@ -84,7 +82,7 @@ class ForumPage extends Component {
                                                 {/* <NavLink class="zF_pZj2 _3Pq3GhV"
                                                     to="../contact-us"><span>Join Plej Fitness Today</span></NavLink> */}
                                                 <NavLink className="_1DHXI17 _3Pq3GhV"
-                                                    to="../classes"><span>Classes</span></NavLink>
+                                                    to="../class/forum-class"><span>Classes</span></NavLink>
                                                 <NavLink class="zF_pZj2 _3Pq3GhV"
                                                     to="../instructors"><span>Instructor</span></NavLink>
                                             </div>

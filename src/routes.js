@@ -1,11 +1,19 @@
 // import PageNotFoundPage from './_components/page-not-found';
-import { MainPage, LocationPage, ClassPage, AmrapPage, PlacePage, RajajinagarPage, ContactPage, AboutPage, CareersPage, FormPage, OwnGymPage, GalleryPage, PrivacyPolicyPage, TermsConditionsPage, InstructorsPage, PanathurPage, ForumPage, SarjapurPage, KumaraParkPage, BellandurPage, GirinagarPage} from './_components/pages/index';
+import { MainPage, LocationPage, ClassPage, AmrapPage, PlacePage, RajajinagarPage, ContactPage, AboutPage, CareersPage, FormPage, OwnGymPage, GalleryPage, PrivacyPolicyPage, TermsConditionsPage, InstructorsPage, PanathurPage, ForumPage, SarjapurPage, KumaraParkPage, BellandurPage, GirinagarPage, RajajinagarClass, BellandurClass, PanathurClass, VrClass, ForumClass, GirinagarClass} from './_components/pages/index';
+import KumarParkClass from './_components/pages/class/kumarpark-class';
 
 const routes = [
   { path: '/', exact: true, name: 'Home', component: MainPage },
   { path: '/location',name:'Location',component:LocationPage},
   { path: '/classes',name:'Classes',component:ClassPage},
   { path: '/class/amrap',name:'Amrap',component:AmrapPage},
+  { path: '/class/rajajinagar-class',name:'rajajinagar-class',component:RajajinagarClass},
+  { path: '/class/bellandur-class',name:'bellandur-class',component:BellandurClass},
+  { path: '/class/panathur-class',name:'panathur-class',component:PanathurClass},
+  { path: '/class/kumarpark-class',name:'kumarpark-class',component:KumarParkClass},
+  { path: '/class/vr-class',name:'vr-class',component:VrClass},
+  { path: '/class/girinagar-class',name:'girinagar-class',component:GirinagarClass},
+  { path: '/class/forum-class',name:'forum-class',component:ForumClass},
   { path: '/gyms/vr',name:'vr',component:PlacePage},
   { path: '/gyms/rajajinagar',name:'rajajinagar',component:RajajinagarPage},
   { path: '/gyms/panathur',name:'panathur',component:PanathurPage},
