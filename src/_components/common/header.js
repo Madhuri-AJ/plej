@@ -1,21 +1,14 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import { history } from "../history";
-import SimpleReactValidator from "simple-react-validator";
-import $ from "jquery";
+
 class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
             condition: false,
-            open: false,
-            name: '',
-            email: '',
-            phone: '',
-            location: "",
-            isChecked: false,
+            open: false
         }
-        this.validator = new SimpleReactValidator();
     }
     handleToggle = () => {
         this.setState({
@@ -37,29 +30,6 @@ class Header extends Component {
             open: !this.state.open
         });
     }
-
-    handleCheckBox = e => {
-        this.setState({
-            isChecked: e.target.checked
-        })
-    }
-
-    handleSubmit = (e) => {
-        e.preventDefault();
-        if (!this.state.isChecked) {
-            alert("Please accept the terms and conditions")
-        }
-        if (this.validator.allValid()) {
-
-        }
-        else {
-            this.validator.showMessages();
-            this.forceUpdate();
-        }
-    }
-
-
-
     render() {
         return (
             <div className={this.state.isLoading ? "hideheader " : "header _14BrxaV"}>
@@ -167,28 +137,23 @@ class Header extends Component {
                                 <span class="_2va2FpG" onClick={this.close}></span>
                             </div>
                             <div class="_3ITUOra _2rbE6TC _2v5bHvx VBD7Ow3" style={{ "width": "3524.19px", "transform": "translateX(0px)" }}>
-                                <form class="center-div _2v5bHvx" action="https://formsubmit.co/madhuri@bigappcompany.in" method="POST">
+                                <form class="center-div _2v5bHvx">
                                     <div className="bottom_space">
-                                        <input type="text" name="name" class="first-half" placeholder="Full Name" required />
-
-                                        <input type="email" class="second-half" placeholder="Email" name="email" required />
-
+                                        <input type="text" class="first-half" placeholder="Full Name" />
+                                        <input type="email" class="second-half" placeholder="Email" />
                                     </div>
                                     <div className="bottom_space">
-                                        <input type="number" maxLength="10" required class="first-half" placeholder="Phone Number" name="phone" />
-                                        <input type="text" name="location" class="second-half" placeholder="Location" required />
+                                        <input type="text" class="first-half" placeholder="Phone Number" />
+                                        <input type="email" class="second-half" placeholder="Location" />
                                     </div>
                                     <div className="bottom_space">
-                                        <label class="checkbox-container small d-inline-block">
-                                            <input type="checkbox" name="checkbox" required />
-                                            <span class="checkmark"></span>
-                                        </label>
+                                        <label class="checkbox-container small d-inline-block"><input type="checkbox" /><span class="checkmark"></span></label>
                                         <div class="d-inline-block white_color">I agree to the <NavLink className="underline" to="/terms-conditions" onClick={this.close}>
                                             Terms and Conditions
                                         </NavLink> </div>
                                     </div>
                                     <div className="middle-btn">
-                                        <button type="submit" class="Yd7bNNG _3Pq3GhV button _1x8JHAI" ><span>Submit</span></button>
+                                        <NavLink class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#"><span>Submit</span></NavLink>
                                     </div>
                                 </form>
                             </div>
