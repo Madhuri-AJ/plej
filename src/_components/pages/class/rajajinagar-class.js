@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import Footer from "../../common/footer";
 class RajajinagarClass extends Component {
     constructor(props) {
         super(props);
@@ -31,7 +32,7 @@ class RajajinagarClass extends Component {
                         </div>
                     </div>
                 </div>
-                {/* <Footer /> */}
+                <Footer />
             </div>
         )
     }

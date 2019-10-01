@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import {NavLink} from "react-router-dom";
+import Footer from "../../common/footer";
 class ForumClass extends Component {
     constructor(props) {
         super(props);
@@ -24,7 +25,7 @@ class ForumClass extends Component {
                         </div>
                     </div>
                 </div>
-                {/* <Footer /> */}
+                <Footer />
             </div>
         )
     }
