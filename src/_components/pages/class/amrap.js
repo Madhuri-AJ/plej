@@ -11,9 +11,9 @@ class AmrapPage extends Component {
                 <div class="_1vdzHPH">
                     <div class="_3pBQZ7U _2rbE6TC _2v5bHvx">
                         <div class="_27wt8R7 _1G7RCdW _2v5bHvx VBD7Ow3 y5XwMis">
-                            <h2>Yoga</h2>
+                            <h2>Gym</h2>
                             <div class="_1-4gF4V">
-                                <p>Yoga is the most athletic and physically demanding form. You will be taken through a set series of postures that are linked dynamically to your breathing, generating heat and burning energy.</p>
+                                <p>Gym is the most athletic and physically demanding form. You will be taken through a set series of exersices that are linked dynamically to generating heat and burning energy.</p>
                             </div>
                             <div class="_1uYqZmj _2rbE6TC _2v5bHvx">
                                 <table className="table table-bordered">
