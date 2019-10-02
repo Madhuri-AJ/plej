@@ -35,7 +35,7 @@ export default class OwnGymPage extends Component {
                                     </li>
                                     <li class="_37M7UHC GXyzp1w _2v5bHvx">
                                         Kids Fitness Club
-    
+
                                     </li>
                                 </ul>
                                 <div className="clearfix"></div>
@@ -106,6 +106,7 @@ export default class OwnGymPage extends Component {
 
                     </div>
                 </div>
+
                 <div class="o15HL62 _2v5bHvx" id="standard">
                     <div class="_3juAkpr _1KSLoAe">
                         <div class="_2Ey81ib _paddingtop">
@@ -116,17 +117,65 @@ export default class OwnGymPage extends Component {
                                     <div class="_Wl12W- VBD7Ow3">
                                         <ul class="M6EUSUT _2rbE6TC _2v5bHvx">
                                             <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Investment Summary</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            PLEJ Premium Club
+                                                        </p>
+                                                        <p className="first">
+                                                            PLEJ Active Club
+                                                        </p>
+                                                        <p className="first">
+                                                            PLEJ Studio
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">&nbsp;</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            Rupees in lakhs
+                                                        </p>
+                                                        <p className="first">
+                                                            Rupees in lakhs
+                                                        </p>
+                                                        <p className="first">
+                                                            Rupees in lakhs
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Type of Equipment</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            PLEJ Approved
+                                                        </p>
+                                                        <p className="first">
+                                                            PLEJ Approved
+                                                        </p>
+                                                        <p className="first">
+                                                            PLEJ Approved
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
                                                 <div class="_2l5my07 _2HhTmXD _2v5bHvx">Owned / Rental Premises (Carpet Sq.Ft)</div>
                                                 <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
                                                     <div className="w-100">
                                                         <p className="first">
-                                                            3000 Sft
+                                                            5000 - 10000
                                                         </p>
                                                         <p className="first">
-                                                            4000 Sft
+                                                            4000 - 5000
                                                         </p>
                                                         <p className="first">
-                                                            5000 Sft
+                                                            2400 - 3000
                                                         </p>
                                                     </div>
                                                 </div>
@@ -136,13 +185,13 @@ export default class OwnGymPage extends Component {
                                                 <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
                                                     <div className="w-100">
                                                         <p className="first">
-                                                            500,000 INR
+                                                            1,000,000
                                                         </p>
                                                         <p className="first">
-                                                            500,000	INR
+                                                            1,000,000
                                                         </p>
                                                         <p className="first">
-                                                            500,000 INR
+                                                            500,000 
                                                         </p>
                                                     </div>
                                                 </div>
@@ -152,29 +201,29 @@ export default class OwnGymPage extends Component {
                                                 <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
                                                     <div className="w-100">
                                                         <p className="first">
-                                                            6,500,000 INR
+                                                            11,400,000 
                                                         </p>
                                                         <p className="first">
-                                                            7,500,000	INR
+                                                            9,900,000	
                                                         </p>
                                                         <p className="first">
-                                                            9,500,000 INR
+                                                            8,500,000 
                                                         </p>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li class="_31cCPJV _2rbE6TC _2v5bHvx">
-                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Investment in Interiors (1300/- sq.ft) Signage/branding/computers/printers/cctv</div>
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Investment in Interiors (1250/- per sq.ft)</div>
                                                 <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
                                                     <div className="w-100">
                                                         <p className="first">
-                                                            39,00,000 INR
+                                                            6,250,000
                                                         </p>
                                                         <p className="first">
-                                                            52,00,000	INR
+                                                            5,000,000
                                                         </p>
                                                         <p className="first">
-                                                            65,00,000 INR
+                                                            3,000,000
                                                         </p>
                                                     </div>
                                                 </div>
@@ -184,13 +233,13 @@ export default class OwnGymPage extends Component {
                                                 <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
                                                     <div className="w-100">
                                                         <p className="first">
-                                                            200,000INR
+                                                            200,000
                                                         </p>
                                                         <p className="first">
-                                                            200,000	INR
+                                                            200,000
                                                         </p>
                                                         <p className="first">
-                                                            200,000 INR
+                                                            200,000
                                                         </p>
                                                     </div>
                                                 </div>
@@ -200,13 +249,49 @@ export default class OwnGymPage extends Component {
                                                 <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
                                                     <div className="w-100">
                                                         <p className="first">
-                                                            400,000 INR
+                                                            500,000
                                                         </p>
                                                         <p className="first">
-                                                            400,000	INR
+                                                            400,000
                                                         </p>
                                                         <p className="first">
-                                                            400,000 INR
+                                                            300,000
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">
+                                                    Signage/branding/computers/printers/cctv/accessories
+                                                </div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            200,000
+                                                        </p>
+                                                        <p className="first">
+                                                            200,000
+                                                        </p>
+                                                        <p className="first">
+                                                            100,000
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">
+                                                    Misclenious
+                                                </div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            100,000
+                                                        </p>
+                                                        <p className="first">
+                                                            100,000
+                                                        </p>
+                                                        <p className="first">
+                                                            100,000
                                                         </p>
                                                     </div>
                                                 </div>
@@ -216,45 +301,45 @@ export default class OwnGymPage extends Component {
                                                 <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
                                                     <div className="w-100">
                                                         <p className="first">
-                                                            1,15,00,000 INR
+                                                            19,650,000
                                                         </p>
                                                         <p className="first">
-                                                            1,38,00,000	INR
+                                                            16,800,000
                                                         </p>
                                                         <p className="first">
-                                                            1,71,00,000 INR
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
-                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Minus Presales Amount</div>
-                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
-                                                    <div className="w-100">
-                                                        <p className="first">
-                                                            30,00,000 INR
-                                                        </p>
-                                                        <p className="first">
-                                                            30,00,000 INR
-                                                        </p>
-                                                        <p className="first">
-                                                            30,00,000 INR
+                                                            12,700,000
                                                         </p>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li class="_31cCPJV _2rbE6TC _2v5bHvx">
-                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Grand Total</div>
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Per Sales</div>
                                                 <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
                                                     <div className="w-100">
                                                         <p className="first">
-                                                            85,00,000 INR
+                                                            3,000,000
                                                         </p>
                                                         <p className="first">
-                                                            1,08,00,000	INR
+                                                            3,000,000
                                                         </p>
                                                         <p className="first">
-                                                            1,41,00,000 INR
+                                                            3,000,000
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx"> Total</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            16,650,000
+                                                        </p>
+                                                        <p className="first">
+                                                            13,800,000
+                                                        </p>
+                                                        <p className="first">
+                                                            9,700,000
                                                         </p>
                                                     </div>
                                                 </div>
@@ -280,25 +365,64 @@ export default class OwnGymPage extends Component {
                         </div>
                     </div>
                 </div>
-                <div class="o15HL62 _2v5bHvx" id="express">
+
+                <div class="o15HL62 _2v5bHvx" id="standard">
                     <div class="_3juAkpr _1KSLoAe">
                         <div class="_2Ey81ib _paddingtop">
                             <ul class="_3_31gDn _2rbE6TC _2v5bHvx">
-                                <li class="_3O95Rh5 Cq_7NWt _2rbE6TC _2v5bHvx">
-                                    <a class="_2HzoBao _2rbE6TC _2v5bHvx" href="#" >
-                                        <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Express Investmant</h4>
-                                    </a>
+                                <li class="_3O95Rh5 Cq_7NWt _2rbE6TC _2v5bHvx"><a class="_2HzoBao _2rbE6TC _2v5bHvx" href="bank.html">
+                                    <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Standard Investmant</h4>
+                                </a>
                                     <div class="_Wl12W- VBD7Ow3">
                                         <ul class="M6EUSUT _2rbE6TC _2v5bHvx">
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Investment Summary</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            PLEJ Women's Club
+                                                        </p>
+                                                        <p className="first">
+                                                            PLEJ Kids Fitness Club
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">&nbsp;</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            Rupees in lakhs
+                                                        </p>
+                                                        <p className="first">
+                                                            Rupees in lakhs
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Type of Equipment</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            PLEJ Approved
+                                                        </p>
+                                                        <p className="first">
+                                                            PLEJ Approved
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
                                             <li class="_31cCPJV _2rbE6TC _2v5bHvx">
                                                 <div class="_2l5my07 _2HhTmXD _2v5bHvx">Owned / Rental Premises (Carpet Sq.Ft)</div>
                                                 <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
                                                     <div className="w-100">
-                                                        <p className="second">
-                                                            2000 Sft
+                                                        <p className="first">
+                                                            2000 - 2500
                                                         </p>
-                                                        <p className="second">
-                                                            2000 Sft
+                                                        <p className="first">
+                                                            1200 - 2400
                                                         </p>
                                                     </div>
                                                 </div>
@@ -307,11 +431,11 @@ export default class OwnGymPage extends Component {
                                                 <div class="_2l5my07 _2HhTmXD _2v5bHvx">Franchisee Fee</div>
                                                 <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
                                                     <div className="w-100">
-                                                        <p className="second">
-                                                            250,000 INR
+                                                        <p className="first">
+                                                            500,000
                                                         </p>
-                                                        <p className="second">
-                                                            250,000 INR
+                                                        <p className="first">
+                                                            500,000
                                                         </p>
                                                     </div>
                                                 </div>
@@ -320,24 +444,24 @@ export default class OwnGymPage extends Component {
                                                 <div class="_2l5my07 _2HhTmXD _2v5bHvx">Investment in Equipment</div>
                                                 <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
                                                     <div className="w-100">
-                                                        <p className="second">
-                                                            4,000,000 INR
+                                                        <p className="first">
+                                                            5,000,000
                                                         </p>
-                                                        <p className="second">
-                                                            5,000,000 INR
+                                                        <p className="first">
+                                                            5,000,000
                                                         </p>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li class="_31cCPJV _2rbE6TC _2v5bHvx">
-                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Investment in Interiors (1300/- sq.ft) Signage/branding/computers/printers/cctv</div>
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Investment in Interiors (1250/- per sq.ft)</div>
                                                 <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
                                                     <div className="w-100">
-                                                        <p className="second">
-                                                            2,600,000 INR
+                                                        <p className="first">
+                                                            2,500,000
                                                         </p>
-                                                        <p className="second">
-                                                            3,250,000 INR
+                                                        <p className="first">
+                                                            1,500,000
                                                         </p>
                                                     </div>
                                                 </div>
@@ -346,11 +470,11 @@ export default class OwnGymPage extends Component {
                                                 <div class="_2l5my07 _2HhTmXD _2v5bHvx">Training</div>
                                                 <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
                                                     <div className="w-100">
-                                                        <p className="second">
-                                                            200,000 INR
+                                                        <p className="first">
+                                                            200,000
                                                         </p>
-                                                        <p className="second">
-                                                            200,000 INR
+                                                        <p className="first">
+                                                            200,000
                                                         </p>
                                                     </div>
                                                 </div>
@@ -359,11 +483,41 @@ export default class OwnGymPage extends Component {
                                                 <div class="_2l5my07 _2HhTmXD _2v5bHvx">Initial Marketing</div>
                                                 <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
                                                     <div className="w-100">
-                                                        <p className="second">
-                                                            300,000 INR
+                                                        <p className="first">
+                                                            200,000
                                                         </p>
-                                                        <p className="second">
-                                                            300,000 INR
+                                                        <p className="first">
+                                                            200,000
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">
+                                                    Signage/branding/computers/printers/cctv/accessories
+                                                </div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            100,000
+                                                        </p>
+                                                        <p className="first">
+                                                            100,000
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">
+                                                    Misclenious
+                                                </div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            100,000
+                                                        </p>
+                                                        <p className="first">
+                                                            100,000
                                                         </p>
                                                     </div>
                                                 </div>
@@ -372,37 +526,37 @@ export default class OwnGymPage extends Component {
                                                 <div class="_2l5my07 _2HhTmXD _2v5bHvx">Investment Range</div>
                                                 <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
                                                     <div className="w-100">
-                                                        <p className="second">
-                                                            7,350,000 INR
+                                                        <p className="first">
+                                                            8,600,000
                                                         </p>
-                                                        <p className="second">
-                                                            9,000,000INR
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
-                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Minus Presales Amount</div>
-                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
-                                                    <div className="w-100">
-                                                        <p className="second">
-                                                            2,000,000 INR
-                                                        </p>
-                                                        <p className="second">
-                                                            2,000,000 INR
+                                                        <p className="first">
+                                                            7,600,000
                                                         </p>
                                                     </div>
                                                 </div>
                                             </li>
                                             <li class="_31cCPJV _2rbE6TC _2v5bHvx">
-                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Grand Total</div>
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Per Sales</div>
                                                 <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
                                                     <div className="w-100">
-                                                        <p className="second">
-                                                            5,350,000 INR
+                                                        <p className="first">
+                                                            2,000,000
                                                         </p>
-                                                        <p className="second">
-                                                            7,000,000 INR
+                                                        <p className="first">
+                                                            1,500,000
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx"> Total</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            6,600,000
+                                                        </p>
+                                                        <p className="first">
+                                                            6,100,000
                                                         </p>
                                                     </div>
                                                 </div>
@@ -418,16 +572,13 @@ export default class OwnGymPage extends Component {
                                                 </div>
                                             </li>
                                         </ul>
-                                        {/* <div class="_2S9gFR2 _2rbE6TC _2v5bHvx">
-                                            <a className="_1DHXI17 _3Pq3GhV"
-                                                href="#standard"><span>View Standard Investmant</span></a>
-                                        </div> */}
                                     </div>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
+              
                 <div class="o15HL62 _2v5bHvx" id="express">
                     <div class="_3juAkpr _1KSLoAe">
                         <div class="_2Ey81ib _paddingtop">

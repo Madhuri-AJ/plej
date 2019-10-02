@@ -7,7 +7,13 @@ export default class CareersPage extends Component {
         this.state = {
             transform1: '0',
             transform2: '0',
-            open:false
+            open:false,
+            open2:false,
+            open3:false,
+            open4:false,
+            open5:false,
+            open6:false,
+            open7:false
         }
         window.scrollTo({ top: 0, behavior: "smooth" });
 
@@ -38,6 +44,48 @@ export default class CareersPage extends Component {
         let open = this.state.open;
         this.setState({
             open:!open
+        })
+    }
+
+    handlewidth2 =()=>{
+        let open2 = this.state.open2;
+        this.setState({
+            open2:!open2
+        })
+    }
+
+    handlewidth3 =()=>{
+        let open3 = this.state.open3;
+        this.setState({
+            open3:!open3
+        })
+    }
+
+    handlewidth4 =()=>{
+        let open4 = this.state.open4;
+        this.setState({
+            open4:!open4
+        })
+    }
+
+    handlewidth5 =()=>{
+        let open5 = this.state.open5;
+        this.setState({
+            open5:!open5
+        })
+    }
+
+    handlewidth6 =()=>{
+        let open6 = this.state.open6;
+        this.setState({
+            open6:!open6
+        })
+    }
+
+    handlewidth7 =()=>{
+        let open7 = this.state.open7;
+        this.setState({
+            open7:!open7
         })
     }
     render() {
@@ -119,108 +167,115 @@ export default class CareersPage extends Component {
                                 <div class="_2umm8jj _2rbE6TC _2v5bHvx">
                                     <h2 class="FsabyOT _2rbE6TC _2v5bHvx">Available roles</h2>
                                     <div class="_3OroREi GXyzp1w _2v5bHvx">
-                                        <div class="_215RRp8 VBD7Ow3">
+                                        <div className={this.state.open? "height-full _215RRp8 VBD7Ow3" : "limit-width _215RRp8 VBD7Ow3"}>
                                             <div class="iBr7foy">
                                                 <h3>FITNESS MANAGERS </h3>
                                                 <div>
-                                                    <p className={this.state.open? "limit-width height-full" : "limit-width"}>
+                                                    <p>
                                                         Supervises and executes all activities of the fitness center like walk-in handling, setting customer service standards, maintaining the facility according to Plej Fitness standards and guidelines, working on member renewals and feedback handling, developing or maintaining a group fitness program and other duties as assigned.
                                                     </p>
-                                                    <a class="view-more" onClick={this.handlewidth}>View More</a>
                                                 </div>
                                             </div>
                                         </div>
+                                        <button class="view-more" onClick={this.handlewidth}>
+                                            { this.state.open? "View Less" : "View More"}</button>
                                         <NavLink to="/careers-form"
                                             class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Apply Now</span>
                                         </NavLink>
                                     </div>
                                     <div class="_3OroREi GXyzp1w _2v5bHvx">
-                                        <div class="_215RRp8 VBD7Ow3">
+                                        <div className={this.state.open2? "height-full _215RRp8 VBD7Ow3" : "limit-width _215RRp8 VBD7Ow3"}>
                                             <div class="iBr7foy">
                                                 <h3>FITNESS MARSHALLS </h3>
                                                 <div>
-                                                    <p class="limit-width">
+                                                    <p>
                                                         A fitness Marshall is someone who leads, instructs, and motivates individuals or groups in exercise activities, including cardiovascular exercise (exercises for the heart and blood system), strength training, and stretching. They work with people of all ages and skill levels.
                                                     </p>
-                                                    <a href="#" class="view-more">View More</a>
                                                 </div>
                                             </div>
                                         </div>
+                                        <button class="view-more" onClick={this.handlewidth2}>
+                                            { this.state.open2? "View Less" : "View More"}</button>
                                         <NavLink to="/careers-form"
                                             class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Apply Now</span>
                                         </NavLink>
                                     </div>
                                     <div class="_3OroREi GXyzp1w _2v5bHvx">
-                                        <div class="_215RRp8 VBD7Ow3">
+                                        <div className={this.state.open3? "height-full _215RRp8 VBD7Ow3" : "limit-width _215RRp8 VBD7Ow3"}>
                                             <div class="iBr7foy">
                                                 <h3>PERSONAL TRAINERS</h3>
                                                 <div>
-                                                    <p class="limit-width">
+                                                    <p>
                                                         Provides Personal Training services for Health & Fitness Center members. Assesses physical fitness and abilities of clients. Works with clients to identify short-term and long-term goals. Develops individualized health and fitness programming to meet client needs. Teaches safe fitness and exercise techniques and skills, including weight lifting, cardio, body mechanics, cross-training, nutrition, etc. Provides structure, encouragement, and motivation to clients. Monitors client progress; provides positive and constructive feedback as needed.
                                                     </p>
-                                                    <a href="#" class="view-more">View More</a>
                                                 </div>
                                             </div>
                                         </div>
+                                        <button class="view-more" onClick={this.handlewidth3}>
+                                            { this.state.open3? "View Less" : "View More"}</button>
                                         <NavLink to="/careers-form"
                                             class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Apply Now</span>
                                         </NavLink>
                                     </div>
                                     <div class="_3OroREi GXyzp1w _2v5bHvx">
-                                        <div class="_215RRp8 VBD7Ow3">
+                                        <div className={this.state.open4? "height-full _215RRp8 VBD7Ow3" : "limit-width _215RRp8 VBD7Ow3"}>
                                             <div class="iBr7foy">
                                                 <h3>TELE CALLERS</h3>
                                                 <div>
-                                                    <p class="limit-width">
+                                                    <p>
                                                         To contribute in generating sales for the company. You will be responsible for closing sales deals over the phone and maintaining good customer relationships. An effective telesales representative must be an excellent communicator and have superior people handling skills. They must be comfortable presenting the services over the phone as well as dealing with complaints and feedbacks. The goal is to help the company grow by bringing in customers and developing business.
                                                     </p>
-                                                    <a href="#" class="view-more">View More</a>
                                                 </div>
                                             </div>
                                         </div>
+                                        <button class="view-more" onClick={this.handlewidth4}>
+                                            { this.state.open4? "View Less" : "View More"}</button>
                                         <NavLink to="/careers-form"
                                             class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Apply Now</span></NavLink>
                                     </div>
                                     <div class="_3OroREi GXyzp1w _2v5bHvx">
-                                        <div class="_215RRp8 VBD7Ow3">
+                                        <div className={this.state.open5? "height-full _215RRp8 VBD7Ow3" : "limit-width _215RRp8 VBD7Ow3"}>
                                             <div class="iBr7foy">
                                                 <h3>TEAM LEADER</h3>
                                                 <div >
-                                                    <p class="limit-width">A "team leader" is someone who has the capability to drive performance within a group of people. We expect a Team leader to utilize the team’s expertise, their peers, influence, and/or creativeness to formulate an effective team. He/She will be the sole responsible person for the sales at the clubs.</p>
-                                                    <a href="#" class="view-more">View More</a>
+                                                    <p>A "team leader" is someone who has the capability to drive performance within a group of people. We expect a Team leader to utilize the team’s expertise, their peers, influence, and/or creativeness to formulate an effective team. He/She will be the sole responsible person for the sales at the clubs.</p>
                                                 </div>
                                             </div>
                                         </div>
+                                        <button class="view-more" onClick={this.handlewidth5}>
+                                            { this.state.open5? "View Less" : "View More"}</button>
                                         <NavLink to="/careers-form"
                                             class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Apply Now</span></NavLink>
                                     </div>
                                     <div class="_3OroREi GXyzp1w _2v5bHvx">
-                                        <div class="_215RRp8 VBD7Ow3">
+                                        <div className={this.state.open6? "height-full _215RRp8 VBD7Ow3" : "limit-width _215RRp8 VBD7Ow3"}>
                                             <div class="iBr7foy">
                                                 <h3>OPERATIONS MANAGER</h3>
                                                 <div>
-                                                    <p class="limit-width">
+                                                    <p>
                                                         An Operations manager should be knowing in an out of the guidelines, rules and regulations of the company, handling CRMs and Company emails are his/her’s main job, Will have to visit the clubs periodically and make sure that all the clubs are following the guidelines properly on the services and hygiene.
                                                     </p>
-                                                    <a href="#" class="view-more">View More</a>
                                                 </div>
                                             </div>
                                         </div>
+                                        <button class="view-more" onClick={this.handlewidth6}>
+                                            { this.state.open6? "View Less" : "View More"}</button>
                                         <NavLink to="/careers-form"
                                             class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Apply Now</span></NavLink>
                                     </div>
                                     <div class="_3OroREi GXyzp1w _2v5bHvx">
-                                        <div class="_215RRp8 VBD7Ow3">
+                                        <div className={this.state.open7? "height-full _215RRp8 VBD7Ow3" : "limit-width _215RRp8 VBD7Ow3"}>
                                             <div class="iBr7foy">
                                                 <h3>MARKETING MANAGER</h3>
                                                 <div>
-                                                    <p class="limit-width">
+                                                    <p>
                                                         A Marketing manager controls all of the communication between the company and customers. Should manage internal teams in order to craft promotional messages, and should work to publish media across multiple channels. Marketing managers work with many different forms of media, from more traditional newspapers and billboards, Events etc to digital advertising and social platforms.
                                                     </p>
-                                                    <a href="#" class="view-more">View More</a>
                                                 </div>
                                             </div>
                                         </div>
+                                        <button class="view-more" onClick={this.handlewidth7}>
+                                            { this.state.open7? "View Less" : "View More"}</button>
                                         <NavLink to="/careers-form"
                                             class="_17m_Ulp _3Pq3GhV VBD7Ow3"><span>Apply Now</span></NavLink>
                                     </div>

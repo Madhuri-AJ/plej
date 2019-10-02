@@ -9,6 +9,324 @@ class SarjapurPage extends Component {
         let array = ["/assets/images/rajajinagar/rajajinagar_5.jpg", "/assets/images/gym2.jpg", "/assets/images/gym3.jpg", "/assets/images/gym4.jpg", "/assets/images/gym5.jpg"];
         return (
             <div>
+  <div class="o15HL62 _2v5bHvx" id="standard">
+                    <div class="_3juAkpr _1KSLoAe">
+                        <div class="_2Ey81ib _paddingtop">
+                            <ul class="_3_31gDn _2rbE6TC _2v5bHvx">
+                                <li class="_3O95Rh5 Cq_7NWt _2rbE6TC _2v5bHvx"><a class="_2HzoBao _2rbE6TC _2v5bHvx" href="bank.html">
+                                    <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Standard Investmant</h4>
+                                </a>
+                                    <div class="_Wl12W- VBD7Ow3">
+                                        <ul class="M6EUSUT _2rbE6TC _2v5bHvx">
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Owned / Rental Premises (Carpet Sq.Ft)</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            3000 Sft
+                                                        </p>
+                                                        <p className="first">
+                                                            4000 Sft
+                                                        </p>
+                                                        <p className="first">
+                                                            5000 Sft
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Franchisee Fee</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            500,000 INR
+                                                        </p>
+                                                        <p className="first">
+                                                            500,000	INR
+                                                        </p>
+                                                        <p className="first">
+                                                            500,000 INR
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Investment in Equipment</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            6,500,000 INR
+                                                        </p>
+                                                        <p className="first">
+                                                            7,500,000	INR
+                                                        </p>
+                                                        <p className="first">
+                                                            9,500,000 INR
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Investment in Interiors (1300/- sq.ft) Signage/branding/computers/printers/cctv</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            39,00,000 INR
+                                                        </p>
+                                                        <p className="first">
+                                                            52,00,000	INR
+                                                        </p>
+                                                        <p className="first">
+                                                            65,00,000 INR
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Training</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            200,000INR
+                                                        </p>
+                                                        <p className="first">
+                                                            200,000	INR
+                                                        </p>
+                                                        <p className="first">
+                                                            200,000 INR
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Initial Marketing</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            400,000 INR
+                                                        </p>
+                                                        <p className="first">
+                                                            400,000	INR
+                                                        </p>
+                                                        <p className="first">
+                                                            400,000 INR
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Investment Range</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            1,15,00,000 INR
+                                                        </p>
+                                                        <p className="first">
+                                                            1,38,00,000	INR
+                                                        </p>
+                                                        <p className="first">
+                                                            1,71,00,000 INR
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Minus Presales Amount</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            30,00,000 INR
+                                                        </p>
+                                                        <p className="first">
+                                                            30,00,000 INR
+                                                        </p>
+                                                        <p className="first">
+                                                            30,00,000 INR
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Grand Total</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="first">
+                                                            85,00,000 INR
+                                                        </p>
+                                                        <p className="first">
+                                                            1,08,00,000	INR
+                                                        </p>
+                                                        <p className="first">
+                                                            1,41,00,000 INR
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">
+                                                    *Rates subject to fluctuation in Dollar prices
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">
+                                                    *Local Taxes Extra
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="o15HL62 _2v5bHvx" id="express">
+                    <div class="_3juAkpr _1KSLoAe">
+                        <div class="_2Ey81ib _paddingtop">
+                            <ul class="_3_31gDn _2rbE6TC _2v5bHvx">
+                                <li class="_3O95Rh5 Cq_7NWt _2rbE6TC _2v5bHvx">
+                                    <a class="_2HzoBao _2rbE6TC _2v5bHvx" href="#" >
+                                        <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Express Investmant</h4>
+                                    </a>
+                                    <div class="_Wl12W- VBD7Ow3">
+                                        <ul class="M6EUSUT _2rbE6TC _2v5bHvx">
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Owned / Rental Premises (Carpet Sq.Ft)</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="second">
+                                                            2000 Sft
+                                                        </p>
+                                                        <p className="second">
+                                                            2000 Sft
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Franchisee Fee</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="second">
+                                                            250,000 INR
+                                                        </p>
+                                                        <p className="second">
+                                                            250,000 INR
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Investment in Equipment</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="second">
+                                                            4,000,000 INR
+                                                        </p>
+                                                        <p className="second">
+                                                            5,000,000 INR
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Investment in Interiors (1300/- sq.ft) Signage/branding/computers/printers/cctv</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="second">
+                                                            2,600,000 INR
+                                                        </p>
+                                                        <p className="second">
+                                                            3,250,000 INR
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Training</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="second">
+                                                            200,000 INR
+                                                        </p>
+                                                        <p className="second">
+                                                            200,000 INR
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Initial Marketing</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="second">
+                                                            300,000 INR
+                                                        </p>
+                                                        <p className="second">
+                                                            300,000 INR
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Investment Range</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="second">
+                                                            7,350,000 INR
+                                                        </p>
+                                                        <p className="second">
+                                                            9,000,000INR
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Minus Presales Amount</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="second">
+                                                            2,000,000 INR
+                                                        </p>
+                                                        <p className="second">
+                                                            2,000,000 INR
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">Grand Total</div>
+                                                <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                    <div className="w-100">
+                                                        <p className="second">
+                                                            5,350,000 INR
+                                                        </p>
+                                                        <p className="second">
+                                                            7,000,000 INR
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">
+                                                    *Rates subject to fluctuation in Dollar prices
+                                                </div>
+                                            </li>
+                                            <li class="_31cCPJV _2rbE6TC _2v5bHvx">
+                                                <div class="_2l5my07 _2HhTmXD _2v5bHvx">
+                                                    *Local Taxes Extra
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
                 <div class="_1vdzHPH">
                     <div class="o15HL62 _2v5bHvx">
                         <div class="_3juAkpr _1KSLoAe">

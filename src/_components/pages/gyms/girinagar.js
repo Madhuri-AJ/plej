@@ -30,7 +30,7 @@ class GirinagarPage extends Component {
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
                                                     <div class="_2l5my07 _2HhTmXD _2v5bHvx">Timings</div>
                                                     <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
-                                                        <div>                  
+                                                        <div>
                                                             <p>Mon to Sat : 5am – 11pm<br />  Sun : 7am – 7pm</p>
                                                         </div>
                                                         <NavLink
@@ -53,7 +53,7 @@ class GirinagarPage extends Component {
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
                                                     <div class="_2l5my07 _2HhTmXD _2v5bHvx">Address</div>
                                                     <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
-                                                    Nagendra Block, Banashankari Stage I, Banashankari, Bengaluru, Karnataka 560085
+                                                        Nagendra Block, Banashankari Stage I, Banashankari, Bengaluru, Karnataka 560085
                                                         <a
                                                             href="https://g.page/plej-fitness---girinagar?share"
                                                             target="_blank" class="Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>View on Map</span></a>
@@ -79,12 +79,10 @@ class GirinagarPage extends Component {
                                                 </li>
                                             </ul>
                                             <div class="_2S9gFR2 _2rbE6TC _2v5bHvx">
-                                                {/* <NavLink class="zF_pZj2 _3Pq3GhV"
-                                                    to="../contact-us"><span>Join Plej Fitness Today</span></NavLink> */}
                                                 <NavLink className="_1DHXI17 _3Pq3GhV"
-                                                    to="../class/girinagar-class"><span>Classes</span></NavLink>
+                                                    to="#" onClick="return false;"><span>Classes</span></NavLink>
                                                 <NavLink class="zF_pZj2 _3Pq3GhV"
-                                                    to="../instructors"><span>Instructor</span></NavLink>
+                                                    to="#" onClick="return false;"><span>Instructor</span></NavLink>
                                             </div>
                                         </div>
                                     </li>

@@ -34,7 +34,7 @@ class BellandurPage extends Component {
                                                             <p>
                                                             </p>
                                                             <p>Mon to Sat : 5am – 11pm<br />
-                                                            Sun : 7am – 7pm
+                                                                Sun : 7am – 7pm
                                                             </p>
                                                         </div>
                                                         <NavLink
@@ -82,12 +82,14 @@ class BellandurPage extends Component {
                                                 </li>
                                             </ul>
                                             <div class="_2S9gFR2 _2rbE6TC _2v5bHvx">
-                                                {/* <NavLink class="zF_pZj2 _3Pq3GhV"
-                                                    to="../contact-us"><span>Join Plej Fitness Today</span></NavLink> */}
-                                                <NavLink className="_1DHXI17 _3Pq3GhV"
+                                                {/* <NavLink className="_1DHXI17 _3Pq3GhV"
                                                     to="../class/bellandur-class"><span>Classes</span></NavLink>
                                                 <NavLink class="zF_pZj2 _3Pq3GhV"
-                                                    to="../instructors"><span>Instructor</span></NavLink>
+                                                    to="../instructors"><span>Instructor</span></NavLink> */}
+                                                <NavLink className="_1DHXI17 _3Pq3GhV"
+                                                    to="#" onClick="return false;"><span>Classes</span></NavLink>
+                                                <NavLink class="zF_pZj2 _3Pq3GhV"
+                                                    to="#" onClick="return false;"><span>Instructor</span></NavLink>
                                             </div>
                                         </div>
                                     </li>
