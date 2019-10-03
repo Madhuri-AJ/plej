@@ -191,7 +191,7 @@ export default class OwnGymPage extends Component {
                                                             1,000,000
                                                         </p>
                                                         <p className="first">
-                                                            500,000 
+                                                            500,000
                                                         </p>
                                                     </div>
                                                 </div>
@@ -201,13 +201,13 @@ export default class OwnGymPage extends Component {
                                                 <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
                                                     <div className="w-100">
                                                         <p className="first">
-                                                            11,400,000 
+                                                            11,400,000
                                                         </p>
                                                         <p className="first">
-                                                            9,900,000	
+                                                            9,900,000
                                                         </p>
                                                         <p className="first">
-                                                            8,500,000 
+                                                            8,500,000
                                                         </p>
                                                     </div>
                                                 </div>
@@ -578,7 +578,7 @@ export default class OwnGymPage extends Component {
                         </div>
                     </div>
                 </div>
-              
+
                 <div class="o15HL62 _2v5bHvx" id="express">
                     <div class="_3juAkpr _1KSLoAe">
                         <div class="_2Ey81ib _paddingtop">
@@ -587,7 +587,7 @@ export default class OwnGymPage extends Component {
                                     <a class="_2HzoBao _2rbE6TC _2v5bHvx" href="#" >
                                         <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Choose A Location</h4>
                                     </a>
-                                    <div className="_Wl12W- VBD7Ow3">
+                                    <div className="VBD7Ow3">
                                         <form class="center-div left-div">
                                             <div className="bottom_space mt-40">
                                                 <input type="text" class="first-half" placeholder="Full Name" />
@@ -602,7 +602,6 @@ export default class OwnGymPage extends Component {
                                             </div>
                                             <div className="middle-btn">
                                                 <NavLink class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#"><span>Submit</span></NavLink>
-                                                {/* <button className="_1x8JHAI _3Pq3GhV _3xVoYzA">Submit</button> */}
                                             </div>
                                         </form>
                                     </div>
@@ -611,6 +610,7 @@ export default class OwnGymPage extends Component {
                         </div>
                     </div>
                 </div>
+
                 <Footer />
             </div>
         )
