@@ -55,8 +55,6 @@ class MainPage extends Component {
     render() {
         return (
 
-
-
             <div class="_1vdzHPH" >
                 <section class="_3UoOzEJ _2rbE6TC _2v5bHvx " id="target">
                     <div class="_1JMynM5 _3-6A3ch ">
@@ -103,10 +101,10 @@ class MainPage extends Component {
                                             <img src="/assets/images/creative-03.png" />
                                         </div>
                                         <div>
-                                            <img src="/assets/images/creative-01.png" />
+                                            <img src="/assets/images/october-offer.jpg" />
                                         </div>
                                         <div>
-                                            <img src="/assets/images/creative-04.png" />
+                                            <img src="/assets/images/walkthon_updated.jpg" />
                                         </div>
                                     </Carousel>
                                 </div>
