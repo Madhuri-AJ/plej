@@ -245,6 +245,10 @@ optgroup {
   -webkit-tap-highlight-color: transparent;
 }
 
+.pt-100 {
+  padding-top: 100px;
+}
+
 ._2v5bHvx {
   display: block;
   float: left;
@@ -360,9 +364,20 @@ section {
   padding: 0 120px;
 }
 
+.pt-200 {
+  padding-top: 200px;
+  clear: both;
+}
+
 @media (max-width: 670px) {
   .VBD7Ow3 {
     padding: 0 20px;
+  }
+  .pt-100 {
+    padding-top: 50px;
+  }
+  .pt-200 {
+    padding-top: 30px;
   }
 }
 
@@ -380,7 +395,8 @@ section {
   ._3IPJrBv {
     min-height: 0;
     max-height: none;
-    margin-top: 100px;
+    margin-top: 145px;
+    margin-bottom: 60px;
     height: 100px;
   }
 }
@@ -585,6 +601,10 @@ h2 {
 }
 
 @media (max-width: 768px) {
+  ._2_HaYMw {
+    font-size: 34px;
+    line-height: 38px;
+  }
   h2 {
     font-size: 24px;
     line-height: 28px;
@@ -1066,18 +1086,6 @@ select:hover {
   background-color: #2d2d2d;
 }
 
-label {
-  margin-bottom: 8px;
-  width: 100%;
-  display: block;
-  float: left;
-}
-
-label span {
-  color: #bdbdbd;
-  font-size: 12px;
-}
-
 ._22qkbgJ {
   opacity: 0;
   color: red !important;
@@ -1136,7 +1144,7 @@ label span {
 
 ._1US2FDM {
   margin-top: 80px;
-  min-height: 130px;
+  min-height: 100px;
   position: relative;
 }
 
@@ -1600,14 +1608,14 @@ label span {
 @media (max-height: 700px) {
   ._2Vj-OOq {
     font-size: 55px;
-    line-height: 55px;
+    line-height: 58px;
   }
 }
 
 @media (max-width: 768px) {
   ._2Vj-OOq {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 35px;
   }
 }
 
@@ -1745,6 +1753,7 @@ label span {
   ._3sadWOc {
     width: 100%;
     margin-bottom: 50px;
+    text-align: center;
   }
 }
 
@@ -1766,11 +1775,13 @@ label span {
 @media (max-width: 768px) {
   ._3QyZoZ_ {
     margin-top: 30px;
+    text-align: center;
   }
 }
 
 .HLzP6ji {
   float: left;
+  width: 100%;
   color: #2d2d2d;
 }
 
@@ -2496,7 +2507,7 @@ label span {
   display: block;
   float: right;
   width: 415px;
-  min-height: 100vh;
+  min-height: 80vh;
   padding-top: 160px;
   position: relative;
   background-color: #000;
@@ -2510,6 +2521,7 @@ label span {
   ._2Ey81ib {
     width: 100%;
     padding-top: 120px;
+    min-height: auto;
   }
 }
 
@@ -2566,6 +2578,24 @@ label span {
   -webkit-transition: -webkit-transform 2s cubic-bezier(0.19, 1, 0.22, 1);
   transition: transform 2s cubic-bezier(0.19, 1, 0.22, 1);
   transition: transform 2s cubic-bezier(0.19, 1, 0.22, 1), -webkit-transform 2s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.location {
+  height: 200px;
+}
+
+.location img {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .location {
+    height: auto;
+  }
+  .location img {
+    height: auto;
+  }
 }
 
 ._GcKgjb {
@@ -2917,10 +2947,6 @@ label span {
   float: right;
 }
 
-.pt-100 {
-  padding-top: 100px;
-}
-
 .float-left {
   float: left;
 }
@@ -2945,11 +2971,6 @@ label span {
   padding-top: 20vh;
   padding-bottom: 20vh;
   text-align: center;
-}
-
-.pt-200 {
-  padding-top: 200px;
-  clear: both;
 }
 
 @media (max-width: 670px) {
@@ -3146,7 +3167,10 @@ label span {
 
 ._215RRp8 {
   padding-top: 40px;
-  border-bottom: 1px solid #2d2d2d;
+}
+
+._215RRp8 p {
+  margin-bottom: 0;
 }
 
 ._215RRp8 a {
@@ -3253,7 +3277,6 @@ label span {
 
 ._2DFH3kw img {
   width: 100%;
-  margin-bottom: 20px;
 }
 
 @media (max-width: 1024px) {
@@ -3497,7 +3520,7 @@ textarea:active::placeholder {
 }
 
 .center-div .bottom_space {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .center-div ._2_HaYMw,
@@ -3514,10 +3537,6 @@ textarea:active::placeholder {
 
 .center-div .middle-btn ._1x8JHAI {
   width: 44%;
-}
-
-.center-div .space {
-  margin-bottom: 140px;
 }
 
 .center-div label[for="upload"] {
@@ -3661,6 +3680,13 @@ html.lightbox-open {
   height: 300px;
 }
 
+@media (max-width: 992px) {
+  .center-div {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
 @media (max-width: 767px) {
   .hide-controls .lightbox-btn-left,
   .hide-controls .lightbox-btn-right {
@@ -3689,8 +3715,8 @@ html.lightbox-open {
   .center-div {
     max-width: 800px;
     width: 100%;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
   }
   .center-div .mt-40 {
     margin-top: 35px;
@@ -3698,14 +3724,14 @@ html.lightbox-open {
   .center-div label[for="upload"] {
     width: 100%;
   }
-  .center-div .bottom_space {
-    margin-bottom: 0;
-  }
   .center-div .first-half,
   .center-div .second-half {
     width: 100%;
     margin-right: 0;
     margin-bottom: 25px;
+  }
+  .center-div .second-half {
+    margin-bottom: 0;
   }
   .center-div .middle-btn {
     margin-top: 20px;
@@ -3948,11 +3974,217 @@ html.lightbox-open {
   bottom: 0;
 }
 
+.carousel .control-next.control-arrow:before {
+  margin-right: 1px;
+  margin-bottom: 1px;
+}
+
+.carousel .control-prev.control-arrow:before {
+  margin-left: 1px;
+  margin-bottom: 1px;
+}
+
 .carousel.carousel-slider .control-arrow:hover {
   background: rgba(0, 0, 0, 0.71);
 }
 
 .hiddenclass {
+  display: none;
+}
+
+.checkbox-container {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  margin-left: 4px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #bdbdbd;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #bdbdbd;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.checkbox-container {
+  display: inline-block;
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkbox-container .label {
+  width: 0;
+}
+
+.checkbox-container.small .checkmark {
+  width: 15px;
+  height: 14px;
+}
+
+.checkbox-container.small .checkmark::after {
+  width: 6px;
+  height: 10px;
+  left: 3px;
+  top: 0px;
+}
+
+.checkbox-container.checkbox-index {
+  position: relative;
+  z-index: 2;
+}
+
+.checkbox-container.h-20 {
+  height: 20px;
+}
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  width: 0px;
+  height: 0px;
+}
+
+.checkbox-container .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  right: auto;
+  width: 20px;
+  height: 20px;
+  background-color: #bbbbbb;
+  border-radius: 2px;
+}
+
+.checkbox-container .checkmark::after {
+  display: none;
+  content: "";
+  position: absolute;
+  top: 1px;
+  right: auto;
+  bottom: auto;
+  left: 5px;
+  width: 7px;
+  height: 12px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #255f78;
+  border: 2px solid #255f78;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.white_color {
+  color: #bdbdbd;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.never {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.new-h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.limit-width {
+  height: 217px;
+  overflow: hidden;
+}
+
+.view-more {
+  text-transform: uppercase;
+  font-weight: 400;
+  opacity: 0.7;
+  padding: 15px 40px;
+  background: transparent;
+  color: #fff;
+  border: 0;
+  float: right;
+}
+
+.view-more:focus {
+  outline: 0;
+}
+
+.height-full {
+  height: auto;
+  overflow: visible;
+}
+
+.d-none {
   display: none;
 }
 /*# sourceMappingURL=main.css.map */

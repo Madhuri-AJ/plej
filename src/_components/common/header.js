@@ -46,7 +46,7 @@ class Header extends Component {
                                 href="#" onClick={history.goBack}> Back</a>
                         </li> */}
                         <li class="_2GaQ8vJ">
-                            <a class="m7LKENr _25LPQhk _2DGciQP" onClick={this.handlePopup}>Book a tour</a>
+                            <a class="m7LKENr _25LPQhk _2DGciQP" onClick={this.handlePopup}>Book a Free Trial</a>
                         </li>
                         {/* <li class="_2GaQ8vJ">
                             <a class="m7LKENr _25LPQhk _2DGciQP"
@@ -67,7 +67,7 @@ class Header extends Component {
                             </li>
                             <li class="_1GxILA2">
                                 <NavLink to="/contact-us" onClick={this.handleDisplay} className="_2Vj-OOq _2_HaYMw _1w_OEYg">
-                                    Join PLEJ
+                                    Join PLEJ Fitness
                                 </NavLink>
                             </li>
                             <li class="_1GxILA2">
@@ -133,64 +133,30 @@ class Header extends Component {
                     <div class="LN-nIKU I7PwxVS">
                         <div class="_1L5csiF">
                             <div class="_1US2FDM _2rbE6TC _2v5bHvx VBD7Ow3">
-                                <h3 class="LsKezX_">Book a tour</h3>
+                                <h3 class="LsKezX_">Book a Free Trial</h3>
                                 <span class="_2va2FpG" onClick={this.close}></span>
                             </div>
-                            <div class="_3ITUOra _2rbE6TC _2v5bHvx VBD7Ow3" style={{ "width": "3524.19px", "transform": "translateX(0px);" }}>
-                                <form>
-                                    <div class="_2cjZ1PT _1G7RCdW _2v5bHvx">
-                                        <div class="Zd4QDDO">
-                                            <h4 class="Zd4QDDO">1/4</h4>
-                                        </div>
-                                        <h2 class="_1_KNBvC">What's your name?</h2>
-                                        <div class="_2nxeEK_ _14NUrhZ">
-                                            <label for="fromName"></label>
-                                            <input type="text" name="fromName" value="" placeholder="Name" />
-                                            <small class="_22qkbgJ">This field is required.</small>
-                                        </div>
+                            <div class="_3ITUOra _2rbE6TC _2v5bHvx VBD7Ow3" style={{ "width": "3524.19px", "transform": "translateX(0px)" }}>
+                                <form class="center-div _2v5bHvx">
+                                    <div className="bottom_space">
+                                        <input type="text" class="first-half" placeholder="Full Name" />
+                                        <input type="email" class="second-half" placeholder="Email" />
                                     </div>
-
-                                    <div class="_26Hb2eR _2cjZ1PT _1G7RCdW _2v5bHvx">
-                                        <div class="Zd4QDDO">
-                                            <h4 class="Zd4QDDO">2/4</h4>
-                                        </div>
-                                        <h2 class="_1_KNBvC">What's your phone?</h2>
-                                        <div class="_2nxeEK_ _14NUrhZ">
-                                            <label for="message[mobile]"></label>
-                                            <input type="text" name="message[mobile]" value="" placeholder="Phone" />
-                                            <small class="_22qkbgJ">This field is required.</small>
-                                        </div>
+                                    <div className="bottom_space">
+                                        <input type="text" class="first-half" placeholder="Phone Number" />
+                                        <input type="email" class="second-half" placeholder="Location" />
                                     </div>
-
-                                    <div class="_26Hb2eR  _2cjZ1PT _1G7RCdW _2v5bHvx">
-                                        <div class="Zd4QDDO">
-                                            <h4 class="Zd4QDDO">3/4</h4>
-                                        </div>
-                                        <h2 class="_1_KNBvC">Select club</h2>
-                                        <div class="_2nxeEK_ _14NUrhZ">
-                                            <label for="message[gym]"></label>
-                                            <select name="message[gym]">
-                                                <option value="select">Select</option>
-                                                <option value="Veeranyapalya">Veeranyapalya</option>
-                                                <option value="Rajajinagar">Rajajinagar</option>
-                                                <option value="Kumarpark">Kumar Park</option>
-                                            </select>
-                                            <small class="_3uKmWJ7 _22qkbgJ">This field is required</small>
-                                        </div>
+                                    <div className="bottom_space">
+                                        <label class="checkbox-container small d-inline-block"><input type="checkbox" /><span class="checkmark"></span></label>
+                                        <div class="d-inline-block white_color">I agree to the <NavLink className="underline" to="/terms-conditions" onClick={this.close}>
+                                            Terms and Conditions
+                                        </NavLink> </div>
                                     </div>
-
-
-
-                                    <div class="_26Hb2eR _2cjZ1PT _1G7RCdW _2v5bHvx"><div class="Zd4QDDO"><h4 class="Zd4QDDO">4/6</h4></div><h2 class="_1_KNBvC">Time to submit!</h2><p>I understand that by submitting my details I will be contacted by PLEJ with information about their services and membership options (not with spam, we promise)</p><input type="submit" value="Book your free tour!" /></div>
-
-                                    <div class="_3ipyBdB">
-                                        <h2>Thanks - chat soon</h2>
+                                    <div className="middle-btn">
+                                        <NavLink class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#"><span>Submit</span></NavLink>
                                     </div>
                                 </form>
                             </div>
-                            <div class="_2bIo9Yp _2rbE6TC _2v5bHvx VBD7Ow3">
-                                <button class="_3pXyaiA _2S_CT_r button"><span>&nbsp;</span></button>
-                                <button className="button"><span>Next</span></button></div>
                         </div>
                     </div>
                 </div>

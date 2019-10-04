@@ -13,19 +13,27 @@ export default class GalleryPage extends Component {
                     <div class="_2uaX48K _1G7RCdW _2v5bHvx VBD7Ow3">
                         <Lightbox images={[
                             {
-                                src: '/assets/images/gym1.jpg',
+                                src: 'assets/images/forum/forum_2.jpg',
                                 description: ' '
                             },
                             {
-                                src: '/assets/images/gym2.jpg',
+                                src: 'assets/images/kumarpark/kumarpark_1.jpg',
                                 description: ' '
                             },
                             {
-                                src: '/assets/images/gym3.jpg',
+                                src: 'assets/images/panatur/panatur_2.jpg',
                                 description: ' '
                             },
                             {
-                                src: 'assets/images/gym3.jpg',
+                                src: 'assets/images/rajajinagar/rajajinagar_2.jpg',
+                                description: ' '
+                            },
+                            {
+                                src: 'assets/images/vr-mall/vr_3.jpg',
+                                description: ' '
+                            },
+                            {
+                                src: 'assets/images/rajajinagar/rajajinagar_3.jpg',
                                 description: ' '
                             }
                         ]}

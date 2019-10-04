@@ -61,8 +61,8 @@ class MainPage extends Component {
                 <section class="_3UoOzEJ _2rbE6TC _2v5bHvx " id="target">
                     <div class="_1JMynM5 _3-6A3ch ">
                         <video class="_3h_jpHd _21UD1KG _3HiqiFI"
-                            src="/assets/images/demo1.mp4"
-                            muted autoplay=""
+                            src="/assets/images/demo2.mp4"
+                             autoplay="" preload
                             playsinline loop>
                         </video>
                         {/* <video autoplay="" class="_3h_jpHd _21UD1KG _3HiqiFI"
@@ -73,9 +73,9 @@ class MainPage extends Component {
                     </div>
                     <div class="_3d137aW sDHKtsB">
                         <div class="_3NcCK2a _2rbE6TC _2v5bHvx pRZSkbx VBD7Ow3">
-                            <h1 class="_1jnoPLs _3x6v3-y">Never Give Up</h1>
+                            <h1 class="_1jnoPLs _3x6v3-y never">Never Give Up</h1>
                             <div class="FBl2DCz _2rbE6TC _2v5bHvx _3x6v3-y">
-                                <h4><NavLink to="/contact-us" class="_3KWTFTz _2DGciQP">Join Plej Today</NavLink></h4>
+                                <h4><NavLink to="/contact-us" class="_3KWTFTz _2DGciQP">Join Plej Fitness Today</NavLink></h4>
                             </div>
                         </div>
                     </div>
@@ -100,13 +100,13 @@ class MainPage extends Component {
                                         useKeyboardArrows
                                         className="presentation-mode">
                                         <div>
-                                            <img src="/assets/images/plej_banners1.jpg" />
+                                            <img src="/assets/images/creative-03.png" />
                                         </div>
                                         <div>
-                                            <img src="/assets/images/plej_banners2.jpg" />
+                                            <img src="/assets/images/creative-01.png" />
                                         </div>
                                         <div>
-                                            <img src="/assets/images/plej_banners3.jpg" />
+                                            <img src="/assets/images/creative-04.png" />
                                         </div>
                                     </Carousel>
                                 </div>
@@ -168,9 +168,13 @@ class MainPage extends Component {
                         <div class="A6gnRSw"></div>
                         <div class="lmco2Sv"></div>
                     </div>
-                    <div class="_27RGXUG I7PwxVS"><a href="/classes">
-                        <h2 class="_3fhPOEA _2_HaYMw">Bangalore’s unique classes</h2>
-                    </a><NavLink class="Yd7bNNG _3Pq3GhV button" to="/location"><span>Explore Locations</span></NavLink>
+                    <div class="_27RGXUG I7PwxVS">
+                        <a href="/classes">
+                            <h2 class="_3fhPOEA _2_HaYMw">Plej Fitness Clubs</h2>
+                        </a>
+                        <NavLink class="Yd7bNNG _3Pq3GhV button" to="/location">
+                            <span>Explore Locations</span>
+                        </NavLink>
                     </div>
                 </section>
 

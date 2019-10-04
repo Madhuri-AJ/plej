@@ -2,7 +2,11 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import HomePage from "./_components/home";
 import './_assets/main.min.css';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
+
+toast.configure();
 function App() {
   return (
     <div className="App">

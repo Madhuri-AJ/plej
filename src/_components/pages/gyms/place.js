@@ -6,19 +6,25 @@ class PlacePage extends Component {
         window.scrollTo({ top: 0, behavior: "smooth" });
     }
     render() {
+        let array = ["/assets/images//rajajinagar/rajajinagar_5.jpg", "/assets/images/gym2.jpg", "/assets/images/gym3.jpg", "/assets/images/gym4.jpg", "/assets/images/gym5.jpg"];
         return (
             <div>
                 <div class="_1vdzHPH">
                     <div class="o15HL62 _2v5bHvx">
                         <div class="_3juAkpr _1KSLoAe">
-                            <div class="_1JOjVV5 _2v5bHvx">
+                            {/* <div class="_1JOjVV5 _2v5bHvx">
                                 <div class="e_U31UT sDHKtsB"></div>
-                            </div>
+                            </div> */}
                             <div class="_2Ey81ib">
                                 <ul class="_3_31gDn _2rbE6TC _2v5bHvx">
-                                    <li class="_3O95Rh5 Cq_7NWt _2rbE6TC _2v5bHvx"><a class="_2HzoBao _2rbE6TC _2v5bHvx" href="bank.html">
-                                        <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Veerannapalya</h4>
-                                    </a>
+                                    <li class="_3O95Rh5 Cq_7NWt _2rbE6TC _2v5bHvx">
+                                        <a class="_2HzoBao _2rbE6TC _2v5bHvx" href="bank.html">
+                                            <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Mahadevapura</h4>
+                                        </a>
+                                        {/* <div className="VBD7Ow3">
+                                            <NavLink class="zF_pZj2 _3Pq3GhV"
+                                                to="../contact-us"><span>Join Plej Fitness Today</span></NavLink>
+                                        </div> */}
                                         <div class="_Wl12W- VBD7Ow3">
                                             <ul class="M6EUSUT _2rbE6TC _2v5bHvx">
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
@@ -27,13 +33,15 @@ class PlacePage extends Component {
                                                         <div>
                                                             <p>
                                                             </p>
-                                                            <p>Mon to Fri: 6am – 11pm<br />Sat to Sun: 10am – 6pm</p>
+                                                            <p>Mon to Sat : 6am – 10pm<br /> Sun: 7am – 7pm</p>
                                                         </div>
+                                                        <NavLink
+                                                            to="../contact-us" class="Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>Join Plej Fitness Today</span></NavLink>
                                                     </div>
                                                 </li>
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
                                                     <div class="_2l5my07 _2HhTmXD _2v5bHvx">Contact</div>
-                                                    <div class="_1Fu6UbF _1dohwpN _2v5bHvx"><a href="tel:+91 8448449354">+91 8448449354 </a>
+                                                    <div class="_1Fu6UbF _1dohwpN _2v5bHvx"><a href="tel:+91 9717533833">+91 9717533833 </a>
                                                     </div>
                                                 </li>
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
@@ -41,37 +49,44 @@ class PlacePage extends Component {
                                                     <div class="_1Fu6UbF _1dohwpN _2v5bHvx"><a
                                                         href="../cdn-cgi/l/email-protection.html#c1a3a0afaaa4afb0b4a8b3a8a4b281a6b8aca3aeb9efa2aeefb4aa"
                                                         class="_2h5s4t1"><span class="__cf_email__"
-                                                            data-cfemail="1b797a75707e756a6e7269727e685b7c6276797463357874356e70"> info@plej.fit</span></a>
+                                                            data-cfemail="1b797a75707e756a6e7269727e685b7c6276797463357874356e70"> info@plejfitness.com</span></a>
                                                     </div>
                                                 </li>
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
                                                     <div class="_2l5my07 _2HhTmXD _2v5bHvx">Address</div>
                                                     <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
-                                                        #91, 102/3,
-                                                        Veerannapalya,
-                                                        Nagavara ring road,
-                                                        Opp BEL Corporate office,
-                                                        Manyata tech park,
-                                                        Bengaluru, 560045.
-                                                    <a
-                                                            href="https://goo.gl/maps/jY3gtV6NbybbnNBT8"
-                                                            target="_blank" class="Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>View on Map</span></a></div>
+                                                        2nd Floor, VR Bengaluru, Whitefield Main Rd, Devasandra Industrial Estate, Mahadevapura, Bengaluru, Karnataka 560048
+                                                        <a
+                                                            href="https://goo.gl/maps/RkkfkmbW2Vk34imGA"
+                                                            target="_blank" class="Yd7bNNG _3Pq3GhV button _1x8JHAI">
+                                                            <span>View on Map</span>
+                                                        </a>
+                                                    </div>
                                                 </li>
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
                                                     <div class="_2l5my07 _2HhTmXD _2v5bHvx">Facilities</div>
-                                                    <div class="_1Fu6UbF _1dohwpN _2v5bHvx"><span>Strength &amp;
-                                                    Conditioning<br /></span><span>Boxing Ring<br /></span><span>Functional
-                                                    Fitness<br /></span><span>Holistic Studio<br /></span><span>Dance &amp; Conditioning
-                                                    Studio<br /></span><span>Matted Combat Area<br /></span><span>Group Cycle
-                                                    Studio<br /></span><span>Resident DJs<br /></span><span>Very Personal
-                                                    Training<br /></span><span>Cardio<br /></span><span>Olympic Lifting<br /></span></div>
+                                                    <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
+                                                        <span>Strength &amp;
+                                                            Conditioning<br />
+                                                        </span>
+                                                        <span>Functional
+                                                        Training<br />
+                                                        </span>
+                                                        <span>Group Class Studio<br />
+                                                        </span>
+                                                        <span>Weight Section<br /></span>
+                                                        <span>Cardio Section<br />
+                                                        </span>
+                                                        <span>Change Rooms<br /></span>
+                                                        <span>Lockers<br /></span>
+                                                    </div>
                                                 </li>
                                             </ul>
                                             <div class="_2S9gFR2 _2rbE6TC _2v5bHvx">
                                                 <NavLink className="_1DHXI17 _3Pq3GhV"
-                                                    to="../classes"><span>Classes</span></NavLink>
+                                                    to="#" onClick="return false;"><span>Classes</span></NavLink>
                                                 <NavLink class="zF_pZj2 _3Pq3GhV"
-                                                    to="../instructors"><span>Instructor</span></NavLink>
+                                                    to="#" onClick="return false;"><span>Instructor</span></NavLink>
                                             </div>
                                         </div>
                                     </li>
@@ -97,12 +112,20 @@ class PlacePage extends Component {
                                             </div>
                                         </Carousel> */}
                                         <ul class="_2J71_L4 sDHKtsB">
+
                                             <li class="NPRZnJb _1kNfguI sDHKtsB">
                                                 <div class="_2gpiPPm lC7b5Zk sDHKtsB">
-                                                    <span class="_3h_jpHd" style={{ "backgroundImage": "url(\"/assets/images/11.jpg\")" }}></span>
+
+                                                    {array.map(
+                                                        (image, index) => {
+                                                            return <span key={index} class="_3h_jpHd" style={{ "backgroundImage": `url(${image})` }}></span>
+                                                            // return <img key={image} src={image} className=""/>
+                                                        }
+                                                    )}
                                                 </div>
+
                                             </li>
-                                            <li class="_1kNfguI sDHKtsB">
+                                            {/* <li class="_1kNfguI sDHKtsB">
                                                 <div class="_2gpiPPm lC7b5Zk sDHKtsB">
                                                     <span class="_3h_jpHd" style={{ "backgroundImage": "url(\"/assets/images/11.jpg\")" }}></span>
                                                 </div>
@@ -117,7 +140,7 @@ class PlacePage extends Component {
                                             </li>
                                             <li class="_1kNfguI sDHKtsB">
                                                 <div class="_2gpiPPm lC7b5Zk sDHKtsB"></div>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                         <ul class="_3ip4KkA">
                                             <li class="_3PzcYel _1l8ChEh"><span class="_21gqM6d"></span></li>
