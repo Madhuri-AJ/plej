@@ -91,6 +91,7 @@ class Header extends Component {
             email: "",
             phone: "",
             location: "",
+            conditionsCheck: false
         })
     }
     render() {
