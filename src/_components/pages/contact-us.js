@@ -47,12 +47,23 @@ export default class ContactPage extends Component {
                   toast.success(res.data.message);
               }
               this.setState({isSubmitting: false});
+              this.clearForm();
           })
           .catch(err => {
               this.setState({isSubmitting: false});
               console.log('the error is ', err)
           })
 
+    }
+    clearForm = () => {
+        console.log('i am here.');
+        this.setState({
+            fullName: "",
+            email: "",
+            phone: "",
+            location: "",
+            message: ""
+        })
     }
     render() {
         return (
@@ -61,15 +72,15 @@ export default class ContactPage extends Component {
                     <form class="center-div">
                         <h2 class="_17Fvefa _2_HaYMw">Get in Touch</h2>
                         <div className="bottom_space">
-                            <input onChange={this.handleInputChange} name="fullName" type="text" class="first-half" placeholder="Full Name" />
-                            <input onChange={this.handleInputChange} name="email" type="email" class="second-half" placeholder="Email" />
+                            <input value={this.state.fullName} onChange={this.handleInputChange} name="fullName" type="text" class="first-half" placeholder="Full Name" />
+                            <input value={this.state.email} onChange={this.handleInputChange} name="email" type="email" class="second-half" placeholder="Email" />
                         </div>
                         <div className="bottom_space">
-                            <input onChange={this.handleInputChange} name="phone"  type="text" class="first-half" placeholder="Phone Number" />
-                            <input onChange={this.handleInputChange} name="location" type="text" class="second-half" placeholder="Location" />
+                            <input value={this.state.phone} onChange={this.handleInputChange} name="phone"  type="text" class="first-half" placeholder="Phone Number" />
+                            <input value={this.state.location} onChange={this.handleInputChange} name="location" type="text" class="second-half" placeholder="Location" />
                         </div>
                         <div className="bottom_space">
-                            <textarea onChange={this.handleInputChange} name="message" type="text" placeholder="Message" />
+                            <textarea value={this.state.message} onChange={this.handleInputChange} name="message" type="text" placeholder="Message" />
                         </div>
                         <div className="middle-btn">
                             {/* <button className="_1x8JHAI _3Pq3GhV _3xVoYzA button">Submit</button> */}

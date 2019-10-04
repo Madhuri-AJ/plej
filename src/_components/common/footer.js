@@ -39,12 +39,20 @@ class Footer extends Component {
                   toast.success(res.data.message);
               }
               this.setState({isSubmitting: false});
+              this.clearForm();
           })
           .catch(err => {
               console.log('the error is ', err);
               this.setState({isSubmitting: false});
           })
 
+    }
+    clearForm = () => {
+        console.log('i am here.');
+        this.setState({
+            fullName: "",
+            email: "",
+        })
     }
     render() {
         return (
@@ -188,13 +196,13 @@ class Footer extends Component {
                             <form class="_3CID_bm">
                                 <div class="_2nxeEK_ _14NUrhZ">
                                     {/* <label for="name"></label> */}
-                                    <input onChange={this.handleInputChange} type="text" name="fullName" placeholder="Your Name" vlaue="" />
+                                    <input value={this.state.fullName} onChange={this.handleInputChange} type="text" name="fullName" placeholder="Your Name" vlaue="" />
                                     {/* <input type="text" name="name" value=""
                                         placeholder="Your name" />
                                     <small class="_22qkbgJ"></small> */}
                                 </div>
                                 <div class="_2nxeEK_ _14NUrhZ">
-                                    <input onChange={this.handleInputChange} type="text" name="email" placeholder="Your Email" vlaue="" />
+                                    <input value={this.state.email} onChange={this.handleInputChange} type="text" name="email" placeholder="Your Email" vlaue="" />
                                     {/* <label for="email"></label>
                                     <input type="email" name="email" value=""
                                         placeholder="Your email" />
