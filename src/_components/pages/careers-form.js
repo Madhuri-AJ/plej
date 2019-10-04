@@ -45,12 +45,25 @@ export default class FormPage extends Component{
                   toast.success(res.data.message);
               }
               this.setState({isSubmitting: false});
+              this.clearForm();
             })
             .catch(err => {
                 this.setState({isSubmitting: false});
               console.log('the error is ', err);
           })
 
+
+
+    }
+
+    clearForm = () => {
+        this.setState({
+            fullName: "",
+            email: "",
+            phone: "",
+            location: "",
+            message: "",
+        })
     }
     render(){
         return(
