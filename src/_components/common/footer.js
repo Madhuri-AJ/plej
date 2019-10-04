@@ -38,9 +38,11 @@ class Footer extends Component {
               if(res.status == 200){
                   toast.success(res.data.message);
               }
+              this.setState({isSubmitting: false});
           })
           .catch(err => {
-              console.log('the error is ', err)
+              console.log('the error is ', err);
+              this.setState({isSubmitting: false});
           })
 
     }
@@ -199,7 +201,7 @@ class Footer extends Component {
                                     <small class="_22qkbgJ"></small> */}
                                 </div>
                                 <div className="pt-16">
-                                    <button onClick={this.handleSubmit} class="Yd7bNNG _3Pq3GhV button _1x8JHAI">
+                                    <button disabled={this.state.isSubmitting} onClick={this.handleSubmit} class="Yd7bNNG _3Pq3GhV button _1x8JHAI">
                                         <span>Submit</span>
                                     </button>
                                 </div>

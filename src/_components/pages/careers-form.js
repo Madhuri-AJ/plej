@@ -44,9 +44,11 @@ export default class FormPage extends Component{
               if(res.status == 200){
                   toast.success(res.data.message);
               }
-          })
-          .catch(err => {
-              console.log('the error is ', err)
+              this.setState({isSubmitting: false});
+            })
+            .catch(err => {
+                this.setState({isSubmitting: false});
+              console.log('the error is ', err);
           })
 
     }
@@ -78,7 +80,7 @@ export default class FormPage extends Component{
                         </div>
                         <div className="middle-btn bottom_space">
                             {/* <button className="_1x8JHAI _3Pq3GhV _3xVoYzA bottom_space button">Submit Application</button> */}
-                            <button onClick={this.handleSubmit} class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#"><span>Submit Application</span></button>
+                            <button disabled={this.state.isSubmitting} onClick={this.handleSubmit} class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#"><span>Submit Application</span></button>
                         </div>
                     </form>
                 </div>
