@@ -1,13 +1,25 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import { history } from "../history";
+import { api } from "../../env";
+import { formTypes } from "../../_constants/formTypes";
+import axios from "axios";
+import {toast} from 'react-toastify'
 
 class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
             condition: false,
-            open: false
+            open: false,
+            fullName: "",
+            email: "",
+            phone: "",
+            location: "",
+            isSubmitting: false,
+            conditionsCheck: false
+
+
         }
     }
     handleToggle = () => {
@@ -29,6 +41,58 @@ class Header extends Component {
         this.setState({
             open: !this.state.open
         });
+    }
+    handleCheckboxChange = (event) => {
+            this.setState({
+                conditionsCheck: event.target.checked
+            })
+    }
+    handleInputChange = event => {
+        let {value} = event.target;
+        this.setState({
+            [event.target.name]: value
+        }) ;
+    }
+
+    handleSubmit = (event) => {
+        event.preventDefault();
+        this.setState({isSubmitting: true});
+        let url = `${api.apiCompany}general/send-email`;
+        let payload = {
+            fullName: this.state.fullName,
+            location: this.state.location,
+            email: this.state.email,
+            phone: this.state.phone,
+            formType : formTypes.BOOKING
+
+        }
+
+        axios.post(url, payload)
+          .then(res => {
+              if(res.status == 200){
+                  toast.success(res.data.message);
+              }
+              this.setState({isSubmitting: false});
+              this.clearForm();
+            })
+            .catch(err => {
+                this.setState({isSubmitting: false});
+              console.log('the error is ', err);
+          })
+
+
+
+    }
+
+    clearForm = () => {
+        console.log('i am here.');
+        this.setState({
+            fullName: "",
+            email: "",
+            phone: "",
+            location: "",
+            conditionsCheck: false
+        })
     }
     render() {
         return (
@@ -139,21 +203,21 @@ class Header extends Component {
                             <div class="_3ITUOra _2rbE6TC _2v5bHvx VBD7Ow3" style={{ "width": "3524.19px", "transform": "translateX(0px)" }}>
                                 <form class="center-div _2v5bHvx">
                                     <div className="bottom_space">
-                                        <input type="text" class="first-half" placeholder="Full Name" />
-                                        <input type="email" class="second-half" placeholder="Email" />
+                                        <input value={this.state.fullName} onChange={this.handleInputChange} name="fullName" type="text" class="first-half" placeholder="Full Name" />
+                                        <input value={this.state.email} onChange={this.handleInputChange} name="email" type="email" class="second-half" placeholder="Email" />
                                     </div>
                                     <div className="bottom_space">
-                                        <input type="text" class="first-half" placeholder="Phone Number" />
-                                        <input type="email" class="second-half" placeholder="Location" />
+                                        <input value={this.state.phone} onChange={this.handleInputChange} name="phone" type="text" class="first-half" placeholder="Phone Number" />
+                                        <input value={this.state.location} name="location" onChange={this.handleInputChange} name="location" type="text" class="second-half" placeholder="Location" />
                                     </div>
                                     <div className="bottom_space">
-                                        <label class="checkbox-container small d-inline-block"><input type="checkbox" /><span class="checkmark"></span></label>
+                                        <label class="checkbox-container small d-inline-block"><input onChange={this.handleCheckboxChange} checked={this.state.conditionsCheck} name="conditionsCheck" type="checkbox" /><span class="checkmark"></span></label>
                                         <div class="d-inline-block white_color">I agree to the <NavLink className="underline" to="/terms-conditions" onClick={this.close}>
                                             Terms and Conditions
                                         </NavLink> </div>
                                     </div>
                                     <div className="middle-btn">
-                                        <NavLink class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#"><span>Submit</span></NavLink>
+                                        <button disabled={this.state.isSubmitting || !this.state.conditionsCheck} onClick={this.handleSubmit} class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#"><span>Submit</span></button>
                                     </div>
                                 </form>
                             </div>
