@@ -5,6 +5,7 @@ import { api } from "../../env";
 import { formTypes } from "../../_constants/formTypes";
 import axios from "axios";
 import {toast} from 'react-toastify'
+import swal from "sweetalert";
 
 class Header extends Component {
     constructor(props) {
@@ -70,7 +71,12 @@ class Header extends Component {
         axios.post(url, payload)
           .then(res => {
               if(res.status == 200){
-                  toast.success(res.data.message);
+                //   toast.success(res.data.message);
+                swal({
+                    title: "Done!",
+                    text: res.data.message,
+                    icon: "success"
+                  })
               }
               this.setState({isSubmitting: false});
               this.clearForm();

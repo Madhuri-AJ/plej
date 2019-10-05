@@ -1,10 +1,75 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import { api } from "../../env";
+import {toast} from 'react-toastify';
+import { formTypes } from "../../_constants/formTypes";
+import axios from 'axios';
+import swal from "sweetalert";
 import Footer from "../common/footer";
 export default class OwnGymPage extends Component {
     constructor(props) {
         super(props);
+        this.state = {
+            fullName: "",
+            email: "",
+            phone: "",
+            location: "",
+            message: "",
+            isSubmitting: false
+        }
         window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    handleInputChange = event => {
+        let {value} = event.target;
+        this.setState({
+            [event.target.name]: value
+        }) ;
+    }
+
+    handleSubmit = (event) => {
+        event.preventDefault();
+        this.setState({isSubmitting: true});
+        let url = `${api.apiCompany}general/send-email`;
+        let payload = {
+            fullName: this.state.fullName,
+            email: this.state.email,
+            phone: this.state.phone,
+            location: this.state.location,
+            message: this.state.message,
+            formType: formTypes.CONTACT_US
+
+        }
+
+        axios.post(url, payload)
+          .then(res => {
+              if(res.status == 200){
+                //   toast.success(res.data.message);
+                swal({
+                    title: "Done!",
+                    text: res.data.message,
+                    icon: "success"
+                  })
+              }
+              this.setState({isSubmitting: false});
+              this.clearForm();
+            })
+            .catch(err => {
+                this.setState({isSubmitting: false});
+              console.log('the error is ', err);
+          })
+
+
+
+    }
+
+    clearForm = () => {
+        this.setState({
+            fullName: "",
+            lastName: "",
+            email: "",
+            phone: "",
+        })
     }
     render() {
         return (
@@ -590,18 +655,20 @@ export default class OwnGymPage extends Component {
                                     <div className="VBD7Ow3">
                                         <form class="center-div left-div">
                                             <div className="bottom_space mt-40">
-                                                <input type="text" class="first-half" placeholder="Full Name" />
-                                                <input type="email" class="second-half" placeholder="Email" />
+                                                <input value={this.state.fullName} name="fullName" onChange={this.handleInputChange} type="text" class="first-half" placeholder="Full Name" />
+
+                                                <input  onChange={this.handleInputChange} value={this.state.email} name="email"  type="email" class="second-half" placeholder="Email" />
                                             </div>
                                             <div className="bottom_space">
-                                                <input type="text" class="first-half" placeholder="Phone Number" />
-                                                <input type="email" class="second-half" placeholder="Location" />
+                                                <input  onChange={this.handleInputChange} value={this.state.phone} name="phone" type="text" class="first-half" placeholder="Phone Number" />
+
+                                                <input value={this.state.location} onChange={this.handleInputChange} name="location" type="text" class="second-half" placeholder="Location" />
                                             </div>
                                             <div className="bottom_space">
-                                                <textarea type="text" placeholder="Message" />
+                                                <textarea value={this.state.message} onChange={this.handleInputChange} name="message" type="text" placeholder="Message" />
                                             </div>
                                             <div className="middle-btn">
-                                                <NavLink class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#"><span>Submit</span></NavLink>
+                                                <button class="Yd7bNNG _3Pq3GhV button _1x8JHAI" onClick={this.handleSubmit}><span>Submit</span></button>
                                             </div>
                                         </form>
                                     </div>

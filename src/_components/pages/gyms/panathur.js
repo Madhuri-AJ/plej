@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 class PanthurPage extends Component {
     constructor(props) {
         super(props);
@@ -12,19 +14,12 @@ class PanthurPage extends Component {
                 <div class="_1vdzHPH">
                     <div class="o15HL62 _2v5bHvx">
                         <div class="_3juAkpr _1KSLoAe">
-                            {/* <div class="_1JOjVV5 _2v5bHvx">
-                                <div class="e_U31UT sDHKtsB"></div>
-                            </div> */}
                             <div class="_2Ey81ib">
                                 <ul class="_3_31gDn _2rbE6TC _2v5bHvx">
                                     <li class="_3O95Rh5 Cq_7NWt _2rbE6TC _2v5bHvx">
                                         <a class="_2HzoBao _2rbE6TC _2v5bHvx" href="bank.html">
-                                            <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Panathur</h4>
+                                            <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">panatur</h4>
                                         </a>
-                                        {/* <div className="VBD7Ow3">
-                                            <NavLink class="zF_pZj2 _3Pq3GhV"
-                                                to="../contact-us"><span>Join Plej Fitness Today</span></NavLink>
-                                        </div> */}
                                         <div class="_Wl12W- VBD7Ow3">
                                             <ul class="M6EUSUT _2rbE6TC _2v5bHvx">
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
@@ -55,7 +50,7 @@ class PanthurPage extends Component {
                                                 <li class="_31cCPJV _2rbE6TC _2v5bHvx">
                                                     <div class="_2l5my07 _2HhTmXD _2v5bHvx">Address</div>
                                                     <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
-                                                        3rd Floor, 84/1, Panathur Road, Kaverappa Layout, Kadubeesanahalli, Kadubeesanahalli, Panathur, Bengaluru, Karnataka 560103.
+                                                        3rd Floor, 84/1, panatur Road, Kaverappa Layout, Kadubeesanahalli, Kadubeesanahalli, panatur, Bengaluru, Karnataka 560103.
                                                         <a
                                                             href="https://goo.gl/maps/g8xxiCaQBNqgmE2c6"
                                                             target="_blank" class="Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>View on Map</span></a>
@@ -93,61 +88,29 @@ class PanthurPage extends Component {
                             </div>
                             <div class="_1Xw6tAa">
                                 <div class="_3DJUv-O sDHKtsB">
-                                    <div class="_2Tb-We1 sDHKtsB">
-                                        {/* <Carousel showThumbs={false}
+                                    <div class="_2Tb-We1 sDHKtsB location-carousel">
+                                        <Carousel showThumbs={false}
                                             showStatus={false}
-                                            // autoPlay interval={2000} 
-                                            // infiniteLoop
+                                            autoPlay interval={2000}
+                                            infiniteLoop
                                             useKeyboardArrows
                                             className="presentation-mode">
                                             <div>
-                                                <img src="https://wallpapershome.com/images/wallpapers/girl-2560x1440-fitness-exercise-gym-dumbbells-workout-sportswear-11081.jpg" />
+                                                <img src="/assets/images/panatur/panatur_1.jpg" />
                                             </div>
                                             <div>
-                                                <img src="https://images.wallpaperscraft.com/image/gym_disks_weight_bodybuilding_118105_2560x1600.jpg" />
+                                                <img src="/assets/images/panatur/panatur_2.jpg" />
                                             </div>
                                             <div>
-                                                <img src="https://wallpapercave.com/wp/wp2639561.jpg" />
+                                                <img src="/assets/images/panatur/panatur_3.jpg" />
                                             </div>
-                                        </Carousel> */}
-                                        <ul class="_2J71_L4 sDHKtsB">
-
-                                            <li class="NPRZnJb _1kNfguI sDHKtsB">
-                                                <div class="_2gpiPPm lC7b5Zk sDHKtsB">
-
-                                                    {array.map(
-                                                        (image, index) => {
-                                                            return <span key={index} class="_3h_jpHd" style={{ "backgroundImage": `url(${image})` }}></span>
-                                                            // return <img key={image} src={image} className=""/>
-                                                        }
-                                                    )}
-                                                </div>
-
-                                            </li>
-                                            {/* <li class="_1kNfguI sDHKtsB">
-                                                <div class="_2gpiPPm lC7b5Zk sDHKtsB">
-                                                    <span class="_3h_jpHd" style={{ "backgroundImage": "url(\"/assets/images/11.jpg\")" }}></span>
-                                                </div>
-                                            </li>
-                                            <li class="_1kNfguI sDHKtsB">
-                                                <div class="_2gpiPPm lC7b5Zk sDHKtsB">
-                                                    <span class="_3h_jpHd" style={{ "backgroundImage": "url(\"/assets/images/11.jpg\")" }}></span>
-                                                </div>
-                                            </li>
-                                            <li class="_1kNfguI sDHKtsB">
-                                                <div class="_2gpiPPm lC7b5Zk sDHKtsB"></div>
-                                            </li>
-                                            <li class="_1kNfguI sDHKtsB">
-                                                <div class="_2gpiPPm lC7b5Zk sDHKtsB"></div>
-                                            </li> */}
-                                        </ul>
-                                        <ul class="_3ip4KkA">
-                                            <li class="_3PzcYel _1l8ChEh"><span class="_21gqM6d"></span></li>
-                                            <li class="_1l8ChEh"><span class="_21gqM6d"></span></li>
-                                            <li class="_1l8ChEh"><span class="_21gqM6d"></span></li>
-                                            <li class="_1l8ChEh"><span class="_21gqM6d"></span></li>
-                                            <li class="_1l8ChEh"><span class="_21gqM6d"></span></li>
-                                        </ul>
+                                            <div>
+                                                <img src="/assets/images/panatur/panatur_5.jpg" />
+                                            </div>
+                                            <div>
+                                                <img src="/assets/images/panatur/panatur_6.jpg" />
+                                            </div>
+                                        </Carousel>
                                     </div>
                                 </div>
                             </div>

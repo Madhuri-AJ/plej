@@ -4,6 +4,7 @@ import axios from "axios";
 import { formTypes } from "../../_constants/formTypes";
 import { api } from "../../env";
 import {toast} from 'react-toastify';
+import swal from "sweetalert";
 class Footer extends Component {
     constructor(props) {
         super(props);
@@ -36,7 +37,12 @@ class Footer extends Component {
         axios.post(url, payload)
           .then(res => {
               if(res.status == 200){
-                  toast.success(res.data.message);
+                //   toast.success(res.data.message);
+                swal({
+                    title: "Done!",
+                    text: res.data.message,
+                    icon: "success"
+                  })
               }
               this.setState({isSubmitting: false});
               this.clearForm();
