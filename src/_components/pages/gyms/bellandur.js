@@ -84,14 +84,14 @@ class BellandurPage extends Component {
                                                 </li>
                                             </ul>
                                             <div class="_2S9gFR2 _2rbE6TC _2v5bHvx">
-                                                {/* <NavLink className="_1DHXI17 _3Pq3GhV"
+                                                <NavLink className="_1DHXI17 _3Pq3GhV"
                                                     to="../class/bellandur-class"><span>Classes</span></NavLink>
                                                 <NavLink class="zF_pZj2 _3Pq3GhV"
-                                                    to="../instructors"><span>Instructor</span></NavLink> */}
-                                                <NavLink className="_1DHXI17 _3Pq3GhV"
-                                                    to="#"><span>Classes</span></NavLink>
+                                                    to="../instructors"><span>Instructor</span></NavLink>
+                                                {/* <NavLink className="_1DHXI17 _3Pq3GhV"
+                                                    to="#" onClick="return false;"><span>Classes</span></NavLink>
                                                 <NavLink class="zF_pZj2 _3Pq3GhV"
-                                                    to="#"><span>Instructor</span></NavLink>
+                                                    to="#" onClick="return false;"><span>Instructor</span></NavLink> */}
                                             </div>
                                         </div>
                                     </li>
