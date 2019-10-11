@@ -89,9 +89,9 @@ class BellandurPage extends Component {
                                                 <NavLink class="zF_pZj2 _3Pq3GhV"
                                                     to="../instructors"><span>Instructor</span></NavLink> */}
                                                 <NavLink className="_1DHXI17 _3Pq3GhV"
-                                                    to="#" onClick="return false;"><span>Classes</span></NavLink>
+                                                    to="#"><span>Classes</span></NavLink>
                                                 <NavLink class="zF_pZj2 _3Pq3GhV"
-                                                    to="#" onClick="return false;"><span>Instructor</span></NavLink>
+                                                    to="#"><span>Instructor</span></NavLink>
                                             </div>
                                         </div>
                                     </li>
