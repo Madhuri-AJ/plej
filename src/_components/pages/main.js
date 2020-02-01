@@ -30,8 +30,8 @@ class MainPage extends Component {
 
     handleScroll = (event) => {
         let scrollTop = (((document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight) * 100));
-        console.log("scrollTop", scrollTop)
-        console.log((150 + -(scrollTop + scrollTop * 2.5)))
+        // console.log("scrollTop", scrollTop)
+        // console.log((150 + -(scrollTop + scrollTop * 2.5)))
         let changedTransform1 = (150 + -(scrollTop + scrollTop * 2.5));
         let changedTransform2 = (-120 + (scrollTop + scrollTop * 1.1));
         let changedTransform3 = (120 + -(scrollTop + scrollTop * 1));

@@ -31,7 +31,6 @@ class Footer extends Component {
             fullName: this.state.fullName,
             email: this.state.email,
             formType : formTypes.NEWS_LETTER
-
         }
 
         axios.post(url, payload)
@@ -165,14 +164,29 @@ class Footer extends Component {
                                         Rajajinagar
                                     </NavLink>
                                 </li>
-                                {/* <li>
-                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/sarjapur">
-                                        Sarjapur Road
-                                    </NavLink>
-                                </li> */}
                                 <li>
                                     <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/vr">
                                         VR Bengaluru - Whitefield
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/jayanagar">
+                                       Jayanagar
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/sarjapur">
+                                        Sarjapur
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/e-city">
+                                        Electronic City
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/hsr-layout">
+                                      HSR Layout
                                     </NavLink>
                                 </li>
                             </ul>

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-class SarjapurPage extends Component {
+class HSRLayoutPage extends Component {
     constructor(props) {
         super(props);
         window.scrollTo({ top: 0, behavior: "smooth" });
@@ -20,7 +20,7 @@ class SarjapurPage extends Component {
                             <ul class="_3_31gDn _2rbE6TC _2v5bHvx">
                                 <li class="_3O95Rh5 Cq_7NWt _2rbE6TC _2v5bHvx">
                                     <a class="_2HzoBao _2rbE6TC _2v5bHvx" href="bank.html">
-                                        <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Sarjapur</h4>
+                                        <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">HSR Layout</h4>
                                     </a>
                                     {/* <div className="VBD7Ow3">
                                         <NavLink class="zF_pZj2 _3Pq3GhV"
@@ -58,9 +58,9 @@ class SarjapurPage extends Component {
                                             <li class="_31cCPJV _2rbE6TC _2v5bHvx">
                                                 <div class="_2l5my07 _2HhTmXD _2v5bHvx">Address</div>
                                                 <div class="_1Fu6UbF _1dohwpN _2v5bHvx">
-                                                PLaY Arena, Hosa Rd, Valliyamma Layout, Kasavanahalli, Karnataka 560035
+                                                The Majestine Sports, HSR Layout #383/1-10, 5th Cross, Garebhavipaya, Opp HSR Trinity Apartments, Bengaluru, Karnataka 560068
                                                     <a
-                                                        href="https://goo.gl/maps/JYqCAQaTifAPFmAeA"
+                                                        href="https://g.page/MajesstineSports?share"
                                                         target="_blank" class="Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>View on Map</span></a>
                                                 </div>
                                             </li>
@@ -128,4 +128,4 @@ class SarjapurPage extends Component {
     }
 }
 
-export default SarjapurPage;
+export default HSRLayoutPage;

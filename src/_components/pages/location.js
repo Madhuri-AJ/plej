@@ -59,16 +59,7 @@ class LocationPage extends Component {
                                     <h3 class="rfn1m5O">Rajajinagar </h3><span class="_GcKgjb"></span><NavLink className="_1nR3q81 sDHKtsB"
                                         to="/gyms/rajajinagar"></NavLink>
                                 </div>
-                                {/* <div class="_3Fst1pU _3x6v3-y fourclass">
-                                    <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx location"><img
-                                        src="/assets/images/forum/forum_4.jpg"
-                                        class="_3h_jpHd" /></div>
-                                    <h3 class="rfn1m5O">Sarjapur Road </h3>
-                                    <span class="_GcKgjb"></span>
-                                    <NavLink className="_1nR3q81 sDHKtsB"
-                                        to="/gyms/sarjapur"></NavLink>
-                                </div> */}
-                                <div class="_3Fst1pU _3x6v3-y fourclass mr-0">
+                                <div class="_3Fst1pU _3x6v3-y fourclass">
                                     <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx location"><img
                                         src="/assets/images/vr-mall/vr_2.jpg"
                                         class="_3h_jpHd" /></div>
@@ -77,6 +68,42 @@ class LocationPage extends Component {
                                     <NavLink className="_1nR3q81 sDHKtsB"
                                         to="/gyms/vr"></NavLink>
                                 </div>
+                                <div class="_3Fst1pU _3x6v3-y fourclass mr-0">
+                                    <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx location"><img
+                                        src="/assets/images/jayanagar/1.jpeg"
+                                        class="_3h_jpHd" /></div>
+                                    <h3 class="rfn1m5O">Jayanagar </h3>
+                                    <span class="_GcKgjb"></span>
+                                    <NavLink className="_1nR3q81 sDHKtsB"
+                                        to="/gyms/jayanagar"></NavLink>
+                                </div>
+                            </div>
+                            <div style={{ "width": "100%" }}>
+                                <div class="_3Fst1pU _3x6v3-y fourclass">
+                                    <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx location"><img
+                                        src="/assets/images/sarjapur/1.jpeg"
+                                        class="_3h_jpHd" /></div>
+                                    <h3 class="rfn1m5O">Sarjapur Road </h3>
+                                    <span class="_GcKgjb"></span>
+                                    <NavLink className="_1nR3q81 sDHKtsB"
+                                        to="/gyms/sarjapur"></NavLink>
+                                </div>
+                                <div class="_3Fst1pU _3x6v3-y fourclass" >
+                                    <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx location"><img
+                                        src="/assets/images/panatur/panatur_1.jpg"
+                                        class="_3h_jpHd" /></div>
+                                    <h3 class="rfn1m5O">Electronic City</h3><span class="_GcKgjb"></span><NavLink className="_1nR3q81 sDHKtsB"
+                                        to="/gyms/e-city"></NavLink>
+                                </div>
+                                <div class="_3Fst1pU _3x6v3-y fourclass" >
+                                    <div class="_2gpiPPm _2WGnI5T _2rbE6TC _2v5bHvx location"><img
+                                        src="/assets/images/rajajinagar/rajajinagar_1.jpg"
+                                        class="_3h_jpHd" /></div>
+                                    <h3 class="rfn1m5O">HSR Layout </h3><span class="_GcKgjb"></span><NavLink className="_1nR3q81 sDHKtsB"
+                                        to="/gyms/hsr-layout"></NavLink>
+                                </div>
+                                
+
                             </div>
                         </div>
                     </div>
