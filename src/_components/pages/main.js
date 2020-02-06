@@ -60,8 +60,8 @@ class MainPage extends Component {
                     <div class="_1JMynM5 _3-6A3ch ">
                         <video class="_3h_jpHd _21UD1KG _3HiqiFI"
                             src="/assets/images/demo2.mp4"
-                             autoplay="" preload
-                            playsinline loop>
+                             autoPlay={true} preload="auto"
+                            playsInline loop>
                         </video>
                         {/* <video autoplay="" class="_3h_jpHd _21UD1KG _3HiqiFI"
                             muted autoplay=""

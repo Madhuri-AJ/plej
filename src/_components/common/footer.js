@@ -26,22 +26,31 @@ class Footer extends Component {
     handleSubmit = (event) => {
         event.preventDefault();
         this.setState({isSubmitting: true});
-        let url = `${api.apiCompany}general/send-email`;
-        let payload = {
-            fullName: this.state.fullName,
-            email: this.state.email,
-            formType : formTypes.NEWS_LETTER
-        }
+        // let url = `${api.apiCompany}general/send-email`;
+        // let payload = {
+        //     fullName: this.state.fullName,
+        //     email: this.state.email,
+        //     formType : formTypes.NEWS_LETTER
+        // }
+
+        let url = `https://bigappcompany.co.in/demos/cms/contact`;
+        let name = this.state.fullName;
+        let email = this.state.email;
+
+        let payload = new FormData()
+        payload.append("product_name",`from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&name=${name}&email=${email}&subject=News
+        Letter`);
 
         axios.post(url, payload)
           .then(res => {
               if(res.status == 200){
                 //   toast.success(res.data.message);
-                swal({
-                    title: "Done!",
-                    text: res.data.message,
-                    icon: "success"
-                  })
+                // swal({
+                //     title: "Done!",
+                //     text: res.data.message,
+                //     icon: "success"
+                //   })
+                window.location.href="/thank-you";
               }
               this.setState({isSubmitting: false});
               this.clearForm();

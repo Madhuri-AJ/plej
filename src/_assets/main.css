@@ -4239,4 +4239,13 @@ html.lightbox-open {
 .swal-button:not([disabled]):hover {
   background-color: #255f78;
 }
+
+.thank {
+  text-align: center;
+  margin-top: 300px;
+}
+
+.thank h1 {
+  font-size: 68px;
+}
 /*# sourceMappingURL=main.css.map */

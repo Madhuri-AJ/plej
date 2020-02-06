@@ -30,25 +30,35 @@ export default class FormPage extends Component {
     handleSubmit = (event) => {
         event.preventDefault();
         this.setState({ isSubmitting: true });
-        let url = `${api.apiCompany}general/send-email`;
-        let payload = {
-            fullName: this.state.fullName,
-            lastName: this.state.lastName,
-            email: this.state.email,
-            phone: this.state.phone,
-            formType: formTypes.RESUME
+        // let url = `${api.apiCompany}general/send-email`;
+        // let payload = {
+        //     fullName: this.state.fullName,
+        //     lastName: this.state.lastName,
+        //     email: this.state.email,
+        //     phone: this.state.phone,
+        //     formType: formTypes.RESUME
+        // }
 
-        }
+        
+        let url = `https://bigappcompany.co.in/demos/cms/contact`;
+        let name = this.state.fullName;
+        let text = this.state.lastName;
+        let email = this.state.email;
+        let number = this.state.phone;
+
+        let payload = new FormData()
+        payload.append("product_name",`from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&firstname=${name}&lastname=${text}&email=${email}&number=${number}&subject=Careers form`);
 
         axios.post(url, payload)
             .then(res => {
                 if (res.status == 200) {
                     //   toast.success(res.data.message);
-                    swal({
-                        title: "Done!",
-                        text: res.data.message,
-                        icon: "success"
-                    })
+                    // swal({
+                    //     title: "Done!",
+                    //     text: res.data.message,
+                    //     icon: "success"
+                    // })
+                    window.location.href="/thank-you";
                 }
                 this.setState({ isSubmitting: false });
                 this.clearForm();
@@ -88,19 +98,19 @@ export default class FormPage extends Component {
                 <div className="_39EiYTl">
                     <form class="center-div">
                         <h2 class="_17Fvefa _2_HaYMw">Join Our Team</h2>
-                        <div className="space">
+                        {/* <div className="space">
                             <div class="attachment">
                                 <input type="file" name="file" className="hide inputfile resume"  />
                                 <label for="upload">
                                     <span className="text">APPLY WITH RESUME <span className="text-red">*</span></span>
                                 </label>
                             </div>
-                        </div>
+                        </div> */}
                         {/* <input type="file" className="km-btn-file"
                         data-multiple-caption={this.state.message1}
                         onChange={this.getUploadedFileName}>
                     </input> */}
-                        <br /><br /><br />
+                        {/* <br /><br /><br /> */}
 
                         <div className="bottom_space">
                             <input value={this.state.fullName} name="fullName" onChange={this.handleInputChange} type="text" class="first-half" placeholder="First Name" />

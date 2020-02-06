@@ -103,8 +103,6 @@ export default class CareersPage extends Component {
                                         <h3>CAREERS AT Plej</h3>
                                         <div>
                                             <p>We’ve carefully handpicked individuals who believe in the vision of Plej Fitness - to make this world a healthier, fitter place. Breaking boundaries and doing more than what is expected is what people at Plej Fitness are known for. Join our team of highly motivated individuals, as we reach out to each other to build a stress free and unique experience.</p>
-                                            {/* <p>Plej fitness is a pioneering initiative undertaken by three fitness experts with over 15 years of experience in fitness club management and scientific training . Initiatives are aimed at not only delivering world-class fitness Trainers to members, but also consolidating the currently unorganized Rs. 7000 crore health and fitness market. </p>
-                                            <p>Plej seeks to monetize this immense potential by leveraging and aggregating the existing, vast network of individual players and franchisees and deliver to its fitness club members state of the art equipment, best-in-class training by certified trainers and value added services and reciprocity.</p> */}
                                         </div>
                                     </div>
                                 </div>
@@ -120,27 +118,6 @@ export default class CareersPage extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                {/* <div class="_2JsEYIx _2rbE6TC _2v5bHvx p38">
-                                    <div class="ItM3bgw">
-                                        <div class="_1cT7yb7">
-                                            <div class="_1JMynM5 _2UxZdJd sDHKtsB">
-                                                 <div class="_1JMynM5 _3-6A3ch _1CqZaJN">
-                                                    <video class="_3h_jpHd _21UD1KG _3HiqiFI"
-                                                        src="/assets/images/demo.mp4"
-                                                        muted autoplay=""
-                                                        playsinline loop>
-                                                    </video>
-                                                </div>
-                                            </div>
-                                            <div class="_3-DAWjj _2QsqUxL">
-                                                <h2 class="_17Fvefa _2_HaYMw">Working at Plej</h2>
-                                                <div class="_3KZTfFO _2rbE6TC _2v5bHvx">
-                                                    <h4 class="_1qlk-1P _2DGciQP">Watch</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> */}
                                 <div class="_1rBG0S_ _2rbE6TC _2v5bHvx pt-100">
                                     <h2 class="FsabyOT _2rbE6TC _2v5bHvx">WE ARE LOOKING FOR</h2>
                                     <ul class="_2WTwQD9 _2rbE6TC _2v5bHvx">

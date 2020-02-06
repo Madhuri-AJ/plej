@@ -4,6 +4,7 @@ import KumarParkClass from './_components/pages/class/kumarpark-class';
 import JayanagarPage from './_components/pages/gyms/jayanagar';
 import ElectronicCityPage from './_components/pages/gyms/e-city';
 import HSRLayoutPage from './_components/pages/gyms/hsr-layout';
+import ThankyouPage from './_components/pages/thank-you';
 
 const routes = [
   { path: '/', exact: true, name: 'Home', component: MainPage },
@@ -29,6 +30,7 @@ const routes = [
   { path: '/gyms/bellandur',name:'bellandur',component:BellandurPage},
   { path: '/gyms/girinagar',name:'girinagar',component:GirinagarPage},
   { path: '/contact-us',name:'Contact-Us',component:ContactPage},
+  { path: '/thank-you',name:'Thank You',component:ThankyouPage},
   { path: '/about',name:'About',component:AboutPage},
   { path: '/careers',name:'Career',component:CareersPage},
   { path: '/careers-form',name:'Career-form',component:FormPage},
