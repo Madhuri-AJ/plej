@@ -17,6 +17,8 @@
     "react-bootstrap": "^1.0.0-beta.11",
     "react-carousel-slider": "^2.0.13",
     "react-dom": "^16.8.6",
+    "react-ga": "^2.7.0",
+    "react-gtm-module": "^2.0.8",
     "react-images": "^1.0.0",
     "react-lightbox-component": "^1.2.1",
     "react-responsive-carousel": "^3.1.50",
