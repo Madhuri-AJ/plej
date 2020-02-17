@@ -11,7 +11,7 @@ export default class ThankyouPage extends Component {
     }
 
     componentDidMount() {
-        this.id = setTimeout(() => this.setState({ redirect: true }), 4000)
+        this.id = setTimeout(() => this.setState({ redirect: true }), 8000)
     }
 
     componentWillUnmount() {
@@ -24,7 +24,7 @@ export default class ThankyouPage extends Component {
             : <div>
                 <div class="_1vdzHPH">
                     <div class="thank">
-                        <h1>Thank You</h1>
+                        <h1 className="never">Thank You</h1>
                         <p>Our team will contact you soon.</p>
                     </div>
                 </div>

@@ -82,11 +82,11 @@ class Header extends Component {
               if(res.status == 200){
                 //   toast.success(res.data.message);
                 window.location.href="/thank-you";
-                swal({
-                    title: "Done!",
-                    text: res.data.message,
-                    icon: "success"
-                  })
+                // swal({
+                //     title: "Done!",
+                //     text: res.data.message,
+                //     icon: "success"
+                //   })
               }
               this.setState({isSubmitting: false});
               this.clearForm();
