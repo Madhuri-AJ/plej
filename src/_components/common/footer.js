@@ -173,6 +173,11 @@ class Footer extends Component {
                                         Rajajinagar
                                     </NavLink>
                                 </li>
+                            </ul>
+                        </div>
+                        <div class="_3sadWOc _2HhTmXD _2v5bHvx">
+                            <h3>Gyms</h3>
+                            <ul class="_1aeQHSW">
                                 <li>
                                     <NavLink class="_3FnoLbj _25LPQhk _2DGciQP" to="/gyms/vr">
                                         VR Bengaluru - Whitefield
@@ -244,7 +249,7 @@ class Footer extends Component {
                                 </div>
                             </form>
                         </div>
-                        <div class="_3QyZoZ_ _2rbE6TC _2v5bHvx">
+                        <div class="_3QyZoZ_ _2rbE6TC _2v5bHvx" style={{"margin":"15px","textAlign":"right"}}>
                             <h4 class="HLzP6ji">©2019 Plej</h4>
                         </div>
                     </div>

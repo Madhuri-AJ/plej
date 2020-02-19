@@ -177,7 +177,7 @@ export default class OwnGymPage extends Component {
                         <div class="_2Ey81ib _paddingtop">
                             <ul class="_3_31gDn _2rbE6TC _2v5bHvx">
                                 <li class="_3O95Rh5 Cq_7NWt _2rbE6TC _2v5bHvx"><a class="_2HzoBao _2rbE6TC _2v5bHvx" href="bank.html">
-                                    <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Standard Investmant</h4>
+                                    <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Standard Investment</h4>
                                 </a>
                                     <div class="_Wl12W- VBD7Ow3">
                                         <ul class="M6EUSUT _2rbE6TC _2v5bHvx">
@@ -422,7 +422,7 @@ export default class OwnGymPage extends Component {
                                         </ul>
                                         {/* <div class="_2S9gFR2 _2rbE6TC _2v5bHvx">
                                         <a className="_1DHXI17 _3Pq3GhV"
-                                                href="#express"><span>View Express Investmant</span></a>
+                                                href="#express"><span>View Express Investment</span></a>
                                         </div> */}
                                     </div>
                                 </li>
@@ -436,7 +436,7 @@ export default class OwnGymPage extends Component {
                         <div class="_2Ey81ib _paddingtop">
                             <ul class="_3_31gDn _2rbE6TC _2v5bHvx">
                                 <li class="_3O95Rh5 Cq_7NWt _2rbE6TC _2v5bHvx"><a class="_2HzoBao _2rbE6TC _2v5bHvx" href="bank.html">
-                                    <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Standard Investmant</h4>
+                                    <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Standard Investment</h4>
                                 </a>
                                     <div class="_Wl12W- VBD7Ow3">
                                         <ul class="M6EUSUT _2rbE6TC _2v5bHvx">
