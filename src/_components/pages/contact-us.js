@@ -18,7 +18,7 @@ export default class ContactPage extends Component {
             message: "",
             isSubmitting: false,
             showHideClassName: false,
-            success:""
+            success: ""
         }
         window.scrollTo({ top: 0, behavior: "smooth" });
     }
@@ -51,13 +51,13 @@ export default class ContactPage extends Component {
         let lname = this.state.message;
 
         let payload = new FormData()
-        payload.append("product_name",`from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&name=${name}&email=${email}&number=${number}&location=${text}&message=${lname}&subject=Contact Details`);
+        payload.append("product_name", `from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&to_cc=info@movezafitness.com,info@plejfitness.com&name=${name}&email=${email}&number=${number}&location=${text}&message=${lname}&subject=Contact Details`);
 
         axios.post(url, payload)
             .then(res => {
                 if (res.status == 200) {
                     // toast.success(res.data.message);
-                    window.location.href="/thank-you";
+                    window.location.href = "/thank-you";
                     // swal({
                     //     title: "Done!",
                     //     text: res.data.message,
@@ -88,14 +88,14 @@ export default class ContactPage extends Component {
         return (
             <div class="_1vdzHPH">
                 <div className="_39EiYTl">
-                    <form class="center-div">
+                    <form class="center-div" onSubmit={this.handleSubmit.bind(this)}>
                         <h2 class="_17Fvefa _2_HaYMw">Get in Touch</h2>
                         <div className="bottom_space">
-                            <input value={this.state.fullName} onChange={this.handleInputChange} name="fullName" type="text" class="first-half" placeholder="Full Name" />
-                            <input value={this.state.email} onChange={this.handleInputChange} name="email" type="email" class="second-half" placeholder="Email" />
+                            <input value={this.state.fullName} onChange={this.handleInputChange} name="fullName" type="text" class="first-half"  placeholder="Full Name" required/>
+                            <input value={this.state.email} onChange={this.handleInputChange} name="email" type="email" class="second-half" placeholder="Email" required/>
                         </div>
                         <div className="bottom_space">
-                            <input value={this.state.phone} onChange={this.handleInputChange} name="phone" type="text" class="first-half" placeholder="Phone Number" />
+                            <input value={this.state.phone} onChange={this.handleInputChange} name="phone" type="text" class="first-half" required placeholder="Phone Number" />
                             <input value={this.state.location} onChange={this.handleInputChange} name="location" type="text" class="second-half" placeholder="Location" />
                         </div>
                         <div className="bottom_space">
@@ -103,7 +103,7 @@ export default class ContactPage extends Component {
                         </div>
                         <div className="middle-btn">
                             {/* <button className="_1x8JHAI _3Pq3GhV _3xVoYzA button">Submit</button> */}
-                            <button disabled={this.state.isSubmitting} onClick={this.handleSubmit} class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#"><span>Submit</span></button>
+                            <button disabled={this.state.isSubmitting} class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#"><span>Submit</span></button>
                         </div>
                     </form>
                 </div>
@@ -111,7 +111,7 @@ export default class ContactPage extends Component {
                 <div className={this.state.showHideClassName ? "success-modal" : "success-modal d-none"}>
                     <h5>{this.state.success}</h5>
                 </div>
-                
+
                 <Footer />
             </div>
         )

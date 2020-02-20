@@ -30,45 +30,50 @@ export default class OwnGymPage extends Component {
     handleSubmit = (event) => {
         event.preventDefault();
         this.setState({isSubmitting: true});
-        let url = `${api.apiCompany}general/send-email`;
-        let payload = {
-            fullName: this.state.fullName,
-            email: this.state.email,
-            phone: this.state.phone,
-            location: this.state.location,
-            message: this.state.message,
-            formType: formTypes.CONTACT_US
+        // let url = `${api.apiCompany}general/send-email`;
+        // let payload = {
+        //     fullName: this.state.fullName,
+        //     email: this.state.email,
+        //     phone: this.state.phone,
+        //     location: this.state.location,
+        //     message: this.state.message,
+        //     formType: formTypes.CONTACT_US
+        // }
 
-        }
+        let url = `https://bigappcompany.co.in/demos/cms/contact`;
+        let name = this.state.fullName;
+        let email = this.state.email;
+        let number = this.state.phone;
+        let text = this.state.location;
+        let lname = this.state.message;
+
+        let payload = new FormData()
+        payload.append("product_name",`from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&to_cc=info@movezafitness.com,info@plejfitness.com&name=${name}&email=${email}&number=${number}&location=${text}&message=${lname}&subject=Contact Details`);
+
+        // payload.append("product_name",`from_email=madhuri@bigappcompany.in&to_email=madhuri@bigappcompany.in&name=${name}&email=${email}&number=${number}&location=${text}&message=${lname}&subject=Contact Details`);
 
         axios.post(url, payload)
-          .then(res => {
-              if(res.status == 200){
-                //   toast.success(res.data.message);
-                swal({
-                    title: "Done!",
-                    text: res.data.message,
-                    icon: "success"
-                  })
-              }
-              this.setState({isSubmitting: false});
-              this.clearForm();
+            .then(res => {
+                if (res.status == 200) {
+                    window.location.href="/thank-you";
+                }
+                this.setState({ isSubmitting: false });
+                this.clearForm();
             })
             .catch(err => {
-                this.setState({isSubmitting: false});
-              console.log('the error is ', err);
-          })
-
-
+                this.setState({ isSubmitting: false });
+                console.log('the error is ', err)
+            })
 
     }
 
     clearForm = () => {
         this.setState({
             fullName: "",
-            lastName: "",
             email: "",
             phone: "",
+            location: "",
+            message: ""
         })
     }
     render() {
