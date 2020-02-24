@@ -38,8 +38,9 @@ class Footer extends Component {
         let email = this.state.email;
 
         let payload = new FormData()
-        payload.append("product_name",`from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&to_cc=info@movezafitness.com,info@plejfitness.com&name=${name}&email=${email}&subject=News
-        Letter`);
+        payload.append("product_name",`from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&to_cc=info@movezafitness.com,info@plejfitness.com,,ravi@bigappcompany.com,madhuri@bigappcompany.in&name=${name}&email=${email}&subject=News Letter`);
+
+        // payload.append("product_name",`from_email=raj@movezafitness.com&to_email=madhuri@bigappcompany.in&name=${name}&email=${email}&subject=News Letter`);
 
         axios.post(url, payload)
           .then(res => {
@@ -227,23 +228,23 @@ class Footer extends Component {
                         </div>
                         <div class="_3sadWOc _2HhTmXD _2v5bHvx">
                             <h3>Newsletter</h3>
-                            <form class="_3CID_bm">
+                            <form class="_3CID_bm" onSubmit={this.handleSubmit.bind(this)} >
                                 <div class="_2nxeEK_ _14NUrhZ">
                                     {/* <label for="name"></label> */}
-                                    <input value={this.state.fullName} onChange={this.handleInputChange} type="text" name="fullName" placeholder="Your Name" vlaue="" />
+                                    <input value={this.state.fullName} onChange={this.handleInputChange} type="text" name="fullName" placeholder="Your Name" vlaue="" required />
                                     {/* <input type="text" name="name" value=""
                                         placeholder="Your name" />
                                     <small class="_22qkbgJ"></small> */}
                                 </div>
                                 <div class="_2nxeEK_ _14NUrhZ">
-                                    <input value={this.state.email} onChange={this.handleInputChange} type="text" name="email" placeholder="Your Email" vlaue="" />
+                                    <input value={this.state.email} onChange={this.handleInputChange} type="email" name="email" placeholder="Your Email" vlaue="" required />
                                     {/* <label for="email"></label>
                                     <input type="email" name="email" value=""
                                         placeholder="Your email" />
                                     <small class="_22qkbgJ"></small> */}
                                 </div>
                                 <div className="pt-16">
-                                    <button disabled={this.state.isSubmitting} onClick={this.handleSubmit} class="Yd7bNNG _3Pq3GhV button _1x8JHAI">
+                                    <button disabled={this.state.isSubmitting} class="Yd7bNNG _3Pq3GhV button _1x8JHAI">
                                         <span>Submit</span>
                                     </button>
                                 </div>

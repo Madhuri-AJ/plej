@@ -48,7 +48,7 @@ export default class OwnGymPage extends Component {
         let lname = this.state.message;
 
         let payload = new FormData()
-        payload.append("product_name",`from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&to_cc=info@movezafitness.com,info@plejfitness.com&name=${name}&email=${email}&number=${number}&location=${text}&message=${lname}&subject=Contact Details`);
+        payload.append("product_name",`from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&to_cc=info@movezafitness.com,info@plejfitness.com,ravi@bigappcompany.com,madhuri@bigappcompany.in&name=${name}&email=${email}&number=${number}&location=${text}&message=${lname}&subject=Contact Details`);
 
         // payload.append("product_name",`from_email=madhuri@bigappcompany.in&to_email=madhuri@bigappcompany.in&name=${name}&email=${email}&number=${number}&location=${text}&message=${lname}&subject=Contact Details`);
 
@@ -658,22 +658,22 @@ export default class OwnGymPage extends Component {
                                         <h4 class="_2J9Yz6G _2rbE6TC _2v5bHvx VBD7Ow3">Choose A Location</h4>
                                     </a>
                                     <div className="VBD7Ow3">
-                                        <form class="center-div left-div">
+                                        <form class="center-div left-div" onSubmit={this.handleSubmit.bind(this)}>
                                             <div className="bottom_space mt-40">
-                                                <input value={this.state.fullName} name="fullName" onChange={this.handleInputChange} type="text" class="first-half" placeholder="Full Name" />
+                                                <input value={this.state.fullName} name="fullName" onChange={this.handleInputChange} type="text" class="first-half" placeholder="Full Name" required/>
 
-                                                <input  onChange={this.handleInputChange} value={this.state.email} name="email"  type="email" class="second-half" placeholder="Email" />
+                                                <input  onChange={this.handleInputChange} value={this.state.email} name="email"  type="email" class="second-half" placeholder="Email" required/>
                                             </div>
                                             <div className="bottom_space">
-                                                <input  onChange={this.handleInputChange} value={this.state.phone} name="phone" type="text" class="first-half" placeholder="Phone Number" />
+                                                <input  onChange={this.handleInputChange} value={this.state.phone} name="phone" type="number" class="first-half" placeholder="Phone Number" required/>
 
-                                                <input value={this.state.location} onChange={this.handleInputChange} name="location" type="text" class="second-half" placeholder="Location" />
+                                                <input value={this.state.location} onChange={this.handleInputChange} name="location" type="text" class="second-half" placeholder="Location" required />
                                             </div>
                                             <div className="bottom_space">
-                                                <textarea value={this.state.message} onChange={this.handleInputChange} name="message" type="text" placeholder="Message" />
+                                                <textarea value={this.state.message} onChange={this.handleInputChange} name="message" type="text" placeholder="Message" required/>
                                             </div>
                                             <div className="middle-btn">
-                                                <button class="Yd7bNNG _3Pq3GhV button _1x8JHAI" onClick={this.handleSubmit}><span>Submit</span></button>
+                                                <button class="Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>Submit</span></button>
                                             </div>
                                         </form>
                                     </div>

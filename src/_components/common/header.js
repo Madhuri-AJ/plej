@@ -75,7 +75,9 @@ class Header extends Component {
         let text = this.state.location;
 
         let payload = new FormData()
-        payload.append("product_name",`from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&to_cc=info@movezafitness.com,info@plejfitness.com&name=${name}&email=${email}&number=${number}&location=${text}&subject=Book a free trial`);
+        payload.append("product_name",`from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&to_cc=info@movezafitness.com,info@plejfitness.com,ravi@bigappcompany.com,madhuri@bigappcompany.in&name=${name}&email=${email}&number=${number}&location=${text}&subject=Book a free trial`);
+
+        // payload.append("product_name",`from_email=raj@movezafitness.com&to_email=madhuri@bigappcompany.in&name=${name}&email=${email}&number=${number}&location=${text}&subject=Book a free trial`);
 
         axios.post(url, payload)
           .then(res => {
@@ -217,14 +219,14 @@ class Header extends Component {
                                 <span class="_2va2FpG" onClick={this.close}></span>
                             </div>
                             <div class="_3ITUOra _2rbE6TC _2v5bHvx VBD7Ow3" style={{ "width": "3524.19px", "transform": "translateX(0px)" }}>
-                                <form class="center-div _2v5bHvx">
+                                <form class="center-div _2v5bHvx" onSubmit={this.handleSubmit.bind(this)}>
                                     <div className="bottom_space">
-                                        <input value={this.state.fullName} onChange={this.handleInputChange} name="fullName" type="text" class="first-half" placeholder="Full Name" />
-                                        <input value={this.state.email} onChange={this.handleInputChange} name="email" type="email" class="second-half" placeholder="Email" />
+                                        <input value={this.state.fullName} onChange={this.handleInputChange} name="fullName" type="text" class="first-half" placeholder="Full Name" required />
+                                        <input value={this.state.email} onChange={this.handleInputChange} name="email" type="email" class="second-half" placeholder="Email" required/>
                                     </div>
                                     <div className="bottom_space">
-                                        <input value={this.state.phone} onChange={this.handleInputChange} name="phone" type="text" class="first-half" placeholder="Phone Number" />
-                                        <input value={this.state.location} name="location" onChange={this.handleInputChange} name="location" type="text" class="second-half" placeholder="Location" />
+                                        <input value={this.state.phone} onChange={this.handleInputChange} name="phone" type="number" class="first-half" placeholder="Phone Number" required/>
+                                        <input value={this.state.location} name="location" onChange={this.handleInputChange} name="location" type="text" class="second-half" placeholder="Location" required/>
                                     </div>
                                     <div className="bottom_space">
                                         <label class="checkbox-container small d-inline-block"><input onChange={this.handleCheckboxChange} checked={this.state.conditionsCheck} name="conditionsCheck" type="checkbox" /><span class="checkmark"></span></label>
@@ -233,7 +235,7 @@ class Header extends Component {
                                         </NavLink> </div>
                                     </div>
                                     <div className="middle-btn">
-                                        <button disabled={this.state.isSubmitting || !this.state.conditionsCheck} onClick={this.handleSubmit} class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#"><span>Submit</span></button>
+                                        <button disabled={this.state.isSubmitting || !this.state.conditionsCheck} class="Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>Submit</span></button>
                                     </div>
                                 </form>
                             </div>

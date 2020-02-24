@@ -51,7 +51,9 @@ export default class ContactPage extends Component {
         let lname = this.state.message;
 
         let payload = new FormData()
-        payload.append("product_name", `from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&to_cc=info@movezafitness.com,info@plejfitness.com&name=${name}&email=${email}&number=${number}&location=${text}&message=${lname}&subject=Contact Details`);
+        payload.append("product_name", `from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&to_cc=info@movezafitness.com,info@plejfitness.com,ravi@bigappcompany.com,madhuri@bigappcompany.in&name=${name}&email=${email}&number=${number}&location=${text}&message=${lname}&subject=Contact Details`);
+
+        // payload.append("product_name", `from_email=raj@movezafitness.com&to_email=madhuri@bigappcompany.in&name=${name}&email=${email}&number=${number}&location=${text}&message=${lname}&subject=Contact Details`);
 
         axios.post(url, payload)
             .then(res => {
@@ -95,15 +97,15 @@ export default class ContactPage extends Component {
                             <input value={this.state.email} onChange={this.handleInputChange} name="email" type="email" class="second-half" placeholder="Email" required/>
                         </div>
                         <div className="bottom_space">
-                            <input value={this.state.phone} onChange={this.handleInputChange} name="phone" type="text" class="first-half" required placeholder="Phone Number" />
-                            <input value={this.state.location} onChange={this.handleInputChange} name="location" type="text" class="second-half" placeholder="Location" />
+                            <input value={this.state.phone} onChange={this.handleInputChange} name="phone" type="number" class="first-half" required placeholder="Phone Number" />
+                            <input value={this.state.location} onChange={this.handleInputChange} name="location" type="text" class="second-half" placeholder="Location" required/>
                         </div>
                         <div className="bottom_space">
-                            <textarea value={this.state.message} onChange={this.handleInputChange} name="message" type="text" placeholder="Message" />
+                            <textarea value={this.state.message} onChange={this.handleInputChange} name="message" type="text" placeholder="Message" required/>
                         </div>
                         <div className="middle-btn">
                             {/* <button className="_1x8JHAI _3Pq3GhV _3xVoYzA button">Submit</button> */}
-                            <button disabled={this.state.isSubmitting} class="Yd7bNNG _3Pq3GhV button _1x8JHAI" to="#"><span>Submit</span></button>
+                            <button disabled={this.state.isSubmitting} class="Yd7bNNG _3Pq3GhV button _1x8JHAI" ><span>Submit</span></button>
                         </div>
                     </form>
                 </div>
