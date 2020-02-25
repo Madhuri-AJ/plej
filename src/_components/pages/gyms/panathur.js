@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import MetaTags from "react-meta-tags";
 class PanthurPage extends Component {
     constructor(props) {
         super(props);
@@ -12,6 +13,13 @@ class PanthurPage extends Component {
         return (
             <div>
                 <div class="_1vdzHPH">
+                <MetaTags>
+                        <title>Best Gym In Panathur | Fitness Center in Panathur - PlejFitness</title>
+                        <meta name="description" content="One of the best fitness center in Panathur. PlejFitness provides you, personal fitness trainers to get fit. ✓Fitness Center ✓Crossfit Gym ✓Best Gym Panathur" />
+                        <meta name="keywords" content="Gym in Bangalore, Gym in Bellandur, Gym in forum Mall-Whitefield, Gym in Girinagar, Gym in Kumarapark, Gym in Panathur, Gym in Rajajinagar, Gym in VR Bengaluru, Gym in Jayanagar" />
+                        <meta property="og:title" content="Best Gym In Panathur | Fitness Center in Panathur - PlejFitness" />
+                        <meta property="og:description" content="One of the best fitness center in Panathur. PlejFitness provides you, personal fitness trainers to get fit. ✓Fitness Center ✓Crossfit Gym ✓Best Gym Panathur" />
+                    </MetaTags>
                     <div class="o15HL62 _2v5bHvx">
                         <div class="_3juAkpr _1KSLoAe">
                             <div class="_2Ey81ib">

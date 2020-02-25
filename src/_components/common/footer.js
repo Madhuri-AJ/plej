@@ -38,7 +38,7 @@ class Footer extends Component {
         let email = this.state.email;
 
         let payload = new FormData()
-        payload.append("product_name",`from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&to_cc=info@movezafitness.com,info@plejfitness.com,,ravi@bigappcompany.com,madhuri@bigappcompany.in&name=${name}&email=${email}&subject=News Letter`);
+        payload.append("product_name",`from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&to_cc=info@movezafitness.com,info@plejfitness.com&name=${name}&email=${email}&subject=News Letter`);
 
         // payload.append("product_name",`from_email=raj@movezafitness.com&to_email=madhuri@bigappcompany.in&name=${name}&email=${email}&subject=News Letter`);
 

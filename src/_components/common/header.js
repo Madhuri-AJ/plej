@@ -75,7 +75,7 @@ class Header extends Component {
         let text = this.state.location;
 
         let payload = new FormData()
-        payload.append("product_name",`from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&to_cc=info@movezafitness.com,info@plejfitness.com,ravi@bigappcompany.com,madhuri@bigappcompany.in&name=${name}&email=${email}&number=${number}&location=${text}&subject=Book a free trial`);
+        payload.append("product_name",`from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&to_cc=info@movezafitness.com,info@plejfitness.com&name=${name}&email=${email}&number=${number}&location=${text}&subject=Book a free trial`);
 
         // payload.append("product_name",`from_email=raj@movezafitness.com&to_email=madhuri@bigappcompany.in&name=${name}&email=${email}&number=${number}&location=${text}&subject=Book a free trial`);
 

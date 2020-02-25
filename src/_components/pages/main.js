@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import Footer from "../common/footer";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import MetaTags from 'react-meta-tags';
 
 
 class MainPage extends Component {
@@ -56,11 +57,18 @@ class MainPage extends Component {
         return (
 
             <div class="_1vdzHPH" >
+                <MetaTags>
+                    <title>Best Gym In Bangalore | Locate Your Nearest Plej Fitness Center - PlejFitness</title>
+                    <meta name="description" content="Best Fitness Club in Bangalore with a personal trainer. Choose the best gym nearby without traveling anywhere. Stay fit by choosing us. Take a plej never give up." />
+                    <meta name="keywords" content="Gym in Bangalore, Gym in Bellandur, Gym in forum Mall-Whitefield, Gym in Girinagar, Gym in Kumarapark, Gym in Panathur, Gym in Rajajinagar, Gym in VR Bengaluru, Gym in Jayanagar"/>
+                    <meta property="og:title" content="Best Gym In Bangalore | Locate Your Nearest Plej Fitness Center - PlejFitness" />
+                    <meta property="og:description" content="Best Fitness Club in Bangalore with a personal trainer. Choose the best gym nearby without traveling anywhere. Stay fit by choosing us. Take a plej never give up." />
+                </MetaTags>
                 <section class="_3UoOzEJ _2rbE6TC _2v5bHvx " id="target">
                     <div class="_1JMynM5 _3-6A3ch ">
                         <video class="_3h_jpHd _21UD1KG _3HiqiFI"
                             src="/assets/images/demo2.mp4"
-                             autoPlay={true} preload="auto"
+                            autoPlay={true} preload="auto"
                             playsInline loop>
                         </video>
                         {/* <video autoplay="" class="_3h_jpHd _21UD1KG _3HiqiFI"

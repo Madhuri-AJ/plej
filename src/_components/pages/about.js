@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import Footer from "../common/footer";
+import MetaTags from 'react-meta-tags';
 export default class AboutPage extends Component {
     constructor(props) {
         super(props);
@@ -41,6 +42,13 @@ export default class AboutPage extends Component {
     render() {
         return (
             <div class="_1vdzHPH">
+                <MetaTags>
+                    <title>Best Gym In Bangalore With Personal Trainer in Multiple Locations - PlejFitness</title>
+                    <meta name="description" content="Here's is your greatest opportunity to deal with your fitness with a personal trainer. Do enroll yourself for this fitness course and don't pass up a great opportunity." />
+                    <meta name="keywords" content="Gym in Bangalore, Gym in Bellandur, Gym in forum Mall-Whitefield, Gym in Girinagar, Gym in Kumarapark, Gym in Panathur, Gym in Rajajinagar, Gym in VR Bengaluru, Gym in Jayanagar"/>
+                    <meta property="og:title" content="Best Gym In Bangalore With Personal Trainer in Multiple Locations - PlejFitness" />
+                    <meta property="og:description" content="Here's is your greatest opportunity to deal with your fitness with a personal trainer. Do enroll yourself for this fitness course and don't pass up a great opportunity." />
+                </MetaTags>
                 <div class="_2k0LrXm _2rbE6TC _2v5bHvx">
                     <div class="_2z6ElmY _2rbE6TC _2v5bHvx _3HiqiFI">
                         <div class="_1oMY_Ys _3s-__sC _3x6v3-y">

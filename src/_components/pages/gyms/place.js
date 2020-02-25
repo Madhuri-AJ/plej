@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import MetaTags from "react-meta-tags";
 class PlacePage extends Component {
     constructor(props) {
         super(props);
@@ -12,6 +13,13 @@ class PlacePage extends Component {
         return (
             <div>
                 <div class="_1vdzHPH">
+                <MetaTags>
+                    <title>Best Gym In Vr Bengaluru |  Fitness Center in Vr Bengaluru - PlejFitness </title>
+                    <meta name="description" content="One of the best fitness center in VR Bangalore. Get our quality services at affordable prices with a personal trainer.✓Fitness Centers ✓Crossfit Gyms ✓Best Gym Vr Bengaluru " />
+                    <meta name="keywords" content="Gym in Bangalore, Gym in Bellandur, Gym in forum Mall-Whitefield, Gym in Girinagar, Gym in Kumarapark, Gym in Panathur, Gym in Rajajinagar, Gym in VR Bengaluru, Gym in Jayanagar" />
+                    <meta property="og:title" content="Best Gym In Vr Bengaluru |  Fitness Center in Vr Bengaluru - PlejFitness" />
+                    <meta property="og:description" content="One of the best fitness center in VR Bangalore. Get our quality services at affordable prices with a personal trainer.✓Fitness Centers ✓Crossfit Gyms ✓Best Gym Vr Bengaluru " />
+                </MetaTags>
                     <div class="o15HL62 _2v5bHvx">
                         <div class="_3juAkpr _1KSLoAe">
                             <div class="_2Ey81ib">

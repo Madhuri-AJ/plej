@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import { api } from "../../env";
-import {toast} from 'react-toastify';
+import { toast } from 'react-toastify';
 import { formTypes } from "../../_constants/formTypes";
 import axios from 'axios';
 import swal from "sweetalert";
 import Footer from "../common/footer";
+import MetaTags from "react-meta-tags";
 export default class OwnGymPage extends Component {
     constructor(props) {
         super(props);
@@ -21,15 +22,15 @@ export default class OwnGymPage extends Component {
     }
 
     handleInputChange = event => {
-        let {value} = event.target;
+        let { value } = event.target;
         this.setState({
             [event.target.name]: value
-        }) ;
+        });
     }
 
     handleSubmit = (event) => {
         event.preventDefault();
-        this.setState({isSubmitting: true});
+        this.setState({ isSubmitting: true });
         // let url = `${api.apiCompany}general/send-email`;
         // let payload = {
         //     fullName: this.state.fullName,
@@ -48,14 +49,14 @@ export default class OwnGymPage extends Component {
         let lname = this.state.message;
 
         let payload = new FormData()
-        payload.append("product_name",`from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&to_cc=info@movezafitness.com,info@plejfitness.com,ravi@bigappcompany.com,madhuri@bigappcompany.in&name=${name}&email=${email}&number=${number}&location=${text}&message=${lname}&subject=Contact Details`);
+        payload.append("product_name", `from_email=raj@movezafitness.com&to_email=raj@movezafitness.com&to_cc=info@movezafitness.com,info@plejfitness.com&name=${name}&email=${email}&number=${number}&location=${text}&message=${lname}&subject=Contact Details`);
 
         // payload.append("product_name",`from_email=madhuri@bigappcompany.in&to_email=madhuri@bigappcompany.in&name=${name}&email=${email}&number=${number}&location=${text}&message=${lname}&subject=Contact Details`);
 
         axios.post(url, payload)
             .then(res => {
                 if (res.status == 200) {
-                    window.location.href="/thank-you";
+                    window.location.href = "/thank-you";
                 }
                 this.setState({ isSubmitting: false });
                 this.clearForm();
@@ -80,6 +81,13 @@ export default class OwnGymPage extends Component {
         return (
 
             <div class="_1vdzHPH">
+                <MetaTags>
+                    <title>Best Fitness Franchise For You | Fastest Growing Gym Chain‎ - PlejFitness</title>
+                    <meta name="description" content="The best and fastest-growing gym in Banglore. Over the year we have consistently convey the best." />
+                    <meta name="keywords" content="Gym in Bangalore, Gym in Bellandur, Gym in forum Mall-Whitefield, Gym in Girinagar, Gym in Kumarapark, Gym in Panathur, Gym in Rajajinagar, Gym in VR Bengaluru, Gym in Jayanagar" />
+                    <meta property="og:title" content="Best Fitness Franchise For You | Fastest Growing Gym Chain‎ - PlejFitness" />
+                    <meta property="og:description" content="The best and fastest-growing gym in Banglore. Over the year we have consistently convey the best." />
+                </MetaTags>
                 <div class="_3CTAk5g _2rbE6TC _2v5bHvx">
                     <div class="_2w47Ada _2rbE6TC _2v5bHvx">
                         <div class="NuYYeO4 _2rbE6TC _2v5bHvx">
@@ -660,17 +668,17 @@ export default class OwnGymPage extends Component {
                                     <div className="VBD7Ow3">
                                         <form class="center-div left-div" onSubmit={this.handleSubmit.bind(this)}>
                                             <div className="bottom_space mt-40">
-                                                <input value={this.state.fullName} name="fullName" onChange={this.handleInputChange} type="text" class="first-half" placeholder="Full Name" required/>
+                                                <input value={this.state.fullName} name="fullName" onChange={this.handleInputChange} type="text" class="first-half" placeholder="Full Name" required />
 
-                                                <input  onChange={this.handleInputChange} value={this.state.email} name="email"  type="email" class="second-half" placeholder="Email" required/>
+                                                <input onChange={this.handleInputChange} value={this.state.email} name="email" type="email" class="second-half" placeholder="Email" required />
                                             </div>
                                             <div className="bottom_space">
-                                                <input  onChange={this.handleInputChange} value={this.state.phone} name="phone" type="number" class="first-half" placeholder="Phone Number" required/>
+                                                <input onChange={this.handleInputChange} value={this.state.phone} name="phone" type="number" class="first-half" placeholder="Phone Number" required />
 
                                                 <input value={this.state.location} onChange={this.handleInputChange} name="location" type="text" class="second-half" placeholder="Location" required />
                                             </div>
                                             <div className="bottom_space">
-                                                <textarea value={this.state.message} onChange={this.handleInputChange} name="message" type="text" placeholder="Message" required/>
+                                                <textarea value={this.state.message} onChange={this.handleInputChange} name="message" type="text" placeholder="Message" required />
                                             </div>
                                             <div className="middle-btn">
                                                 <button class="Yd7bNNG _3Pq3GhV button _1x8JHAI"><span>Submit</span></button>

@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import MetaTags from "react-meta-tags";
+
 class BellandurPage extends Component {
     constructor(props) {
         super(props);
@@ -12,6 +14,13 @@ class BellandurPage extends Component {
         return (
             <div>
                 <div class="_1vdzHPH">
+                <MetaTags>
+                        <title>Best Gym In Bellandur | Fitness Center in Bellandur - PlejFitness</title>
+                        <meta name="description" content="Find Best Fitness Studios Near  Bellandur with an affordable budget like PLEJ FITNESS. Come and enjoy our quality services, For more details visit at www.plejfitness.com" />
+                        <meta name="keywords" content="Gym in Bangalore, Gym in Bellandur, Gym in forum Mall-Whitefield, Gym in Girinagar, Gym in Kumarapark, Gym in Panathur, Gym in Rajajinagar, Gym in VR Bengaluru, Gym in Jayanagar" />
+                        <meta property="og:title" content="Best Gym In Bellandur | Fitness Center in Bellandur - PlejFitness" />
+                        <meta property="og:description" content="Find Best Fitness Studios Near  Bellandur with an affordable budget like PLEJ FITNESS. Come and enjoy our quality services, For more details visit at www.plejfitness.com" />
+                    </MetaTags>
                     <div class="o15HL62 _2v5bHvx">
                         <div class="_3juAkpr _1KSLoAe">
                             {/* <div class="_1JOjVV5 _2v5bHvx">

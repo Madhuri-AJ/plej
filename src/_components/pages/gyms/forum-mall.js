@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import MetaTags from "react-meta-tags";
 class ForumPage extends Component {
     constructor(props) {
         super(props);
@@ -12,6 +13,13 @@ class ForumPage extends Component {
         return (
             <div>
                 <div class="_1vdzHPH">
+                <MetaTags>
+                        <title>Best Gym In Forum Mall-Whitefield | Fitness Center Forum Mall - PlejFitness</title>
+                        <meta name="description" content="Are you looking for a best gym in Kumarapark? We are the one who can give quality fitness services with a personal trainer. ✓Fitness Center ✓Crossfit Gym ✓Best Gym Forum Mall" />
+                        <meta name="keywords" content="Gym in Bangalore, Gym in Bellandur, Gym in forum Mall-Whitefield, Gym in Girinagar, Gym in Kumarapark, Gym in Panathur, Gym in Rajajinagar, Gym in VR Bengaluru, Gym in Jayanagar" />
+                        <meta property="og:title" content="Best Gym In Forum Mall-Whitefield | Fitness Center Forum Mall - PlejFitness" />
+                        <meta property="og:description" content="Are you looking for a best gym in Kumarapark? We are the one who can give quality fitness services with a personal trainer. ✓Fitness Center ✓Crossfit Gym ✓Best Gym Forum Mall" />
+                    </MetaTags>
                     <div class="o15HL62 _2v5bHvx">
                         <div class="_3juAkpr _1KSLoAe">
                             {/* <div class="_1JOjVV5 _2v5bHvx">

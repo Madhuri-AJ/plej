@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import Footer from "../common/footer";
+import MetaTags from "react-meta-tags";
 
 class LocationPage extends Component {
     constructor(props) {
@@ -11,6 +12,13 @@ class LocationPage extends Component {
         return (
             <div>
                 <div class="_1vdzHPH">
+                    <MetaTags>
+                        <title>Locate Your Nearest Plej Fitness Center - PlejFitness</title>
+                        <meta name="description" content="Don't waste your time by traveling for fitness. Choose a gym nearby with a good trainer. We are offering our quality services in 10+ locations at Banglore. Come and join." />
+                        <meta name="keywords" content="Gym in Bangalore, Gym in Bellandur, Gym in forum Mall-Whitefield, Gym in Girinagar, Gym in Kumarapark, Gym in Panathur, Gym in Rajajinagar, Gym in VR Bengaluru, Gym in Jayanagar" />
+                        <meta property="og:title" content="Locate Your Nearest Plej Fitness Center - PlejFitness" />
+                        <meta property="og:description" content="Don't waste your time by traveling for fitness. Choose a gym nearby with a good trainer. We are offering our quality services in 10+ locations at Banglore. Come and join." />
+                    </MetaTags>
                     <div class="_3SYd3N0 _2rbE6TC _2v5bHvx">
 
                         <div class="_39EiYTl _2rbE6TC _2v5bHvx VBD7Ow3">
@@ -102,7 +110,7 @@ class LocationPage extends Component {
                                     <h3 class="rfn1m5O">HSR Layout </h3><span class="_GcKgjb"></span><NavLink className="_1nR3q81 sDHKtsB"
                                         to="/gyms/hsr-layout"></NavLink>
                                 </div>
-                                
+
 
                             </div>
                         </div>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Footer from "../common/footer";
+import MetaTags from "react-meta-tags";
 export default class TermsConditionsPage extends Component {
     constructor(props) {
         super(props);
@@ -9,66 +10,54 @@ export default class TermsConditionsPage extends Component {
         return (
             <div>
                 <div class="_1vdzHPH">
+                <MetaTags>
+                        <title>Terms And Conditions | Gym In Bangalore - PlejFitness</title>
+                        <meta name="description" content="Get the best bodybuilding and fitness center in Bangalore. Take a Plej never give up." />
+                        <meta name="keywords" content="Gym in Bangalore, Gym in Bellandur, Gym in forum Mall-Whitefield, Gym in Girinagar, Gym in Kumarapark, Gym in Panathur, Gym in Rajajinagar, Gym in VR Bengaluru, Gym in Jayanagar" />
+                        <meta property="og:title" content="Terms And Conditions | Gym In Bangalore - PlejFitness" />
+                        <meta property="og:description" content="Get the best bodybuilding and fitness center in Bangalore. Take a Plej never give up." />
+                    </MetaTags>
                     <div class="_1ZBL0R_ VBD7Ow3">
                         <div>
                             <h2>1. WORKING HOURS</h2>
                             <p>Plej Fitness is operational 5am to 11pm*. General members are allowed to workout any time during this time. Off-peak membership holders are allowed to workout only between 10:00 am to 5:00 pm.</p>
-                            <h2>
-                                2. TRANSFERS</h2>
+                            <h2>2. TRANSFERS</h2>
                             <p> Membership can be transferred to friends or family members who doesn’t hold an active membership. Membership transfer fee is applicable (contact the frontdesk for the tariff). Membership cannot be transferred to any other PLEJ FITNESS branches.
                             </p>
-
-                            <h2>
-                                3. TERMINATION</h2>
+                            <h2>3. TERMINATION</h2>
                             <p>Membership expires automatically as per your schedule. Termination before the schedule is not permitted. Membership fee would not be refunded under any circumstances.</p>
-                            <h2>
-                                4. FREEZING</h2>
+                            <h2>4. FREEZING</h2>
                             <p> Only annual memberships are allowed to freeze their membership for a maximum period of 30 days.</p>
-
                             <h2>5. USAGE</h2>
                             <p>Members are eligible to use only the fitness facilities they have subscribed for and only after the full payment is made.</p>
-
-                            <h2>
-                                6. HYGIENE</h2>
+                            <h2>6. HYGIENE</h2>
                             <p>Members are requested to carry a separate pair of shoes for workout to avoid dust and equipment damage. Members must carry a gym towel. Use deodorants.</p>
-
                             <h2>7. ASSESSMENTS</h2>
                             <p>
                                 Based on fitness and nutrition assessment a workout card will be designed by our fitness trainer and by prior appointment only.
-                    </p>
-
+                            </p>
                             <h2>8. MEDICAL CLEARANCE </h2>
                             <p> Members with medical conditions must carry a doctor’s certificate before starting their workout routine. Failing which, neither the fitness trainer nor the management holds responsibility for the injury or any other fatal results.</p>
-
                             <h2>9. INJURIES</h2>
                             <p> In the period of injury or illness or a fatal incident at the premises, members/their representatives would not hold the trainer or the management responsible in any manner and would not seek damages through claims.</p>
-
-
                             <h2>10. TRAINERS </h2>
                             <p> Only PLEJ FITNESS trainers are allowed to take personal training sessions, out side trainers are not allowed to train the members. If a personal trainer is resigned / terminated from PLEJ FITNESS, members will be allocated with a new trainer of equal level and skill, personal training cannot be terminated due to this reason and no refund will be made.</p>
-
                             <h2>11. INFORMATION</h2>
                             <p>All the informations/updates are published on the notice board. Members are requested to follow the notice board regularly and avoid mis-communications.</p>
-
                             <h2>12. ENTRY</h2>
                             <p>Young adults below 16 years are not allowed in the workout area.</p>
-
                             <h2>13. WEAR</h2>
                             <p> Members with casual wear, jeans, formals, sandals, casual shoes are not allowed to start their workout. Sports wear is a must. No working out shirtless or only with sports bras</p>
-
                             <h2>14. ADDICTIVES</h2>
                             <p>
                                 Smoking and chewing tobacco or any of it’s kinds is strictly prohibited in the premises. Members with the influence of alcohol or any other drugs are not allowed into the premises. Misbehavior due to this may lead to termination of the membership and no refunds will be made.
-                    </p>
-
+                            </p>
                             <h2>15. OBSCENITY</h2>
                             <p>
                                 Members must not use foul language / behave indecent with fellow members or with PLEJ FITNESS staff. Watching or speaking profane contents are strictly prohibited and PLEJ FITNESS management reserves the rights to terminate the membership. No refunds will be entertained.
-                    </p>
-
+                            </p>
                             <h2>16. DAMAGE</h2>
                             <p>Any damage to the premises by the member has to be fully compensated by the member.</p>
-
                             <h2>17. VALUABLES </h2>
                             <p> Members are requested not to handover any of your belongings to PLEJ FITNESS staff. The management hold no responsibility for loss/theft of your belongings in the premises.</p>
 

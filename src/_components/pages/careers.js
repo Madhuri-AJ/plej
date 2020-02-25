@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import Footer from "../common/footer";
+import MetaTags from "react-meta-tags";
 export default class CareersPage extends Component {
     constructor(props) {
         super(props);
@@ -92,6 +93,13 @@ export default class CareersPage extends Component {
         return (
             <div>
                 <div class="_1vdzHPH">
+                <MetaTags>
+                        <title>Find Career Opportunities for Who You Really Are - PlejFitness</title>
+                        <meta name="description" content="Get Fit with Plej Fitness Without Travelling anywhere by joining one of our locations. Get Membership with an affordable budget, for more information gets in touch with us." />
+                        <meta name="keywords" content="Gym in Bangalore, Gym in Bellandur, Gym in forum Mall-Whitefield, Gym in Girinagar, Gym in Kumarapark, Gym in Panathur, Gym in Rajajinagar, Gym in VR Bengaluru, Gym in Jayanagar" />
+                        <meta property="og:title" content="Find Career Opportunities for Who You Really Are - PlejFitness" />
+                        <meta property="og:description" content="Get Fit with Plej Fitness Without Travelling anywhere by joining one of our locations. Get Membership with an affordable budget, for more information gets in touch with us." />
+                    </MetaTags>
                     <div>
                         <div class="_1V8Vwl1 _3IPJrBv _2rbE6TC _2v5bHvx _3HiqiFI"><svg class="_33ij8ie pRZSkbx _3x6v3-y"
                             preserveAspectRatio="xMidYMid" viewBox="0 0 560 110"><text vector-effect="non-scaling-stroke"

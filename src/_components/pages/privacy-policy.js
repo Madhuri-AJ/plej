@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Footer from "../common/footer";
+import MetaTags from "react-meta-tags"
 export default class PrivacyPolicyPage extends Component {
     constructor(props) {
         super(props);
@@ -9,6 +10,13 @@ export default class PrivacyPolicyPage extends Component {
         return (
             <div>
                 <div class="_1vdzHPH">
+                    <MetaTags>
+                        <title>Privacy and Policy | Gym In Bangalore - PlejFitness</title>
+                        <meta name="description" content="PlejFitness is the Best Gym in Bangalore Karnataka, created with great enthusiasm and vision, having 10+ Fitness centers in Bangalore " />
+                        <meta name="keywords" content="Gym in Bangalore, Gym in Bellandur, Gym in forum Mall-Whitefield, Gym in Girinagar, Gym in Kumarapark, Gym in Panathur, Gym in Rajajinagar, Gym in VR Bengaluru, Gym in Jayanagar" />
+                        <meta property="og:title" content="Privacy and Policy | Gym In Bangalore - PlejFitness" />
+                        <meta property="og:description" content="PlejFitness is the Best Gym in Bangalore Karnataka, created with great enthusiasm and vision, having 10+ Fitness centers in Bangalore " />
+                    </MetaTags>
                     <div class="_1ZBL0R_ VBD7Ow3">
                         <div><h1>Privacy Policy</h1>
                             <p>I agree that PLEJ FITNESS can collect, hold, use and disclose my personal information as provided on this Form (and any updated or additional personal information PLEJ FITNESS obtains from me including any photo or other record of my image) for the purposes of :</p>
@@ -39,7 +47,7 @@ export default class PrivacyPolicyPage extends Component {
                                     Any other purpose I agree to in writing.
                                 </li>
                             </ul>
-                            <br/>
+                            <br />
                             <p>
                                 PLEJ FITNESS PVT. LTD. is committed to protecting your privacy. We will only use the information collected about you lawfully or by your consent. The personal information which PLEJ FITNESS PVT. LTD. holds will be held securely in accordance with our internal security policy and the law.
                             </p>
