@@ -19,7 +19,6 @@ class MainPage extends Component {
     }
 
 
-
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
     }
@@ -106,13 +105,13 @@ class MainPage extends Component {
                                         useKeyboardArrows
                                         className="presentation-mode">
                                         <div>
+                                            <img src="/assets/images/new-banner2.png" />
+                                        </div>
+                                        <div>
+                                            <img src="/assets/images/new-banner1.png" />
+                                        </div>
+                                        <div>
                                             <img src="/assets/images/creative-03.png" />
-                                        </div>
-                                        <div>
-                                            <img src="/assets/images/october-offer.jpg" />
-                                        </div>
-                                        <div>
-                                            <img src="/assets/images/walkthon_updated.jpg" />
                                         </div>
                                     </Carousel>
                                 </div>
