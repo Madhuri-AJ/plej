@@ -229,7 +229,8 @@ export default class AboutPage extends Component {
 
 
                             <div class="k3d6s8r _2rbE6TC _2v5bHvx">
-                                <h2>Never Give Up</h2>
+                                {/* <h2>Never Give Up</h2> */}
+                                <h1 style={{fontSize:"30px",textAlign:"center"}}>Best Gym In Bangalore With Personal Trainer</h1>
                                 <h2><NavLink class="_2nUA0vX" to="/contact-us">Join Plej Fitness</NavLink></h2>
                             </div>
                         </div>

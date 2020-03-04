@@ -116,6 +116,14 @@ class LocationPage extends Component {
                         </div>
                     </div>
                 </div>
+
+                <section class=" _2rbE6TC _2v5bHvx" style={{ backgroundColor: "#000" }}>
+                    <h1 style={{ fontSize: "30px", textAlign: "center" }}>
+                        Gym in Banglore With Multiple Locations - PlejFitness
+                    </h1>
+                </section>
+
+    
                 <Footer />
             </div>
         )

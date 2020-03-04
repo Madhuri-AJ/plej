@@ -91,7 +91,7 @@ export default class OwnGymPage extends Component {
                 <div class="_3CTAk5g _2rbE6TC _2v5bHvx">
                     <div class="_2w47Ada _2rbE6TC _2v5bHvx">
                         <div class="NuYYeO4 _2rbE6TC _2v5bHvx">
-                            <h1 class="DqXpLQh">Own A Gym</h1>
+                            <h1 class="DqXpLQh">OwnGym - PlejFitness</h1>
                         </div>
                     </div>
                     <div class="_17ytWhG _2rbE6TC _2v5bHvx _3x6v3-y">

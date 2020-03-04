@@ -113,7 +113,9 @@ export default class ContactPage extends Component {
                         </div>
                         <div className="middle-btn">
                             {/* <button className="_1x8JHAI _3Pq3GhV _3xVoYzA button">Submit</button> */}
-                            <button disabled={this.state.isSubmitting} class="Yd7bNNG _3Pq3GhV button _1x8JHAI" ><span>Submit</span></button>
+                            <button disabled={this.state.isSubmitting} class="Yd7bNNG _3Pq3GhV button _1x8JHAI" >
+                                <span>Submit</span>
+                            </button>
                         </div>
                     </form>
                 </div>
@@ -121,6 +123,14 @@ export default class ContactPage extends Component {
                 <div className={this.state.showHideClassName ? "success-modal" : "success-modal d-none"}>
                     <h5>{this.state.success}</h5>
                 </div>
+
+
+                <section class=" _2rbE6TC _2v5bHvx" style={{ backgroundColor: "#000" }}>
+                    <h1 style={{ fontSize: "30px", textAlign: "center" }}>
+                        Contact Us - PlejFitness
+                    </h1>
+                </section>
+
 
                 <Footer />
             </div>

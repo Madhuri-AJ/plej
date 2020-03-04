@@ -183,6 +183,10 @@ class MainPage extends Component {
                     </div>
                 </section>
 
+                <section class=" _2rbE6TC _2v5bHvx" style={{backgroundColor:"#000"}}>
+                <h1 style={{fontSize:"30px",textAlign:"center"}}>Best Gym In Bangalore - PlejFitness</h1>
+                </section>
+
                 <Footer />
             </div>
         )

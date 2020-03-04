@@ -269,6 +269,13 @@ export default class CareersPage extends Component {
                         </div>
                     </div>
                 </div>
+
+                <section class=" _2rbE6TC _2v5bHvx" style={{ backgroundColor: "#000",marginTop:"70px" }}>
+                    <h1 style={{ fontSize: "30px", textAlign: "center" }}>
+                        Carrier Opportunities - PlejFitness
+                 </h1>
+                </section>
+
                 <Footer />
             </div>
         )
